@@ -20,7 +20,7 @@
 [CONFLICTS_WITH_ID:vanilla_reactions]
 [CONFLICTS_WITH_ID:vanilla_text]
 [CONFLICTS_WITH_ID:vanilla_world_map]
-[NAME:Masterfork]
+[NAME:Masterfork - Dev Build]
 [NUMERIC_VERSION:001]
 [DISPLAYED_VERSION:0.1a]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:001]
