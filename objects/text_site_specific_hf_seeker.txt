@@ -1,0 +1,7 @@
+text_site_specific_hf_seeker
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:SITE_SPECIFIC_HF_SEEKER]
+
+seek out [CONTEXT:HIST_FIG:TRANS_NAME] over in [CONTEXT:SITE:TRANS_NAME]

@@ -1,0 +1,17 @@
+text_goodbye_worship_2
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:GOODBYE_WORSHIP_2]
+
+don't forget to
+always remember to
+it would be wise to
+you should
+you must
+prudence demands that you
+even for a moment
+follow my advice and
+heed my words and
+remember to
+show devotion and

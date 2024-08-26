@@ -1,0 +1,78 @@
+tile_page_world_map
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:WORLD_MAP_TILES]
+	[FILE:images/world_map_tiles.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:320:400]
+
+[TILE_PAGE:WORLD_MAP_MOUNTAINS]
+	[FILE:images/world_map_mountains.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:800]
+
+[TILE_PAGE:WORLD_MAP_FORESTS]
+	[FILE:images/world_map_forests.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:960]
+
+[TILE_PAGE:WORLD_MAP_EDGE_SHAPES]
+	[FILE:images/world_map_edge_shapes.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_WATER]
+	[FILE:images/world_map_edge_water.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_BEACH_LINE]
+	[FILE:images/world_map_edge_beach_line.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_GLACIER]
+	[FILE:images/world_map_edge_glacier.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_GLACIER_EVIL]
+	[FILE:images/world_map_edge_glacier_evil.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_GLACIER_EVILSAV]
+	[FILE:images/world_map_edge_glacier_evil_savage.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_GLACIER_GOOD]
+	[FILE:images/world_map_edge_glacier_good.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_EDGE_GLACIER_GOODSAV]
+	[FILE:images/world_map_edge_glacier_good_savage.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:400]
+
+[TILE_PAGE:WORLD_MAP_DETAILS]
+	[FILE:images/world_map_details.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:256:192]
+
+[TILE_PAGE:WORLD_MAP_INTERFACE]
+	[FILE:images/world_map_interface.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:128:32]
+
+[TILE_PAGE:WORLD_MAP_EMBARK_OVERLAY]
+	[FILE:images/world_map_embark_overlay.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:32:32]
+
+[TILE_PAGE:WORLD_MAP_EL_CLIFF]
+	[FILE:images/world_map_el_cliff.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM_PIXELS:176:32]

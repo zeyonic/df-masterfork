@@ -1,0 +1,7 @@
+text_hunting_profession_year
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:HUNTING_PROFESSION_YEAR]
+
+I have hunted great beasts in [CONTEXT:PLACE:TRANS_NAME] for [CONTEXT:NUMBER] of my years.

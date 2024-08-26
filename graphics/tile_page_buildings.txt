@@ -1,0 +1,118 @@
+tile_page_buildings
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:LEVERS]
+	[FILE:images/levers.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:2:1]
+
+[TILE_PAGE:ARCHERY_TARGETS]
+	[FILE:images/archery_targets.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:3:1]
+
+[TILE_PAGE:AXLES_GEARS]
+	[FILE:images/axles_gears.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:4]
+
+[TILE_PAGE:WINDMILL]
+	[FILE:images/windmill.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:1024]
+
+[TILE_PAGE:WATER_WHEEL]
+	[FILE:images/water_wheel.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:160:128]
+
+[TILE_PAGE:SCREWPUMP]
+	[FILE:images/screwpump.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:160]
+
+[TILE_PAGE:BUILDING_CHAINS]
+	[FILE:images/building_chains.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:9:4]
+
+[TILE_PAGE:BRIDGES]
+	[FILE:images/bridges.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:2432]
+
+[TILE_PAGE:SUPPORT]
+	[FILE:images/support.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:3:1]
+
+[TILE_PAGE:PLANNED_CONSTRUCTIONS]
+	[FILE:images/planned_constructions.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:160]
+
+[TILE_PAGE:TRACKS]
+	[FILE:images/tracks.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:480:96]
+
+[TILE_PAGE:TRACK_STOPS]
+	[FILE:images/track_stops.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:480:64]
+
+[TILE_PAGE:ROLLERS]
+	[FILE:images/rollers.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:480:128]
+
+[TILE_PAGE:TRAPS]
+	[FILE:images/traps.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:64]
+
+[TILE_PAGE:VERT_BARS]
+	[FILE:images/vert_bars_base.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:96]
+
+[TILE_PAGE:FLOOR_BARS]
+	[FILE:images/floor_bars.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]
+
+[TILE_PAGE:WELL]
+	[FILE:images/well.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:64]
+
+[TILE_PAGE:WAGONS]
+	[FILE:images/wagons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:640:576]
+
+[TILE_PAGE:WORKSHOPS]
+	[FILE:images/workshops.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:768:3456]
+
+[TILE_PAGE:WORKSHOPS_1x1]
+	[FILE:images/workshops_1x1.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:64]
+
+[TILE_PAGE:WORKSHOPS_5x5]
+	[FILE:images/workshops_5x5.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1280:576]
+
+[TILE_PAGE:STOCKPILE]
+	[FILE:images/stockpile.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:608]
+
+[TILE_PAGE:SIEGE_WEAPONS]
+	[FILE:images/siege_weapons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:192]
