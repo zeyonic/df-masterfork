@@ -3,8 +3,22 @@
 
 A fork of the Masterwork overhaul mod for Dwarf Fortress by Meph
 
-Readme is heavy WIP (copy of original mod description by Meph)
+Our vision for Masterfork is quite simple, evolve Dwarf Fortress into;
+A World rich in flavour with meaningful decisions . This world is ancient and alive, and you are a visitor playing a small part in it.
+Every feature is supposed to have meaning, no feature bloat just for the sake of features.
+Ideally one civilization per race, with safeguards to allow old but stable worlds.
+Tweak population numbers across the board for each civ to greatly increase world generation speeds and performance.
+Thematically somewhere in the middle between J.R.R Tolkiens' Lord of the Rings and Games Workshops' Warhammer Fantasy
+Optional add-on submods to alter the experience to fit the players' own playstyles
+Thousands of new items. including but not limited to: weapons, armour, metals, crafting recipes
+Research based progression system
+Fully fleshed out and playable vanilla civilizations, with the addition of custom races.
+Hundreds of new creatures
+and much more..
+
+Readme is heavy WIP
 ************************************************************************************************************************************************************
+ (copy of original mod description by Meph)
 <img width="384" alt="RhqJbV9" src="https://github.com/user-attachments/assets/9f7edcee-0156-463a-9ae7-9dab2b59400c">
 
 Dwarves:
