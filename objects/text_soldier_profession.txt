@@ -1,7 +1,0 @@
-text_soldier_profession
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:SOLDIER_PROFESSION]
-
-I am a soldier.

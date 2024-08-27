@@ -1,7 +1,0 @@
-text_threat
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:THREAT]
-
-Prepare to die!

@@ -1,7 +1,0 @@
-text_greet_reply_diff_language
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:GREET_REPLY_DIFF_LANGUAGE]
-
-Hello, [AUDIENCE:RACE].  I am [SPEAKER:TRANS_NAME].

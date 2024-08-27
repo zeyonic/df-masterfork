@@ -1,7 +1,0 @@
-text_greet_reply
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:GREET_REPLY]
-
-Ah, hello.  I'm [SPEAKER:TRANS_NAME].

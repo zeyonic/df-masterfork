@@ -1,7 +1,0 @@
-text_thief_profession
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:THIEF_PROFESSION]
-
-I seek treasures and bring them back to [CONTEXT:PLACE:TRANS_NAME].

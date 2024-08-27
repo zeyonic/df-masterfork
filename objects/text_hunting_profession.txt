@@ -1,7 +1,0 @@
-text_hunting_profession
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:HUNTING_PROFESSION]
-
-I hunt great beasts in [CONTEXT:PLACE:TRANS_NAME].

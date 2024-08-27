@@ -1,7 +1,0 @@
-text_greet
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:GREET]
-
-Greetings.  My name is [SPEAKER:TRANS_NAME].

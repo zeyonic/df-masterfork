@@ -1,7 +1,0 @@
-text_current_profession_year
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:CURRENT_PROFESSION_YEAR]
-
-This is my [CONTEXT:ORDINAL] year as a [CONTEXT:UNIT_NAME].

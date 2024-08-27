@@ -1,7 +1,0 @@
-text_guard_profession
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:GUARD_PROFESSION]
-
-I am a guard.

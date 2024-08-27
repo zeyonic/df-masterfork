@@ -1,7 +1,0 @@
-text_task_recommendation
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:TASK_RECOMMENDATION]
-
-[CONTEXT:ANY:TRANS_NAME] might have a task for you

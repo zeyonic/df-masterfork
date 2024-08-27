@@ -1,7 +1,0 @@
-text_justification_proximity
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:JUSTIFICATION_PROXIMITY]
-
-can bring one near to

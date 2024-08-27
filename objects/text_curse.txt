@@ -1,7 +1,0 @@
-text_curse
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:CURSE]
-
-Who dares to enter my house?  I curse you!

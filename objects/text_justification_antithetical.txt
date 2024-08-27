@@ -1,7 +1,0 @@
-text_justification_antithetical
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:JUSTIFICATION_ANTITHETICAL]
-
-can be thought of as the antithesis of

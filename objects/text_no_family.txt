@@ -1,7 +1,0 @@
-text_no_family
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:NO_FAMILY]
-
-I have no family to speak of

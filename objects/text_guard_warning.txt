@@ -1,7 +1,0 @@
-text_guard_warning
-
-[OBJECT:TEXT_SET]
-
-[TEXT_SET:GUARD_WARNING]
-
-Don't start any trouble.
