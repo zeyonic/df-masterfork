@@ -1,4 +1,6 @@
 # df-masterfork
+![preview](https://github.com/user-attachments/assets/27eaa188-7d65-4f9f-8fb8-4235d7e6445b)
+
 A fork of the Masterwork overhaul mod for Dwarf Fortress by Meph
 
 Readme is heavy WIP (copy of original mod description by Meph)
