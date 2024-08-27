@@ -1,0 +1,11 @@
+text_temple_already_member
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:TEMPLE_ALREADY_MEMBER]
+
+simply
+it is enough to
+your task is simple;
+just
+all you need is to

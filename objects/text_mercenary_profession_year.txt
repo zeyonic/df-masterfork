@@ -1,0 +1,7 @@
+text_mercenary_profession_year
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:MERCENARY_PROFESSION_YEAR]
+
+I have sought fortune and glory by offering my skill at arms in [CONTEXT:PLACE:TRANS_NAME] for [CONTEXT:NUMBER] of my years.

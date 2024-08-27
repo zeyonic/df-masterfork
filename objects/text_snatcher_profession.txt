@@ -1,0 +1,7 @@
+text_snatcher_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:SNATCHER_PROFESSION]
+
+I rescue lost children and bring them back to [CONTEXT:PLACE:TRANS_NAME].

@@ -1,0 +1,388 @@
+tile_page_environment
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:FLOWS]
+	[FILE:images/flows.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:256]
+
+[TILE_PAGE:FLOWS2]
+	[FILE:images/flows2.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:256]
+
+[TILE_PAGE:FLOWS3]
+	[FILE:images/flows3.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:256]
+
+[TILE_PAGE:FLOWS4]
+	[FILE:images/flows4.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:256]
+
+[TILE_PAGE:RIVER]
+	[FILE:images/river.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:512]
+
+[TILE_PAGE:BROOK]
+	[FILE:images/brook.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:448]
+
+[TILE_PAGE:BROOK2]
+	[FILE:images/brook2.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:448]
+
+[TILE_PAGE:BROOK3]
+	[FILE:images/brook3.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:448]
+
+[TILE_PAGE:BROOK4]
+	[FILE:images/brook4.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:448]
+
+[TILE_PAGE:LIQUIDS]
+	[FILE:images/liquids.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:224]
+
+[TILE_PAGE:FLOORS]
+	[FILE:images/floors.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:9:15]
+
+[TILE_PAGE:ALT_FLOORS]
+	[FILE:images/floors.bmp]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:9:15]
+
+[TILE_PAGE:FLOOR_FURROWED_SOIL]
+	[FILE:images/floor_furrowed_soil.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:1]
+
+[TILE_PAGE:FLOOR_WOOD]
+	[FILE:images/wooden_floor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]
+
+[TILE_PAGE:FLOOR_ICE]
+	[FILE:images/ice_floor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:2]
+
+[TILE_PAGE:FLOOR_GLASS]
+	[FILE:images/glass_floor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:3:1]
+
+[TILE_PAGE:FLOOR_SAND]
+	[FILE:images/sand_floor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:160]
+
+[TILE_PAGE:FLOOR_METAL]
+	[FILE:images/metal_floor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]
+
+[TILE_PAGE:GRASS_RAMPS]
+	[FILE:images/ramps_grass.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:15:13]
+
+[TILE_PAGE:RAMP_OVERLAY]
+	[FILE:images/ramps_overlay.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:15:13]
+
+[TILE_PAGE:STONE_RAMPS]
+	[FILE:images/ramps_stone.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:15:13]
+
+[TILE_PAGE:SOIL_RAMPS]
+	[FILE:images/ramps_soil.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:15:13]
+
+[TILE_PAGE:SHADOWS_WALL]
+	[FILE:images/shadows_wall.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:5:5]
+
+[TILE_PAGE:TECHNICAL]
+	[FILE:images/technical.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:8:8]
+
+[TILE_PAGE:SHADOWS_RAMP]
+	[FILE:images/shadows_ramp.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:9:9]
+
+[TILE_PAGE:TERRAIN_BOULDERS]
+	[FILE:images/terrain_boulders.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:2]
+
+[TILE_PAGE:HIDDEN_ROCK]
+	[FILE:images/hidden_rock.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:5:1]
+
+[TILE_PAGE:MULTILEVEL_OVERLAY]
+	[FILE:images/multilevel_overlay.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:480:416]
+
+[TILE_PAGE:PAVED_BLOCK_ROADS]
+	[FILE:images/paved_block_roads.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]
+
+[TILE_PAGE:STAIRS]
+	[FILE:images/stairs.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:BLOOD_CYAN]
+	[FILE:images/blood_cyan.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:BLOOD_GOO]
+	[FILE:images/blood_goo.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:BLOOD_ICHOR]
+	[FILE:images/blood_ichor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:BLOOD_MAGENTA]
+	[FILE:images/blood_magenta.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:BLOOD_RED]
+	[FILE:images/blood_red.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:DUST]
+	[FILE:images/dust.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:FRUIT]
+	[FILE:images/fruit.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:128]
+
+[TILE_PAGE:FRUIT_SMALL]
+	[FILE:images/fruit_small.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:128]
+
+[TILE_PAGE:FRUIT_LARGE]
+	[FILE:images/fruit_large.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:128]
+
+[TILE_PAGE:LEAVES]
+	[FILE:images/leaves.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:128]
+
+[TILE_PAGE:MAGMA_SPATTER]
+	[FILE:images/magma_spatter.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:MUD]
+	[FILE:images/mud.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:SNOW]
+	[FILE:images/snow.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:VOMIT]
+	[FILE:images/vomit.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:SLIME]
+	[FILE:images/slime.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:WATER_SPATTER]
+	[FILE:images/water_spatter.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:160]
+
+[TILE_PAGE:EVENT_FLOWS]
+	[FILE:images/event_flows.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:128]
+
+[TILE_PAGE:DRIFTWOOD]
+	[FILE:images/driftwood.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:32]
+
+[TILE_PAGE:FIRE]
+	[FILE:images/fire.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:1]
+
+[TILE_PAGE:FIREBALL]
+	[FILE:images/fireball.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:2:1]
+
+[TILE_PAGE:EERIE_PIT]
+	[FILE:images/eerie_pit.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:1]
+
+[TILE_PAGE:FORTIFICATION]
+	[FILE:images/fortification.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:3]
+
+[TILE_PAGE:FORTIFICATION_ICE]
+	[FILE:images/fortification_ice.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:3]
+
+[TILE_PAGE:FORTIFICATION_WOOD]
+	[FILE:images/fortification_wood.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:3]
+
+[TILE_PAGE:FLOOR_ASHES]
+	[FILE:images/floor_ashes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:1]
+
+[TILE_PAGE:FLOOR_STONE_BLOCK]
+	[FILE:images/floor_stone_blocks.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]
+
+[TILE_PAGE:FLOOR_STONE_ENGRAVED_NON_PALETTE]
+	[FILE:images/floor_stone_engraved_non_palette.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]
+
+[TILE_PAGE:FLOOR_STONE_ENGRAVED_PALETTE]
+	[FILE:images/floor_stone_engraved_palette.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]
+
+[TILE_PAGE:WALL_STONE]
+	[FILE:images/wall_stone.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:10]
+
+[TILE_PAGE:WALL_WORN1_STONE]
+	[FILE:images/wall_worn1_stone.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:10]
+
+[TILE_PAGE:WALL_WORN2_STONE]
+	[FILE:images/wall_worn2_stone.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:10]
+
+[TILE_PAGE:WALL_WORN3_STONE]
+	[FILE:images/wall_worn3_stone.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:10]
+
+[TILE_PAGE:WALL_STONE_SMOOTHED]
+	[FILE:images/wall_stone_smoothed.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_STONE_ENGRAVED]
+	[FILE:images/wall_stone_engraved.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_MOSS]
+	[FILE:images/wall_moss.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_ROOT]
+	[FILE:images/wall_root.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_SOIL]
+	[FILE:images/wall_soil.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:10]
+
+[TILE_PAGE:WALL_SAND]
+	[FILE:images/wall_sand.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:20:5]
+
+[TILE_PAGE:WALL_MAGMA]
+	[FILE:images/wall_magma.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_GEM]
+	[FILE:images/wall_gem.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:512:160]
+
+[TILE_PAGE:WALL_ICE]
+	[FILE:images/wall_ice.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_ICE_SMOOTHED]
+	[FILE:images/wall_ice_smoothed.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_METAL_BARS]
+	[FILE:images/wall_metal_bars.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_ORE_VEIN]
+	[FILE:images/wall_ore_vein.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_WOODEN]
+	[FILE:images/wall_wooden.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:WALL_ROCK_BLOCKS]
+	[FILE:images/wall_rock_blocks.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:5]
+
+[TILE_PAGE:FARMPLOT_PLANTED]
+	[FILE:images/floor_farm_planted.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:1:1]

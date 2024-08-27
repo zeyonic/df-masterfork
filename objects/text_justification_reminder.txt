@@ -1,0 +1,7 @@
+text_justification_reminder
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:JUSTIFICATION_REMINDER]
+
+can remind one of

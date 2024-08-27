@@ -1,0 +1,7 @@
+text_unknown_hf_seeker
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:UNKNOWN_HF_SEEKER]
+
+seek out [CONTEXT:HIST_FIG:TRANS_NAME], wherever [CONTEXT:HIST_FIG:PRO_SUB] might be

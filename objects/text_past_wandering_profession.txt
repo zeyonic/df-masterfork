@@ -1,0 +1,8 @@
+text_past_wandering_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:PAST_WANDERING_PROFESSION]
+
+I once wandered the wilds.
+For [CONTEXT:NUMBER] of my years, I wandered the wilds.

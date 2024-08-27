@@ -1,0 +1,7 @@
+text_child_age_proclamation
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:CHILD_AGE_PROCLAMATION]
+
+I'm [CONTEXT:NUMBER]!

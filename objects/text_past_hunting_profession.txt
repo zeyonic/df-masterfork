@@ -1,0 +1,8 @@
+text_past_hunting_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:PAST_HUNTING_PROFESSION]
+
+In the past, I hunted great beasts.
+I was a hunter of mighty beasts for [CONTEXT:NUMBER] of my years.
