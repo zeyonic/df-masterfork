@@ -1,0 +1,8 @@
+text_past_mercenary_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:PAST_MERCENARY_PROFESSION]
+
+In the past, I sought fortune and glory by offering my skill at arms.
+I sought fortune and glory by offering my skill at arms for [CONTEXT:NUMBER] of my years.

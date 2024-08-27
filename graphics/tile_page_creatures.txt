@@ -1,0 +1,418 @@
+tile_page_creatures
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:BODYPARTS]
+	[FILE:images/bodyparts.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:960]
+
+[TILE_PAGE:BONE_PILE]
+	[FILE:images/bone_pile.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:64]
+
+[TILE_PAGE:GUTS]
+	[FILE:images/guts.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:384]
+
+[TILE_PAGE:CREATURES_ANIMAL_PEOPLE]
+	[FILE:images/creatures_animal_people.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:3744]
+
+[TILE_PAGE:CREATURES_ANIMAL_PEOPLE_HUGE]
+	[FILE:images/creatures_animal_people_huge.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:384]
+
+[TILE_PAGE:CREATURES_ANIMAL_PEOPLE_TALL]
+	[FILE:images/creatures_animal_people_tall.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:2688]
+
+[TILE_PAGE:CREATURES_ANIMAL_PEOPLE_WIDE]
+	[FILE:images/creatures_animal_people_wide.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:576]
+
+[TILE_PAGE:CREATURES_AQUATIC]
+	[FILE:images/creatures_aquatic.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:864]
+
+[TILE_PAGE:CREATURES_AQUATIC_LARGE]
+	[FILE:images/creatures_aquatic_large.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:1216]
+
+[TILE_PAGE:CREATURES_AQUATIC_GIANT]
+	[FILE:images/creatures_aquatic_giant.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:512]
+
+[TILE_PAGE:CREATURES_DOMESTIC]
+	[FILE:images/creatures_domestic.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:704]
+
+[TILE_PAGE:DWARF_BODY]
+	[FILE:images/dwarf_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:DWARF_HAIR_STRAIGHT]
+	[FILE:images/dwarf_hair_straight.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:DWARF_HAIR_CURLY]
+	[FILE:images/dwarf_hair_curly.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:608]
+
+[TILE_PAGE:DWARF_CLOTHING]
+	[FILE:images/dwarf_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:736]
+
+[TILE_PAGE:DWARF_ARMOR]
+	[FILE:images/dwarf_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:800]
+
+[TILE_PAGE:DWARF_WIELDABLES]
+	[FILE:images/dwarf_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:864]
+
+[TILE_PAGE:HUMAN_BODY]
+	[FILE:images/human_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:HUMAN_HAIR_STRAIGHT]
+	[FILE:images/human_hair_straight.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:HUMAN_HAIR_CURLY]
+	[FILE:images/human_hair_curly.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:608]
+
+[TILE_PAGE:HUMAN_CLOTHING]
+	[FILE:images/human_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:736]
+
+[TILE_PAGE:HUMAN_ARMOR]
+	[FILE:images/human_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:800]
+
+[TILE_PAGE:HUMAN_WIELDABLES]
+	[FILE:images/human_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:864]
+
+[TILE_PAGE:GOBLIN_BODY]
+	[FILE:images/goblin_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:GOBLIN_CLOTHING]
+	[FILE:images/goblin_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:736]
+
+[TILE_PAGE:GOBLIN_ARMOR]
+	[FILE:images/goblin_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:800]
+
+[TILE_PAGE:GOBLIN_WIELDABLES]
+	[FILE:images/goblin_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:864]
+
+[TILE_PAGE:ELF_BODY]
+	[FILE:images/elf_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:ELF_HAIR_STRAIGHT]
+	[FILE:images/elf_hair.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:1056]
+
+[TILE_PAGE:ELF_HAIR_CURLY]
+	[FILE:images/elf_hair_curly.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:608]
+
+[TILE_PAGE:ELF_CLOTHING]
+	[FILE:images/elf_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:736]
+
+[TILE_PAGE:ELF_ARMOR]
+	[FILE:images/elf_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:768]
+
+[TILE_PAGE:ELF_WIELDABLES]
+	[FILE:images/elf_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:864]
+
+[TILE_PAGE:KOBOLD_BODY]
+	[FILE:images/kobold_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:KOBOLD_CLOTHING]
+	[FILE:images/kobold_clothes.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:576:736]
+
+[TILE_PAGE:KOBOLD_ARMOR]
+	[FILE:images/kobold_armor.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:416:768]
+
+[TILE_PAGE:KOBOLD_WIELDABLES]
+	[FILE:images/kobold_wieldables.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:960:864]
+
+[TILE_PAGE:CREATURES_MEGABEAST]
+    [FILE:images/creatures_megabeast.png]
+    [TILE_DIM:32:32]
+    [PAGE_DIM_PIXELS:320:512]
+
+[TILE_PAGE:CREATURES_SMALL]
+	[FILE:images/creatures_small.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:3648]
+
+[TILE_PAGE:CREATURES_SURFACE]
+	[FILE:images/creatures_surface.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:4480]
+
+[TILE_PAGE:CREATURES_SURFACE_GIANT]
+	[FILE:images/creatures_surface_giant.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:11072]
+
+[TILE_PAGE:CREATURES_SURFACE_LARGE]
+	[FILE:images/creatures_surface_large.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:832:960]
+
+[TILE_PAGE:CREATURES_UNDERGROUND]
+	[FILE:images/creatures_underground.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:800]      
+
+[TILE_PAGE:CREATURES_UNDERGROUND_CIV]
+    [FILE:images/creatures_underground_civ.png]
+    [TILE_DIM:32:32]
+    [PAGE_DIM_PIXELS:288:224]
+
+[TILE_PAGE:CREATURES_UNDERGROUND_GIANT]
+    [FILE:images/creatures_underground_giant.png]
+    [TILE_DIM:32:32]
+    [PAGE_DIM_PIXELS:512:512]
+
+[TILE_PAGE:CREATURES_UNDERGROUND_LARGE]
+    [FILE:images/creatures_underground_large.png]
+    [TILE_DIM:32:32]
+    [PAGE_DIM_PIXELS:512:384]
+
+[TILE_PAGE:CREATURES_UNDERGROUND_TALL]
+    [FILE:images/creatures_underground_tall.png]
+    [TILE_DIM:32:32]
+    [PAGE_DIM_PIXELS:224:576]
+
+[TILE_PAGE:CREATURES_NATURAL_HIVES]
+	[FILE:images/creatures_natural_hives.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:32]
+
+[TILE_PAGE:CHEESE]
+	[FILE:images/cheese.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:512]
+
+[TILE_PAGE:EGGS]
+	[FILE:images/eggs.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:2688]
+
+[TILE_PAGE:STATUES_ANIMAL_PEOPLE_HUGE]
+	[FILE:images/creatures_animal_people_huge_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:384]
+
+[TILE_PAGE:STATUES_ANIMAL_PEOPLE]
+	[FILE:images/creatures_animal_people_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:7488]
+
+[TILE_PAGE:STATUES_ANIMAL_PEOPLE_TALL]
+	[FILE:images/creatures_animal_people_tall_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:2688]
+
+[TILE_PAGE:STATUES_ANIMAL_PEOPLE_WIDE]
+	[FILE:images/creatures_animal_people_wide_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:1152]
+
+[TILE_PAGE:STATUES_UNDERGROUND_CIV]
+	[FILE:images/creatures_underground_civ_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:576]
+
+[TILE_PAGE:STATUES_AQUATIC_LARGE]
+	[FILE:images/creatures_aquatic_large_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:1216]
+
+[TILE_PAGE:STATUES_DOMESTIC]
+	[FILE:images/creatures_domestic_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:1408]
+
+[TILE_PAGE:STATUES_MEGABEAST]
+	[FILE:images/creatures_megabeast_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:512]
+
+[TILE_PAGE:STATUES_SURFACE_LARGE]
+	[FILE:images/creatures_surface_large_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:960]
+
+[TILE_PAGE:STATUES_AQUATIC_GIANT]
+	[FILE:images/creatures_aquatic_giant_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:512]
+
+[TILE_PAGE:STATUES_AQUATIC]
+	[FILE:images/creatures_aquatic_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:1728]
+
+[TILE_PAGE:STATUES_SMALL]
+	[FILE:images/creatures_small_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:7296]
+
+[TILE_PAGE:STATUES_SURFACE_GIANT]
+	[FILE:images/creatures_surface_giant_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:11072]
+
+[TILE_PAGE:STATUES_SURFACE]
+	[FILE:images/creatures_surface_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:8768]
+
+[TILE_PAGE:STATUES_UNDERGROUND]
+	[FILE:images/creatures_underground_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:1600]
+
+[TILE_PAGE:STATUES_UNDERGROUND_TALL]
+	[FILE:images/creatures_underground_tall_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:576]
+
+[TILE_PAGE:STATUES_UNDERGROUND_GIANT]
+	[FILE:images/creatures_underground_giant_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:512]
+
+[TILE_PAGE:STATUES_UNDERGROUND_LARGE]
+	[FILE:images/creatures_underground_large_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:384]
+
+[TILE_PAGE:DWARF_BODY_SPECIAL]
+	[FILE:images/dwarf_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
+
+[TILE_PAGE:ELF_BODY_SPECIAL]
+	[FILE:images/elf_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
+
+[TILE_PAGE:GOBLIN_BODY_SPECIAL]
+	[FILE:images/goblin_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
+
+[TILE_PAGE:HUMAN_BODY_SPECIAL]
+	[FILE:images/human_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
+
+[TILE_PAGE:KOBOLD_BODY_SPECIAL]
+	[FILE:images/kobold_body_special.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:672]
+
+[TILE_PAGE:BEASTS]
+	[FILE:images/beasts.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1248:1216]
+
+[TILE_PAGE:BEASTS_SMALL]
+	[FILE:images/beasts_small.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1248:1216]
+
+[TILE_PAGE:STATUES_LAYERED]
+	[FILE:images/creatures_layered_statues.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:320]
+
+[TILE_PAGE:SADDLEBAGS_DOMESTIC]
+	[FILE:images/saddlebags_domestic.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:160]
+
+[TILE_PAGE:SADDLEBAGS_SURFACE]
+	[FILE:images/saddlebags_surface.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:96]
+
+[TILE_PAGE:SADDLEBAGS_LARGE]
+	[FILE:images/saddlebags_large.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:96]
+
+[TILE_PAGE:WEREBEASTS]
+	[FILE:images/werebeasts.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:4608]
+
+[TILE_PAGE:CREATURES_MISC_BABIES]
+	[FILE:images/creatures_misc_babies.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:96:320]
+
+[TILE_PAGE:EXPERIMENT_HUMANOID]
+	[FILE:images/nex_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:224]
+
+[TILE_PAGE:EXPERIMENT_HUMANOID_HORN]
+	[FILE:images/nex_horns.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:224]

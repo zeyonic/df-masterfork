@@ -1,0 +1,7 @@
+text_wandering_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:WANDERING_PROFESSION]
+
+I wander [CONTEXT:PLACE:TRANS_NAME].

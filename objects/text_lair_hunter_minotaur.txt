@@ -1,0 +1,9 @@
+text_lair_hunter_minotaur
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:LAIR_HUNTER_MINOTAUR]
+
+I want your bones for my bone mill!
+I'll grind you into porridge!
+I'll eat you whole!

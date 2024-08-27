@@ -1,0 +1,9 @@
+text_greet_baby
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:GREET_BABY]
+
+Hellooo!
+Look at you!
+A baby!  How adorable!

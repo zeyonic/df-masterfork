@@ -1,0 +1,7 @@
+text_mercenary_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:MERCENARY_PROFESSION]
+
+I seek fortune and glory by offering my skill at arms in [CONTEXT:PLACE:TRANS_NAME].

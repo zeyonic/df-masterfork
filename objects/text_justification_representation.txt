@@ -1,0 +1,7 @@
+text_justificatoin_representation
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:JUSTIFICATION_REPRESENTATION]
+
+can be thought of as a representation of

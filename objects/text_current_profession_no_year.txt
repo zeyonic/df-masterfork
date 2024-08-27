@@ -1,0 +1,7 @@
+text_current_profession_no_year
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:CURRENT_PROFESSION_NO_YEAR]
+
+I am a [CONTEXT:UNIT_NAME].
