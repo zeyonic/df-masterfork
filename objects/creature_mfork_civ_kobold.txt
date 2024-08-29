@@ -1,67 +1,178 @@
 creature_mfork_civ_kobold
+--------------------------------------------------------------------------------
+                    CREDITS & ACKNOWLEDGEEMENTS
+
+'Gadget's Kobold Caverns' by 'gadgetpatch'
+Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2925028826
+
+--------------------------------------------------------------------------------
+
+
+Design Notes:
+	- A diplomacy-capable, lore-friendly playable Kobold civ.
+
+Changes:
+	- Removed LAYS_EGGS due to bugs. Kobolds are Ovoviviparous (for now)
+	- Removed LOCKPICKER to allow forbidding of doors.
+	- Removed FLEEQUICK to allow melee combat (some panic/go catatonic instead; see below).
+	- Added INTELLIGENT to allow diplomacy/trade
+	- Added BENIGN to make peaceful interactions possible.
+	- Added OUTSIDER_CONTROLLABLE for independant adventurers
+	- Added CAVE_ADAPT for bonuses underground, and light sensitivity
+	- Adjusted LITTERSIZE to 2-4 children, born as independant toddlers.
+	- Adjusted growth to reach adulthood in 1 year, with human lifespans.
+	- Adjusted personalities and attributes (see below)
+
+Aesthetics:
+	- Added several cat-like details and behaviors, since they're cat-inspired.
+	- Added additional eye colors ranging from orange to yellow to green.
+	- Added long canine-style eye teeth, for improved bites.
+	- Reskinned nails/scratching attacks as claws.
+	- Added fur in several colors, which goes grey with age
+	- Added cheek whiskers, and beard-like chin fur tufts for males.
+	- In lieu of washing with soap, they can do cat-style self-cleaning.
+	- They sweat out of their palms only, since body fur prevents sweating in animals.
+
+Personality Adjustment:
+	Tweaks made to bias them to be ambitious greedy troublemakers, to bond more quickly and show loyalty to kin, to make them messy and impulsive, to give them cripling anxiety in combat that some can resist through will, and (since they're weak on their own) to generally make them more communal and interdependent on each other.
+
+	- Significantly raised ANXIETY_PROPENSITY to make them more likely to flee combat.
+	- Significantly raised STRESS_VULNERABILITY to make them prone to going catatonic.
+	- Significantly raised GREED to make them like acquiring trinkets for themselves.
+	- Lowered TRUST to model general fears and anxieties.
+	- Raised WASTEFULNESS to make them sloppy crafters.
+	- Lowered POLITENESS to make them weird and offensive to outsiders.
+	- Significantly lowered ORDERLINESS to make them leave clothes around.
+	- Lowered PRIVACY to make them more interdependent and communal.
+	- Significantly raised CURIOUS so they like exploring and improving skills.
+	- Significantly raised TOLERANT so they can steal/integrate culture from others.
+	- Raised THOUGHTLESS to make them more impulsive.
+	- Raised ACTIVITY_LEVEL and EXCITEMENT_SEEKING to make them frenetic.
+	- Raised ART_INCLINED to model their attraction to pretty objects.
+
+Attribute Rebalancing:
+	- Strength and Toughness raised to offset small size health/carry capacity penalties.
+	- Raised Willpower to improve odds to resist panic from their naturally high anxiety.
+	- Intuition raised to above-average, to model craftiness and perception.
+	- Spatial Sense raised above average, to model keen senses and awareness.
+	- Musicality raised to below-average, to allow languageless artistic expression.
+	- Empathy raised to human average, to model languageless social perception.
+	- Linguistic Ability set to abysmal. They babble, and barely manage to communicate.
+
+	General idea is to make kobolds small, poor in social and mental skills, but with good physical skills and awareness to compensate.
+	
+--------------------------------------------------------------------------------
 
 [OBJECT:CREATURE]
 [CREATURE:MFORK_KOBOLD]
-	[DESCRIPTION:A small, squat humanoid with large pointy ears and yellow glowing eyes.]
+	[DESCRIPTION:A small humanoid with glowing eyes, pointy-ears, and a penchant for mischief.]
 	[NAME:kobold:kobolds:kobold]
 	[CASTE_NAME:kobold:kobolds:kobold]
 	[CREATURE_TILE:'k'][COLOR:6:0:0]
 	[GLOWTILE:'"'][GLOWCOLOR:6:0:1]
-	[LOCKPICKER][TRAPAVOID][FLEEQUICK]
-	[CAN_LEARN] [CAN_SPEAK] => without language, no names.
-	UTTERANCES => removed to get language file and traders
+	[TRAPAVOID]
+	[INTELLIGENT]
+	[WANDERER]
+	[CAN_SPEAK]
+    [CAN_LEARN]
 	[BONECARN]
-	[STRANGE_MOODS]
-	[NATURAL_SKILL:DODGING:3]
-	YES_HARDERLEARNING[SKILL_LEARN_RATES:50]
-		[NATURAL_SKILL:AXE:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:SWORD:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:MACE:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:HAMMER:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:SPEAR:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:CROSSBOW:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:SHIELD:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:ARMOR:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:PIKE:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:WHIP:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:BOW:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:BLOWGUN:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:MELEE_COMBAT:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:RANGED_COMBAT:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:WRESTLING:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:BITE:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:GRASP_STRIKE:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:STANCE_STRIKE:0]YESHARDERINVADER_KOBOLD
-	[NATURAL_SKILL:DODGING:0]YESHARDERINVADER_KOBOLD
-    [CREATURE_CLASS:MAMMAL]
 	[CANOPENDOORS]
+	[OUTSIDER_CONTROLLABLE]
+	[BENIGN]
+	[PREFSTRING:glowing eyes]
+	[PREFSTRING:pointy ears]
+	[PREFSTRING:utterances]
 	[PREFSTRING:mischief]
-	[PERSONALITY:ANXIETY_PROPENSITY:50:75:100]
-	[PERSONALITY:TRUST:0:25:50]
-	[PERSONALITY:ACTIVITY_LEVEL:50:75:100]
-	[PERSONALITY:GREED:50:75:100]
-	!NO_CREATURES_TRAINABLE!TRAINABLE][CREATURE_CLASS:ALL_CREATURES] [BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:3TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
+
+	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:babble:babbles:a babbling]
+	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:chatter:chatters:a chattering]
+	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:yammer:yammers:a yammering]
+	[SOUND:ALERT:100:1000:VOCALIZATION:bark:barks:a loud bark]
+	[SOUND:ALERT:100:1000:VOCALIZATION:yelp:yelps:a loud yelp]
+	[SOUND:ALERT:100:1000:VOCALIZATION:yowl:yowls:a loud yowl]
+
+	[PERSONALITY:LOVE_PROPENSITY:10:60:100]				++
+	[PERSONALITY:ENVY_PROPENSITY:0:55:100]				+
+	[PERSONALITY:DEPRESSION_PROPENSITY:0:45:100]		-
+	[PERSONALITY:ANGER_PROPENSITY:0:55:100]				+
+	[PERSONALITY:ANXIETY_PROPENSITY:20:70:100]			+++
+	[PERSONALITY:STRESS_VULNERABILITY:10:60:100]		++
+	[PERSONALITY:GREED:20:70:100]						+++
+	[PERSONALITY:IMMODERATION:0:45:100]					-
+	[PERSONALITY:VIOLENT:0:45:100]						-
+	[PERSONALITY:PERSEVERANCE:0:55:100]					+
+	[PERSONALITY:WASTEFULNESS:10:60:100]				++
+	[PERSONALITY:DISCORD:0:45:100]						-
+	[PERSONALITY:FRIENDLINESS:0:55:100]					+
+	[PERSONALITY:POLITENESS:0:40:90]					--
+	[PERSONALITY:BRAVERY:0:45:100]						-
+	[PERSONALITY:CONFIDENCE:0:55:100]					+
+	[PERSONALITY:VANITY:0:55:100]						+
+	[PERSONALITY:AMBITION:0:55:100]						+
+	[PERSONALITY:GRATITUDE:0:55:100]					+
+	[PERSONALITY:PRIDE:0:45:100]						-
+	[PERSONALITY:CRUELTY:0:45:100]						-
+	[PERSONALITY:SINGLEMINDED:0:45:100]					-
+	[PERSONALITY:HOPEFUL:0:55:100]						+
+	[PERSONALITY:CURIOUS:20:70:100]						+++
+	[PERSONALITY:PRIVACY:0:40:90]						--
+	[PERSONALITY:CLOSEMINDED:0:45:100]					-
+	[PERSONALITY:TOLERANT:20:70:100]					+++
+	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:55:100]		+
+	[PERSONALITY:ALTRUISM:0:55:100]						+
+	[PERSONALITY:DUTIFULNESS:0:55:100]					+
+	[PERSONALITY:THOUGHTLESSNESS:10:60:100]				++
+	[PERSONALITY:ORDERLINESS:0:30:80]					---
+	[PERSONALITY:TRUST:0:40:90]							--
+	[PERSONALITY:GREGARIOUSNESS:00:55:100]				+
+	[PERSONALITY:ASSERTIVENESS:0:45:100]				-
+	[PERSONALITY:ACTIVITY_LEVEL:10:60:100]				++
+	[PERSONALITY:EXCITEMENT_SEEKING:10:60:100]			++
+	[PERSONALITY:ABSTRACT_INCLINED:0:45:100]			-
+	[PERSONALITY:ART_INCLINED:10:60:100]				++
+	
+	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:3TOES:MOUTH:TONGUE:FACIAL_FEATURES:GENERIC_TEETH_WITH_LARGE_EYE_TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
+		[SELECT_MATERIAL:HAIR]
+			[STATE_NAME:ALL_SOLID:fur]
+			[STATE_ADJ:ALL_SOLID:fur]
 	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
+		[SELECT_TISSUE:HAIR]
+			[INSULATION:200]
 	[BODY_DETAIL_PLAN:VERTEBRATE_TISSUE_LAYERS:SKIN:FAT:MUSCLE:BONE:CARTILAGE]
-	[USE_MATERIAL_TEMPLATE:NAIL:NAIL_TEMPLATE]
-	[USE_TISSUE_TEMPLATE:NAIL:NAIL_TEMPLATE]
-	[TISSUE_LAYER:BY_CATEGORY:FINGER:NAIL:FRONT]
-	[TISSUE_LAYER:BY_CATEGORY:TOE:NAIL:FRONT]
+	[BODY_DETAIL_PLAN:BODY_HAIR_TISSUE_LAYERS:HAIR]
+	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
+
+	[USE_MATERIAL_TEMPLATE:CLAW:NAIL_TEMPLATE]
+	[USE_TISSUE_TEMPLATE:CLAW:CLAW_TEMPLATE]
+		[TISSUE_LAYER:BY_CATEGORY:FINGER:CLAW:FRONT]
+		[TISSUE_LAYER:BY_CATEGORY:TOE:CLAW:FRONT]
+
+	[BODY_DETAIL_PLAN:LEATHERY_EGG_MATERIALS]
+
 	[SELECT_TISSUE_LAYER:HEART:BY_CATEGORY:HEART]
 	 [PLUS_TISSUE_LAYER:SKIN:BY_CATEGORY:THROAT]
 		[TL_MAJOR_ARTERIES]
+
+	USE_TISSUE_TEMPLATE:CHIN_WHISKERS:CHEEK_WHISKERS_TEMPLATE
+	USE_TISSUE_TEMPLATE:CHIN_WHISKERS:CHIN_WHISKERS_TEMPLATE
+
 	[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
 	[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
 	[BODY_DETAIL_PLAN:HUMANOID_RIBCAGE_POSITIONS]
 	[BODY_DETAIL_PLAN:HUMANOID_RELSIZES]
+
 	[USE_MATERIAL_TEMPLATE:SINEW:SINEW_TEMPLATE]
 	[TENDONS:LOCAL_CREATURE_MAT:SINEW:200]
 	[LIGAMENTS:LOCAL_CREATURE_MAT:SINEW:200]
 	[HAS_NERVES]
+
 	[USE_MATERIAL_TEMPLATE:BLOOD:BLOOD_TEMPLATE]
 	[BLOOD:LOCAL_CREATURE_MAT:BLOOD:LIQUID]
+
 	[CREATURE_CLASS:GENERAL_POISON]
+	[CREATURE_CLASS:VENOM_USER]
+
 	[GETS_WOUND_INFECTIONS]
 	[GETS_INFECTIONS_FROM_ROT]
 	[USE_MATERIAL_TEMPLATE:PUS:PUS_TEMPLATE]
@@ -69,8 +180,65 @@ creature_mfork_civ_kobold
 	[USE_MATERIAL_TEMPLATE:SWEAT:SWEAT_TEMPLATE]
 	[USE_MATERIAL_TEMPLATE:TEARS:TEARS_TEMPLATE]
 	[USE_MATERIAL_TEMPLATE:SPIT:SPIT_TEMPLATE]
-	[SECRETION:LOCAL_CREATURE_MAT:SWEAT:LIQUID:BY_CATEGORY:ALL:SKIN:EXERTION]
+
+	Consider: Because they're furry, only their palms can sweat?
+	SECRETION:LOCAL_CREATURE_MAT:SWEAT:LIQUID:BY_CATEGORY:ALL:SKIN:EXERTION
+	[SECRETION:LOCAL_CREATURE_MAT:SWEAT:LIQUID:BY_CATEGORY:HAND:SKIN:EXERTION]
 	[SECRETION:LOCAL_CREATURE_MAT:TEARS:LIQUID:BY_CATEGORY:EYE:ALL:EXTREME_EMOTION]
+	
+	[PROFESSION_NAME:CRAFTSMAN:craftskobold:craftskobolds]
+	[PROFESSION_NAME:FISHERMAN:fisher:fishers]
+	[PROFESSION_NAME:HAMMERMAN:hammer user:hammer users]
+	[PROFESSION_NAME:SPEARMAN:spear user:spear users]
+	[PROFESSION_NAME:AXEMAN:axe user:axe users]
+	[PROFESSION_NAME:SWORDSMAN:sword user:sword users]
+	[PROFESSION_NAME:MACEMAN:mace user:mace users]
+	[PROFESSION_NAME:PIKEMAN:pike user:pike users]
+	[PROFESSION_NAME:LASHER:lasher:lashers]
+	[PROFESSION_NAME:CROSSBOWMAN:crossbow user:crossbow users]
+	[PROFESSION_NAME:BOWMAN:bow user:bow users]
+	[PROFESSION_NAME:BLOWGUNMAN:blowgunner:blowgunners]
+
+	[PROFESSION_NAME:DOCTOR:healer:healers]
+	[PROFESSION_NAME:RECRUIT:warrior:warriors]
+	
+	[SLAIN_SPEECH:SLAIN_KOBOLD]	
+
+	[CAN_DO_INTERACTION:CLEANING]
+		[CDI:ADV_NAME:Clean]
+		[CDI:USAGE_HINT:CLEAN_SELF]
+		[CDI:USAGE_HINT:CLEAN_FRIEND]
+		[CDI:BP_REQUIRED:BY_CATEGORY:TONGUE]
+		[CDI:VERB:lick:licks:lick each other]
+		[CDI:CAN_BE_MUTUAL]
+		[CDI:TARGET:A:SELF_ALLOWED:TOUCHABLE]
+		[CDI:TARGET_RANGE:A:1]
+		[CDI:MAX_TARGET_NUMBER:A:1]
+		[CDI:WAIT_PERIOD:10]
+
+	[CAN_DO_INTERACTION:BP_BUMP]
+		[CDI:ADV_NAME:Head bump]
+		[CDI:USAGE_HINT:GREETING]
+		[CDI:BP_REQUIRED:BY_CATEGORY:HEAD]
+		[CDI:VERB:head-bump:head-bumps:bump heads]
+		[CDI:CAN_BE_MUTUAL]
+		[CDI:TARGET:A:SELF_ONLY]
+		[CDI:TARGET:B:TOUCHABLE]
+		[CDI:TARGET_RANGE:B:1]
+		[CDI:MAX_TARGET_NUMBER:B:1]
+		[CDI:WAIT_PERIOD:20]
+
+	[CAN_DO_INTERACTION:PET_ANIMAL]
+		[CDI:ADV_NAME:Pet animal]
+		[CDI:USAGE_HINT:GREETING]
+		[CDI:BP_REQUIRED:BY_TYPE:GRASP]
+		[CDI:VERB:pet:pets:pets]
+		[CDI:TARGET:A:SELF_ONLY]
+		[CDI:TARGET:B:TOUCHABLE]
+		[CDI:TARGET_RANGE:B:1]
+		[CDI:MAX_TARGET_NUMBER:B:1]
+		[CDI:WAIT_PERIOD:20]
+
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:ADV_NAME:Spit]
 		[CDI:USAGE_HINT:NEGATIVE_SOCIAL_RESPONSE]
@@ -82,61 +250,60 @@ creature_mfork_civ_kobold
 		[CDI:TARGET_RANGE:C:15]
 		[CDI:MAX_TARGET_NUMBER:C:1]
 		[CDI:WAIT_PERIOD:30]
-	[PHYS_ATT_RANGE:STRENGTH:450:950:1150:1250:1350:1550:2250]               +
-	[PHYS_ATT_RANGE:AGILITY:1200:1400:1500:1600:1800:2500]                   ++
+
+	[PHYS_ATT_RANGE:STRENGTH:250:600:800:900:1000:1100:1500]                 ++
+	[PHYS_ATT_RANGE:AGILITY:700:1200:1400:1500:1600:1800:2500]               ++
 	[PHYS_ATT_RANGE:TOUGHNESS:450:950:1150:1250:1350:1550:2250]              +
 	[PHYS_ATT_RANGE:RECUPERATION:450:950:1150:1250:1350:1550:2250]           +
-	[PHYS_ATT_RANGE:DISEASE_RESISTANCE:450:950:1150:1250:1350:1550:2250]     +
+	[PHYS_ATT_RANGE:DISEASE_RESISTANCE:700:1200:1400:1500:1600:1800:2500]    ++
 	[MENT_ATT_RANGE:ANALYTICAL_ABILITY:150:600:800:900:1000:1100:1500]       -
 	[MENT_ATT_RANGE:FOCUS:150:600:800:900:1000:1100:1500]                    -
+	[MENT_ATT_RANGE:WILLPOWER:450:950:1150:1250:1350:1550:2250]              +
 	[MENT_ATT_RANGE:CREATIVITY:150:600:800:900:1000:1100:1500]               -
-	[MENT_ATT_RANGE:INTUITION:150:600:800:900:1000:1100:1500]                -
+	[MENT_ATT_RANGE:INTUITION:450:950:1150:1250:1350:1550:2250]              +
 	[MENT_ATT_RANGE:PATIENCE:450:950:1150:1250:1350:1550:2250]               +
-	[MENT_ATT_RANGE:MEMORY:0:100:200:300:400:450:500]                        ---
-	[MENT_ATT_RANGE:LINGUISTIC_ABILITY:0:0:0:0:0:0:0]                        unattainable
-		[MENT_ATT_RATES:LINGUISTIC_ABILITY:NONE:NONE:NONE:NONE]
-	[MENT_ATT_RANGE:MUSICALITY:0:0:0:0:0:0:0]                                unattainable
-		[MENT_ATT_RATES:MUSICALITY:NONE:NONE:NONE:NONE]
-	[MENT_ATT_RANGE:EMPATHY:0:100:200:300:400:450:500]                       ---
-	[BODY_SIZE:0:0:1000]
-	[BODY_SIZE:1:168:5000]
-	[BODY_SIZE:12:0:20000]
+	[MENT_ATT_RANGE:MEMORY:150:600:800:900:1000:1100:1500]                   -
+	[MENT_ATT_RANGE:LINGUISTIC_ABILITY:0:100:200:300:400:450:500]            ---
+	[MENT_ATT_RANGE:SPATIAL_SENSE:450:950:1150:1250:1350:1550:2250]          +
+	[MENT_ATT_RANGE:MUSICALITY:150:600:800:900:1000:1100:1500]               -
+	
+	[BODY_SIZE:0:0:2000]
+	[BODY_SIZE:1:0:10000]
+	[BODY_SIZE:2:0:20000]
+	
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:75:95:98:100:102:105:125]
 		[APP_MOD_IMPORTANCE:500]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:75:95:98:100:102:105:125]
 		[APP_MOD_IMPORTANCE:500]
+
 	[SET_BP_GROUP:BY_CATEGORY:EYE]
-		[BP_APPEARANCE_MODIFIER:CLOSE_SET:0:70:90:100:110:130:200]
-			[APP_MOD_NOUN:eyes:PLURAL]
+		BP_APPEARANCE_MODIFIER:CLOSE_SET:0:70:90:100:110:130:200
+			APP_MOD_NOUN:eyes:PLURAL
 		[BP_APPEARANCE_MODIFIER:DEEP_SET:0:70:90:100:110:130:200]
 			[APP_MOD_NOUN:eyes:PLURAL]
 		[BP_APPEARANCE_MODIFIER:ROUND_VS_NARROW:0:70:90:100:110:130:200]
 			[APP_MOD_NOUN:eyes:PLURAL]
-	[SET_BP_GROUP:BY_CATEGORY:LIP]
-		[BP_APPEARANCE_MODIFIER:THICKNESS:50:70:90:100:110:130:200]
-			[APP_MOD_NOUN:lips:PLURAL]
-			[APP_MOD_DESC_RANGE:55:70:90:110:150:190]
+
 	[SET_BP_GROUP:BY_CATEGORY:NOSE]
 		[BP_APPEARANCE_MODIFIER:BROADNESS:25:70:90:100:110:130:200]
 			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
 		[BP_APPEARANCE_MODIFIER:LENGTH:25:70:90:100:110:130:200]
 			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
-		[BP_APPEARANCE_MODIFIER:UPTURNED:0:70:90:100:110:130:200]
 		[BP_APPEARANCE_MODIFIER:CONVEX:0:70:90:100:110:130:200]
-			[APP_MOD_NOUN:nose bridge:SINGULAR]
+			[APP_MOD_NOUN:muzzle:SINGULAR]
+	
 	[SET_BP_GROUP:BY_CATEGORY:EAR]
 		[BP_APPEARANCE_MODIFIER:SPLAYED_OUT:0:70:90:100:110:130:200]
 			[APP_MOD_NOUN:ears:PLURAL]
-		[BP_APPEARANCE_MODIFIER:HANGING_LOBES:0:70:90:100:110:130:200]
-			[APP_MOD_NOUN:ears:PLURAL]
 		[BP_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
-			[APP_MOD_IMPORTANCE:700]
+			[APP_MOD_IMPORTANCE:500]
 			[APP_MOD_NOUN:ears:PLURAL]
 			[APP_MOD_DESC_RANGE:91:94:98:102:106:109]
 		[BP_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
-			[APP_MOD_IMPORTANCE:700]
+			[APP_MOD_IMPORTANCE:500]
 			[APP_MOD_NOUN:ears:PLURAL]
 			[APP_MOD_DESC_RANGE:91:94:98:102:106:109]
+	
 	[SET_BP_GROUP:BY_CATEGORY:TOOTH]
 		[BP_APPEARANCE_MODIFIER:GAPS:0:70:90:100:110:130:200]
 			[APP_MOD_NOUN:teeth:PLURAL]
@@ -144,29 +311,52 @@ creature_mfork_civ_kobold
 			[APP_MOD_IMPORTANCE:1000]
 			[APP_MOD_NOUN:teeth:PLURAL]
 			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
+
+	[SET_BP_GROUP:BY_TOKEN:R_EYE_TOOTH]
+	 [PLUS_BP_GROUP:BY_TOKEN:L_EYE_TOOTH]
+		[BP_APPEARANCE_MODIFIER:LENGTH:80:90:95:100:110:130:150]
+			[APP_MOD_NOUN:eye teeth:PLURAL]
+			[APP_MOD_DESC_RANGE:60:80:90:110:130:150]
+			[APP_MOD_IMPORTANCE:500]
+	
 	[SET_BP_GROUP:BY_CATEGORY:SKULL]
 		[BP_APPEARANCE_MODIFIER:HIGH_CHEEKBONES:0:70:90:100:110:130:200]
 		[BP_APPEARANCE_MODIFIER:BROAD_CHIN:0:70:90:100:110:130:200]
+			[APP_MOD_NOUN:muzzle:SINGULAR]
 		[BP_APPEARANCE_MODIFIER:JUTTING_CHIN:0:70:90:100:110:130:200]
+			[APP_MOD_NOUN:muzzle:SINGULAR]
 		[BP_APPEARANCE_MODIFIER:SQUARE_CHIN:0:70:90:100:110:130:200]
+			[APP_MOD_NOUN:muzzle:SINGULAR]
+	
 	[SET_BP_GROUP:BY_CATEGORY:THROAT]
 		[BP_APPEARANCE_MODIFIER:DEEP_VOICE:0:70:90:100:110:130:200]
 		[BP_APPEARANCE_MODIFIER:RASPY_VOICE:0:70:90:100:110:130:200]
+	
 	[SET_BP_GROUP:BY_CATEGORY:HEAD]
 		[BP_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
-			[APP_MOD_IMPORTANCE:700]
 			[APP_MOD_DESC_RANGE:91:94:98:102:106:109]
 		[BP_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
-			[APP_MOD_IMPORTANCE:700]
 			[APP_MOD_DESC_RANGE:91:94:98:102:106:109]
-	[MAXAGE:15:17]
-	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
-		[ATTACK_SKILL:GRASP_STRIKE]
-		[ATTACK_VERB:punch:punches]
+
+	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
+		[ATTACK_SKILL:BITE]
+		[ATTACK_VERB:bite:bites]
 		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PENETRATION_PERC:100]
+		[ATTACK_FLAG_EDGE]
 		[ATTACK_PREPARE_AND_RECOVER:3:3]
-		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:MAIN]
+		[ATTACK_FLAG_CANLATCH]
+
+	[ATTACK:CLAW:CHILD_TISSUE_LAYER_GROUP:BY_TYPE:GRASP:BY_CATEGORY:FINGER:CLAW]
+		[ATTACK_SKILL:GRASP_STRIKE]
+		[ATTACK_VERB:claw:claws]
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PENETRATION_PERC:100]
+		[ATTACK_FLAG_EDGE]
+		[ATTACK_PREPARE_AND_RECOVER:3:3]
+		[ATTACK_PRIORITY:MAIN]
+
 	[ATTACK:KICK:BODYPART:BY_TYPE:STANCE]
 		[ATTACK_SKILL:STANCE_STRIKE]
 		[ATTACK_VERB:kick:kicks]
@@ -175,600 +365,123 @@ creature_mfork_civ_kobold
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:SECOND]
 		[ATTACK_FLAG_BAD_MULTIATTACK]
-	[ATTACK:SCRATCH:CHILD_TISSUE_LAYER_GROUP:BY_TYPE:GRASP:BY_CATEGORY:FINGER:NAIL]
+
+	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
 		[ATTACK_SKILL:GRASP_STRIKE]
-		[ATTACK_VERB:scratch:scratches]
+		[ATTACK_VERB:punch:punches]
 		[ATTACK_CONTACT_PERC:100]
-		[ATTACK_PENETRATION_PERC:100]
-		[ATTACK_FLAG_EDGE]
 		[ATTACK_PREPARE_AND_RECOVER:3:3]
+		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:SECOND]
-	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
-		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
-		[ATTACK_CONTACT_PERC:100]
-		[ATTACK_PENETRATION_PERC:100]
-		[ATTACK_FLAG_EDGE]
-		[ATTACK_PREPARE_AND_RECOVER:3:3]
-		[ATTACK_PRIORITY:SECOND]
-		[ATTACK_FLAG_CANLATCH]
-	[BABY:1]
-	[CHILD:2]
+	
 	[EQUIPS]
 	[NOCTURNAL]
-	[SMELL_TRIGGER:25]
+	[SMELL_TRIGGER:5]
 	[LOW_LIGHT_VISION:10000]
 	[HOMEOTHERM:10067]
+
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:691:482:251:1900:2900] 35 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:3512:2634:1756:878:4900:6900] 10 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[SWIMS_LEARNED]
+
 	[MANNERISM_FINGERS:finger:fingers]
 	[MANNERISM_NOSE:nose]
 	[MANNERISM_EAR:ear]
 	[MANNERISM_HEAD:head]
 	[MANNERISM_EYES:eyes]
 	[MANNERISM_MOUTH:mouth]
-	[MANNERISM_HAIR:hair]
+	[MANNERISM_HAIR:fur]
 	[MANNERISM_KNUCKLES:knuckles]
 	[MANNERISM_LIPS:lips]
 	[MANNERISM_CHEEK:cheek]
-	[MANNERISM_NAILS:nails]
+	[MANNERISM_NAILS:claws]
 	[MANNERISM_FEET:feet]
 	[MANNERISM_ARMS:arms]
 	[MANNERISM_HANDS:hands]
 	[MANNERISM_TONGUE:tongue]
 	[MANNERISM_LEG:leg]
+	[MANNERISM_LAUGH]
+	[MANNERISM_SMILE]
 	[MANNERISM_WALK]
 	[MANNERISM_SIT]
 	[MANNERISM_BREATH]
 	[MANNERISM_POSTURE]
 	[MANNERISM_STRETCH]
 	[MANNERISM_EYELIDS]
+
+	[SPOUSE_CONVERSION_TARGET]
+
+	[MAXAGE:60:120]
+	[CHILD:1]
+	[BABY:0]
 	
-	
-	[SKILL_LEARN_RATES:75]
-	[SKILL_LEARN_RATE:MINING:1]
-	[SKILL_LEARN_RATE:WOODCUTTING:90]
-	[SKILL_LEARN_RATE:CARPENTRY:90]
-	[SKILL_LEARN_RATE:ANIMALTRAIN:100]
-	[SKILL_LEARN_RATE:TRAPPING:100]
-	[SKILL_LEARN_RATE:FISH:120]
-	[SKILL_LEARN_RATE:SMELT:60]
-	[SKILL_LEARN_RATE:FORGE_WEAPON:60]
-	[SKILL_LEARN_RATE:FORGE_ARMOR:60]
-	[SKILL_LEARN_RATE:FORGE_FURNITURE:50]
-	[SKILL_LEARN_RATE:WOODCRAFT:110]
-	[SKILL_LEARN_RATE:LEATHERWORK:110]
-	[SKILL_LEARN_RATE:BONECARVE:110]
-	[SKILL_LEARN_RATE:SIEGECRAFT:50]
-	[SKILL_LEARN_RATE:SIEGEOPERATE:50]
-	[SKILL_LEARN_RATE:BOWYER:110]
-	[SKILL_LEARN_RATE:SNEAK:110]
-	[SKILL_LEARN_RATE:MECHANICS:110]
+	[CASTE:FEMALE]
+		[FEMALE]
+		[LITTERSIZE:2:4]
+	[CASTE:MALE]
+		[MALE]
+		[TISSUE_LAYER:BY_CATEGORY:HEAD:CHIN_WHISKERS:BOTTOM]
+		As in Vanilla, Males are undescended and not geldable.
+		Only males have chin fur tufts.
 
-	[PROFESSION_NAME:CRAFTSMAN:craftsbold:craftsbolds]
-	[PROFESSION_NAME:FISHERMAN:fisherbold:fisherbolds]
-	[PROFESSION_NAME:HAMMERMAN:bola throwers:bola throwers] => hammer
-	[PROFESSION_NAME:SPEARMAN:spearbold:spearbolds]
-	[PROFESSION_NAME:AXEMAN:chopperbold:chopperbolds]
-	[PROFESSION_NAME:SWORDSMAN:machetebold:machetebolds]
-	[PROFESSION_NAME:MACEMAN:clubbold:clubbolds]
-	[PROFESSION_NAME:PIKEMAN:pikebold:pikebolds] => pike
-	[PROFESSION_NAME:BOWMAN:bowbold:bowbolds]
-	[PROFESSION_NAME:LASHER:whipbold:whipbolds]
-	[PROFESSION_NAME:BLOWGUNMAN:blowgunbold:blowgunbolds]
-
-	[PROFESSION_NAME:MASTER_HAMMERMAN:tribal bola thrower:tribal bola throwers] => hammer
-	[PROFESSION_NAME:MASTER_SPEARMAN:tribal spearbold:tribal spearbolds]
-	[PROFESSION_NAME:MASTER_AXEMAN:tribal chopperbold:tribal chopperbolds]
-	[PROFESSION_NAME:MASTER_SWORDSMAN:tribal machetebold:tribal machetebolds]
-	[PROFESSION_NAME:MASTER_MACEMAN:tribal clubbold:tribal clubbolds]
-	[PROFESSION_NAME:MASTER_PIKEMAN:tribal pikebold:tribal pikebolds] => pike
-	[PROFESSION_NAME:MASTER_BOWMAN:tribal bowbold:tribal bowbolds]
-	[PROFESSION_NAME:MASTER_LASHER:tribal whipbold:tribal whipbolds]
-	[PROFESSION_NAME:MASTER_BLOWGUNMAN:tribal blowgunbold:tribal blowgunbolds]
-	   [CASTE:FEMALE]
-      [FEMALE]
-	[POP_RATIO:1]
-		   [CASTE:MALE]
-      [MALE]
-	[POP_RATIO:1]
-############################################################################################################################
-
- ### Water Sign Castes
-   
-   [CASTE:TURTLE_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES]
-   [DESCRIPTION:*TURTLE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Turtle are tough, and tend to  favor shell and bone crafts.  When they must fight they favor a shield.  Like all Water Sign kobolds, they are natural swimmers.]
-   [PHYS_ATT_RANGE:TOUGHNESS:650:1450:1850:2250:2950:3550:5000]                
- [SKILL_LEARN_RATE:BONECARVE:150]
-   [NATURAL_SKILL:BONECARVE:1]
-   [SKILL_LEARN_RATE:SHIELD:150]
-   [NATURAL_SKILL:SHIELD:1]
-   [NATURAL_SKILL:SWIMMING:3]    #water
-      
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Turtle-sign Kobold:Turtle-sign Kobolds] 
-   
-   [CASTE:EEL_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES]
-   [DESCRIPTION:*EEL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Eel are agile, and tend to be fine fishers.  Like all Water Sign kobolds they are natural swimmers.]
-   [PHYS_ATT_RANGE:TOUGHNESS:650:1450:1850:2250:2950:3550:5000]                
-   [SKILL_LEARN_RATE:FISH:150]
-   [NATURAL_SKILL:FISH:1]
-   [SKILL_LEARN_RATE:PROCESSFISH:150]
-   [NATURAL_SKILL:PROCESSFISH:1]
-   [NATURAL_SKILL:SWIMMING:3]   #water
-   
-   [POP_RATIO:1200]         [CASTE_PROFESSION_NAME:STANDARD:Eel-sign Kobold:Eel-sign Kobolds] 
-
-   [CASTE:DARTFROG_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:* DARTFROG* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Dartfrog are intrigued by poisons, toxins, and all other forms of brewing.  Like all Water Sign kobolds they are natural swimmers.]
-   [SKILL_LEARN_RATE:COOK:150]
-   [NATURAL_SKILL:COOK:1]
-   [SKILL_LEARN_RATE:BREWING:150]
-   [NATURAL_SKILL:BREWING:1]
-   [SKILL_LEARN_RATE:ALCHEMY:150]
-   [NATURAL_SKILL:ALCHEMY:1]   
-   [SKILL_LEARN_RATE:WAX_WORKING:150]
-   [NATURAL_SKILL:WAX_WORKING:1]   
-   [NATURAL_SKILL:SWIMMING:3]   #water
-   
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Dartfrog-sign Kobold:Dartfrog-sign Kobolds] 
-
-   ### Fire Signs
-
-   [CASTE:RAT_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES]
-   [DESCRIPTION:*RAT* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Rat are resitant to disease, and tend to favor working with animals.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
-   [PHYS_ATT_RANGE:DISEASE_RESISTANCE:750:1650:1950:2250:2550:3000:4500]     +50% bonus
-   [SKILL_LEARN_RATE:ANIMALCARE:150]
-   [NATURAL_SKILL:ANIMALCARE:1]
-   [SKILL_LEARN_RATE:ANIMALTRAIN:150]
-   [NATURAL_SKILL:ANIMALTRAIN:1]
-   
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Rat-sign Kobold:Rat-sign Kobolds] 
-
-   [CASTE:SALAMANDER_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*SALAMANDER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Salamander are resitant to fire, and are entranced by the heat of a forge.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
-   [SKILL_LEARN_RATE:FORGE_WEAPON:100] # I assume default for Kobolds will be very low, so 100 is high
-   [SKILL_LEARN_RATE:FORGE_ARMOR:100]  # I assume default for Kobolds will be very low, so 100 is high
-   [NATURAL_SKILL:FORGE_WEAPON:1]
-   [NATURAL_SKILL:FORGE_ARMOR:1]
-   [SELECT_MATERIAL:ALL]
-      [HEATDAM_POINT:NONE]
-      [IGNITE_POINT:NONE]
-   
-   [POP_RATIO:1200]   [CASTE_PROFESSION_NAME:STANDARD:Salamander-sign Kobold:Salamander-sign Kobolds] 
-   
-   [CASTE:COYOTE_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*COYOTE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Coyote are creative free spirits and tend to excel at craftswork.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
-   [PERSONALITY:IMAGINATION:50:75:100]
-   [MENT_ATT_RANGE:CREATIVITY:2000:2500:3000:3250:3500:3750:4000]           
-   [MENT_ATT_RANGE:INTUITION:2000:2500:3000:3250:3500:3750:4000]            
-   [NATURAL_SKILL:LEATHERWORK:1]
-   [NATURAL_SKILL:WOODCRAFT:1]
-   [NATURAL_SKILL:DETAILSTONE:1]
-   [SKILL_LEARN_RATE:LEATHERWORK:150]
-   [SKILL_LEARN_RATE:WOODCRAFT:150]
-   [SKILL_LEARN_RATE:DETAILSTONE:150]
-   
-   [POP_RATIO:1200]      [CASTE_PROFESSION_NAME:STANDARD:Coyote-sign Kobold:Coyote-sign Kobolds] 
-   
-   ### Air Signs   
-
-   [CASTE:KESTREL_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*KESTREL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Kestrel are natural hunters and bowyers.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
-   [SKILL_LEARN_RATE:BLOWGUN:150]
-   [NATURAL_SKILL:BLOWGUN:1]
-   [SKILL_LEARN_RATE:RANGED_COMBAT:150]
-   [NATURAL_SKILL:RANGED_COMBAT:1]
-   [SKILL_LEARN_RATE:SNEAK:150]
-   [NATURAL_SKILL:SNEAK:1]
-   [SKILL_LEARN_RATE:BOWYER:150]
-   [NATURAL_SKILL:BOWYER:1]   
-   [WEBIMMUNE]             #air
-   [CAN_DO_INTERACTION:FLEE]    #air
-      [CDI:ADV_NAME:Run for your life (Speed boost)]
-      [CDI:USAGE_HINT:FLEEING]
-      [CDI:VERB:runs quickly away:darts away:NA]
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:3360]
-            [CDI:FREE_ACTION]
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Kestrel-sign Kobold:Kestrel-sign Kobolds] 
-
-   [CASTE:OWL_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*OWL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Owl are wise and tend to make good students and teachers alike.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
-   [MENT_ATT_RANGE:FOCUS:2000:2500:3000:3250:3500:3750:4000]           
-   [MENT_ATT_RANGE:ANALYTICAL_ABILITY:2000:2500:3000:3250:3500:3750:4000]    
-   [SKILL_LEARN_RATE:KNOWLEDGE_ACQUISITION:300]
-   [NATURAL_SKILL:KNOWLEDGE_ACQUISITION:3]   
-   [SKILL_LEARN_RATE:TEACHING:300]
-   [NATURAL_SKILL:TEACHING:3]   
-   [WEBIMMUNE]         #air
-   [CAN_DO_INTERACTION:FLEE]    #air
-      [CDI:ADV_NAME:Run for your life (Speed boost)]
-      [CDI:USAGE_HINT:FLEEING]
-      [CDI:VERB:runs quickly away:darts away:NA]
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:3360]
-            [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   [CASTE_PROFESSION_NAME:STANDARD:Owl-sign Kobold:Owl-sign Kobolds] 
-   
-   [CASTE:BLUEBIRD_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BLUEBIRD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Bluebird are at peace with wild creatures and tend to find work in medicine.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
-   [AT_PEACE_WITH_WILDLIFE]
-   [SKILL_LEARN_RATE:DIAGNOSE:150]
-   [SKILL_LEARN_RATE:SURGERY:150]
-   [SKILL_LEARN_RATE:SET_BONE:150]
-   [SKILL_LEARN_RATE:SUTURE:150]
-   [SKILL_LEARN_RATE:DRESS_WOUNDS:150]
-   [NATURAL_SKILL:DIAGNOSE:1]
-   [NATURAL_SKILL:SURGERY:1]
-   [NATURAL_SKILL:SET_BONE:1]
-   [NATURAL_SKILL:SUTURE:1]
-   [NATURAL_SKILL:DRESS_WOUNDS:1]
-   [WEBIMMUNE]            #air
-   [CAN_DO_INTERACTION:FLEE]    #air
-      [CDI:ADV_NAME:Run for your life (Speed boost)]
-      [CDI:USAGE_HINT:FLEEING]
-      [CDI:VERB:runs quickly away:darts away:NA]
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:3360]
-            [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   [CASTE_PROFESSION_NAME:STANDARD:Bluebird-sign Kobold:Bluebird-sign Kobolds] 
-
-   ### Earth Signs      
-   
-   [CASTE:VIPER_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*VIPER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Viper are not shy about close combat with knife nor fang.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.][CASTE_PROFESSION_NAME:STANDARD:Viper-sign Kobold:Viper-sign Kobolds] 
-
-   [ATTACK:FANGBITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
-      [ATTACK_SKILL:BITE]
-      [ATTACK_VERB:bite:bites]
-      [ATTACK_CONTACT_PERC:10]
-      [ATTACK_PENETRATION_PERC:100]
-      [ATTACK_PRIORITY:MAIN]
-      [ATTACK_FLAG_EDGE]
-      [ATTACK_FLAG_CANLATCH]
-	  
-   [SKILL_LEARN_RATE:DAGGER:150]
-   [NATURAL_SKILL:DAGGER:1]
-   [SKILL_LEARN_RATE:DODGING:150]
-   [NATURAL_SKILL:DODGING:1]
-   [CAN_DO_INTERACTION:EARTH_KOBOLD_POWERUP]   # earth
-      [CDI:ADV_NAME:Become more combat hardened.] 
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:33600] 
-      [CDI:FREE_ACTION]
-   [POP_RATIO:1200]
-
-   [CASTE:LIZARD_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*LIZARD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Lizard have great powers of recuperation.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
-   [PHYS_ATT_RANGE:RECUPERATION:2000:2500:3000:3250:3500:3750:4000]  +++
-   [SKILL_LEARN_RATE:MELEE_COMBAT:150]
-   [NATURAL_SKILL:MELEE_COMBAT:1]
-   [SKILL_LEARN_RATE:SPEAR:150]
-   [NATURAL_SKILL:SPEAR:1]
-   [SKILL_LEARN_RATE:SWORD:150]
-   [NATURAL_SKILL:SWORD:1]   
-   [SKILL_LEARN_RATE:THROW:150]
-   [NATURAL_SKILL:THROW:1]   
-   [SKILL_LEARN_RATE:WHIP:150]
-   [NATURAL_SKILL:WHIP:1]      
-   [CAN_DO_INTERACTION:EARTH_KOBOLD_POWERUP]   # earth
-      [CDI:ADV_NAME:Become more combat hardened.] 
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:33600] 
-      [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   [CASTE_PROFESSION_NAME:STANDARD:Lizard-sign Kobold:Lizard-sign Kobolds] 
-   
-   [CASTE:BADGER_FEMALE]
-      [FEMALE]
-      [CREATURE_CLASS:KOBOLD_FEMALE]
- [LITTERSIZE:1:5]
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BADGER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Badger are strong and ferocious, and tend to find work as butchers.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
-   [PHYS_ATT_RANGE:STRENGTH:750:1200:1500:1800:2000:2250:2550]  + 50% bonus wrt other kobolds
-   [PRONE_TO_RAGE]
-   [SKILL_LEARN_RATE:BUTCHER:150]
-   [NATURAL_SKILL:BUTCHER:1]
-   [SKILL_LEARN_RATE:TANNER:150]
-   [NATURAL_SKILL:TANNER:1]   
-   [CAN_DO_INTERACTION:EARTH_KOBOLD_POWERUP]   # earth
-      [CDI:ADV_NAME:Become more combat hardened.] 
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:33600] 
-      [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   [CASTE_PROFESSION_NAME:STANDARD:Badger-sign Kobold:Badger-sign Kobolds] 
-   
- ### Water Sign Castes
-   
-   [CASTE:TURTLE_MALE]
-      [MALE]
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES]
-   [DESCRIPTION:*TURTLE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Turtle are tough, and tend to  favor shell and bone crafts.  When they must fight they favor a shield.  Like all Water Sign kobolds, they are natural swimmers.]
-   [PHYS_ATT_RANGE:TOUGHNESS:300:600:900:1200:1350:1500:2250]  + 50% bonus wrt other kobolds
-   [SKILL_LEARN_RATE:BONECARVE:150]
-   [NATURAL_SKILL:BONECARVE:1]
-   [SKILL_LEARN_RATE:SHIELD:150]
-   [NATURAL_SKILL:SHIELD:1]
-   [NATURAL_SKILL:SWIMMING:3]    #water
-      
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Turtle-sign Kobold:Turtle-sign Kobolds] 
-   
-   [CASTE:EEL_MALE]
-      [MALE]
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES]
-   [DESCRIPTION:*EEL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Eel are agile, and tend to be fine fishers.  Like all Water Sign kobolds they are natural swimmers.]
-   [PHYS_ATT_RANGE:AGILITY:750:1200:1500:1800:2000:2250:2550]  + 50% bonus wrt other kobolds
-   [SKILL_LEARN_RATE:FISH:150]
-   [NATURAL_SKILL:FISH:1]
-   [SKILL_LEARN_RATE:PROCESSFISH:150]
-   [NATURAL_SKILL:PROCESSFISH:1]
-   [NATURAL_SKILL:SWIMMING:3]   #water
-   [CASTE_PROFESSION_NAME:STANDARD:Eel-sign Kobold:Eel-sign Kobolds] 
-   [POP_RATIO:1200]         
-
-   [CASTE:DARTFROG_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Dartfrog-sign Kobold:Dartfrog-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*DARTFROG* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Dartfrog are intrigued by poisons, toxins, and all other forms of brewing.  Like all Water Sign kobolds they are natural swimmers.]
-   [SKILL_LEARN_RATE:COOK:150]
-   [NATURAL_SKILL:COOK:1]
-   [SKILL_LEARN_RATE:BREWING:150]
-   [NATURAL_SKILL:BREWING:1]
-   [SKILL_LEARN_RATE:ALCHEMY:150]
-   [NATURAL_SKILL:ALCHEMY:1]   
-   [SKILL_LEARN_RATE:WAX_WORKING:150]
-   [NATURAL_SKILL:WAX_WORKING:1]   
-   [NATURAL_SKILL:SWIMMING:3]   #water
-   
-   [POP_RATIO:1200]
-
-   ### Fire Signs
-
-   [CASTE:RAT_MALE]
-      [MALE]
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES]
-   [DESCRIPTION:*RAT* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Rat are resitant to disease, and tend to favor working with animals.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
-   [PHYS_ATT_RANGE:DISEASE_RESISTANCE:750:1650:1950:2250:2550:3000:4500]     +50% bonus
-   [SKILL_LEARN_RATE:ANIMALCARE:150]
-   [NATURAL_SKILL:ANIMALCARE:1]
-   [SKILL_LEARN_RATE:ANIMALTRAIN:150]
-   [NATURAL_SKILL:ANIMALTRAIN:1]
-   
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Rat-sign Kobold:Rat-sign Kobolds] 
-
-   [CASTE:SALAMANDER_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Salamander-sign Kobold:Salamander-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*SALAMANDER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Salamander are resitant to fire, and are entranced by the heat of a forge.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
-   [SKILL_LEARN_RATE:FORGE_WEAPON:100] # I assume default for Kobolds will be very low, so 100 is high
-   [SKILL_LEARN_RATE:FORGE_ARMOR:100]  # I assume default for Kobolds will be very low, so 100 is high
-   [NATURAL_SKILL:FORGE_WEAPON:1]
-   [NATURAL_SKILL:FORGE_ARMOR:1]
-   [SELECT_MATERIAL:ALL]
-      [HEATDAM_POINT:NONE]
-      [IGNITE_POINT:NONE]
-   
-   [POP_RATIO:1200]   
-   
-   [CASTE:COYOTE_MALE]
-      [MALE]
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*COYOTE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Coyote are creative free spirits and tend to excel at craftswork.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
-   [MENT_ATT_RANGE:CREATIVITY:2000:2500:3000:3250:3500:3750:4000]           
-   [MENT_ATT_RANGE:INTUITION:2000:2500:3000:3250:3500:3750:4000]            
-   [NATURAL_SKILL:LEATHERWORK:1]
-   [NATURAL_SKILL:WOODCRAFT:1]
-   [NATURAL_SKILL:DETAILSTONE:1]
-   [SKILL_LEARN_RATE:LEATHERWORK:150]
-   [SKILL_LEARN_RATE:WOODCRAFT:150]
-   [SKILL_LEARN_RATE:DETAILSTONE:150]
-   
-   [POP_RATIO:1200]      [CASTE_PROFESSION_NAME:STANDARD:Coyote-sign Kobold:Coyote-sign Kobolds] 
-   
-   ### Air Signs   
-
-   [CASTE:KESTREL_MALE]
-      [MALE]
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*KESTREL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Kestrel are natural hunters and bowyers.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
-   [SKILL_LEARN_RATE:BLOWGUN:150]
-   [NATURAL_SKILL:BLOWGUN:1]
-   [SKILL_LEARN_RATE:RANGED_COMBAT:150]
-   [NATURAL_SKILL:RANGED_COMBAT:1]
-   [SKILL_LEARN_RATE:SNEAK:150]
-   [NATURAL_SKILL:SNEAK:1]
-   [SKILL_LEARN_RATE:BOWYER:150]
-   [NATURAL_SKILL:BOWYER:1]   
-   [WEBIMMUNE]             #air
-   [CAN_DO_INTERACTION:FLEE]    #air
-      [CDI:ADV_NAME:Run for your life (Speed boost)]
-      [CDI:USAGE_HINT:FLEEING]
-      [CDI:VERB:runs quickly away:darts away:NA]
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:3360]
-            [CDI:FREE_ACTION]
-   [POP_RATIO:1200][CASTE_PROFESSION_NAME:STANDARD:Kestrel-sign Kobold:Kestrel-sign Kobolds] 
-
-   [CASTE:OWL_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Owl-sign Kobold:Owl-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*OWL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Owl are wise and tend to make good students and teachers alike.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
-   [MENT_ATT_RANGE:FOCUS:2000:2500:3000:3250:3500:3750:4000]           
-   [MENT_ATT_RANGE:ANALYTICAL_ABILITY:2000:2500:3000:3250:3500:3750:4000]    
-   [SKILL_LEARN_RATE:KNOWLEDGE_ACQUISITION:300]
-   [NATURAL_SKILL:KNOWLEDGE_ACQUISITION:3]   
-   [SKILL_LEARN_RATE:TEACHING:300]
-   [NATURAL_SKILL:TEACHING:3]   
-   [WEBIMMUNE]         #air
-   [CAN_DO_INTERACTION:FLEE]    #air
-      [CDI:ADV_NAME:Run for your life (Speed boost)]
-      [CDI:USAGE_HINT:FLEEING]
-      [CDI:VERB:runs quickly away:darts away:NA]
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:3360]
-            [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   
-   
-   [CASTE:BLUEBIRD_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Bluebird-sign Kobold:Bluebird-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BLUEBIRD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Bluebird are at peace with wild creatures and tend to find work in medicine.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
-   [AT_PEACE_WITH_WILDLIFE]
-   [SKILL_LEARN_RATE:DIAGNOSE:150]
-   [SKILL_LEARN_RATE:SURGERY:150]
-   [SKILL_LEARN_RATE:SET_BONE:150]
-   [SKILL_LEARN_RATE:SUTURE:150]
-   [SKILL_LEARN_RATE:DRESS_WOUNDS:150]
-   [NATURAL_SKILL:DIAGNOSE:1]
-   [NATURAL_SKILL:SURGERY:1]
-   [NATURAL_SKILL:SET_BONE:1]
-   [NATURAL_SKILL:SUTURE:1]
-   [NATURAL_SKILL:DRESS_WOUNDS:1]
-   [WEBIMMUNE]            #air
-   [CAN_DO_INTERACTION:FLEE]    #air
-      [CDI:ADV_NAME:Run for your life (Speed boost)]
-      [CDI:USAGE_HINT:FLEEING]
-      [CDI:VERB:runs quickly away:darts away:NA]
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:3360]
-            [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   
-
-   ### Earth Signs      
-   
-   [CASTE:VIPER_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Viper-sign Kobold:Viper-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*VIPER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Viper are not shy about close combat with knife nor fang.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
-
-   [ATTACK:FANGBITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
-      [ATTACK_SKILL:BITE]
-      [ATTACK_VERB:bite:bites]
-      [ATTACK_CONTACT_PERC:10]
-      [ATTACK_PENETRATION_PERC:100]
-      [ATTACK_PRIORITY:MAIN]
-      [ATTACK_FLAG_EDGE]
-      [ATTACK_FLAG_CANLATCH]
-	  
-   [SKILL_LEARN_RATE:DAGGER:150]
-   [NATURAL_SKILL:DAGGER:1]
-   [SKILL_LEARN_RATE:DODGING:150]
-   [NATURAL_SKILL:DODGING:1]
-   [CAN_DO_INTERACTION:EARTH_KOBOLD_POWERUP]   # earth
-      [CDI:ADV_NAME:Become more combat hardened.] 
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:33600] 
-      [CDI:FREE_ACTION]
-   [POP_RATIO:1200]
-
-   [CASTE:LIZARD_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Lizard-sign Kobold:Lizard-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*LIZARD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Lizard have great powers of recuperation.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
-   [PHYS_ATT_RANGE:RECUPERATION:2000:2500:3000:3250:3500:3750:4000]  +++
-   [SKILL_LEARN_RATE:MELEE_COMBAT:150]
-   [NATURAL_SKILL:MELEE_COMBAT:1]
-   [SKILL_LEARN_RATE:SPEAR:150]
-   [NATURAL_SKILL:SPEAR:1]
-   [SKILL_LEARN_RATE:SWORD:150]
-   [NATURAL_SKILL:SWORD:1]   
-   [SKILL_LEARN_RATE:THROW:150]
-   [NATURAL_SKILL:THROW:1]   
-   [SKILL_LEARN_RATE:WHIP:150]
-   [NATURAL_SKILL:WHIP:1]      
-   [CAN_DO_INTERACTION:EARTH_KOBOLD_POWERUP]   # earth
-      [CDI:ADV_NAME:Become more combat hardened.] 
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:33600] 
-      [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   
-   
-   [CASTE:BADGER_MALE]
-      [MALE][CASTE_PROFESSION_NAME:STANDARD:Badger-sign Kobold:Badger-sign Kobolds] 
-      [CREATURE_CLASS:KOBOLD_MALE]
-
-   [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BADGER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Badger are strong and ferocious, and tend to find work as butchers.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
-   [PHYS_ATT_RANGE:STRENGTH:750:1200:1500:1800:2000:2250:2550]  + 50% bonus wrt other kobolds
-   [PRONE_TO_RAGE]
-   [SKILL_LEARN_RATE:BUTCHER:150]
-   [NATURAL_SKILL:BUTCHER:1]
-   [SKILL_LEARN_RATE:TANNER:150]
-   [NATURAL_SKILL:TANNER:1]   
-   [CAN_DO_INTERACTION:EARTH_KOBOLD_POWERUP]   # earth
-      [CDI:ADV_NAME:Become more combat hardened.] 
-      [CDI:TARGET:A:SELF_ONLY]
-      [CDI:WAIT_PERIOD:33600] 
-      [CDI:FREE_ACTION]
-   [POP_RATIO:1200]   
-   
-   
-   
 	[SELECT_CASTE:ALL]
+		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
+		[TISSUE_LAYER:BY_CATEGORY:CHEEK:CHEEK_WHISKERS]
+		All kobolds have cheek fur tufts.
+
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
-			[TL_COLOR_MODIFIER:BROWN:1]
+			[TL_COLOR_MODIFIER:BROWN:1:DARK_BROWN:1:LIGHT_BROWN:1:PALE_BROWN:1]
 				[TLCM_NOUN:skin:SINGULAR]
-			[TISSUE_LAYER_APPEARANCE_MODIFIER:WRINKLY:0:0:0:0:0:0:0]
-				[APP_MOD_RATE:1:YEARLY:0:100:60:0:NO_END]
-				[APP_MOD_NOUN:skin:SINGULAR]
-				[APP_MOD_DESC_RANGE:0:0:0:1:25:50]
+
+		[SET_TL_GROUP:BY_CATEGORY:ALL:HAIR]
+		 [PLUS_TL_GROUP:BY_CATEGORY:CHEEK:CHEEK_WHISKERS]
+		 [PLUS_TL_GROUP:BY_CATEGORY:HEAD:CHIN_WHISKERS]
+		 [PLUS_TL_GROUP:BY_CATEGORY:EYELID:EYELASH]
+			[TL_COLOR_MODIFIER:DARK_BROWN:1:BROWN:1:LIGHT_BROWN:1:PALE_BROWN:1:AUBURN:1:CHESTNUT:1:TAUPE_SANDY:1:TAUPE_PALE:1]
+			[TLCM_NOUN:fur:SINGULAR]
+		[TL_COLOR_MODIFIER:GRAY:1]
+			[TLCM_NOUN:fur:SINGULAR]
+			[TLCM_TIMING:ROOT:40:0:50:0]
+		[TL_COLOR_MODIFIER:WHITE:1]
+			[TLCM_NOUN:fur:SINGULAR]
+			[TLCM_TIMING:ROOT:50:0:60:0]
+
+		[SET_TL_GROUP:BY_CATEGORY:ALL:HAIR]
+			[TISSUE_LAYER_APPEARANCE_MODIFIER:LENGTH:50:80:90:100:110:120:150]
+				[APP_MOD_NOUN:fur:SINGULAR]
+				[APP_MOD_DESC_RANGE:55:70:90:110:130:145]
+			[TISSUE_LAYER_APPEARANCE_MODIFIER:DENSE:50:80:90:100:110:120:150]
+				[APP_MOD_NOUN:fur:SINGULAR]
+				[APP_MOD_DESC_RANGE:55:70:90:110:130:145]
+			[TISSUE_LAYER_APPEARANCE_MODIFIER:GREASY:50:80:90:100:110:120:150]
+				[APP_MOD_NOUN:fur:SINGULAR]
+				[APP_MOD_DESC_RANGE:55:70:90:110:130:145]
+
+		[SET_TL_GROUP:BY_CATEGORY:CHEEK:CHEEK_WHISKERS]
+			[TISSUE_LAYER_APPEARANCE_MODIFIER:LENGTH:50:80:90:100:110:120:150]
+				[APP_MOD_NOUN:cheek whiskers:PLURAL]
+				[APP_MOD_DESC_RANGE:55:70:90:110:130:145]
+				[APP_MOD_IMPORTANCE:500]
+
+		[SET_TL_GROUP:BY_CATEGORY:HEAD:CHIN_WHISKERS]
+			[TISSUE_LAYER_APPEARANCE_MODIFIER:LENGTH:50:80:90:100:110:120:150]
+				[APP_MOD_NOUN:chin whiskers:PLURAL]
+				[APP_MOD_DESC_RANGE:55:70:90:110:130:145]
+				[APP_MOD_IMPORTANCE:500]
+
+		[SET_TL_GROUP:BY_CATEGORY:EYELID:EYELASH]
+			[TISSUE_LAYER_APPEARANCE_MODIFIER:LENGTH:50:80:90:100:110:120:150]
+				[APP_MOD_NOUN:eyelashes:PLURAL]
+				[APP_MOD_DESC_RANGE:55:70:90:110:130:145]
+
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
-			[TL_COLOR_MODIFIER:PUPIL_EYE_YELLOW:1]
+			[TL_COLOR_MODIFIER:PUPIL_EYE_RED:1:PUPIL_EYE_ORANGE:1:PUPIL_EYE_YELLOW:2:PUPIL_EYE_GREEN:1]
 				[TLCM_NOUN:eyes:PLURAL]
 
-#### EOF - THIS LINE IS 80 CHARACTERS LONG #####50########60########70########80
-5
-4
-3
-2
-1
+		[SET_TL_GROUP:BY_CATEGORY:FINGER:CLAW]
+		 [PLUS_TL_GROUP:BY_CATEGORY:TOE:CLAW]
+		 	[TISSUE_LAYER_APPEARANCE_MODIFIER:LENGTH:80:90:95:100:110:130:150]
+				[APP_MOD_NOUN:claws:PLURAL]
+				[APP_MOD_DESC_RANGE:60:80:90:110:130:150]

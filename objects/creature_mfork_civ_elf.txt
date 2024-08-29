@@ -12,26 +12,42 @@ creature_mfork_civ_elf
 	[CREATURE_CLASS:MAMMAL]
 	[CANOPENDOORS]
 	[BENIGN]
-	YES_HARDERLEARNING[SKILL_LEARN_RATES:50]
-		[NATURAL_SKILL:AXE:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:SWORD:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:MACE:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:HAMMER:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:SPEAR:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:CROSSBOW:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:SHIELD:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:ARMOR:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:PIKE:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:WHIP:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:BOW:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:BLOWGUN:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:MELEE_COMBAT:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:RANGED_COMBAT:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:WRESTLING:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:BITE:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:GRASP_STRIKE:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:STANCE_STRIKE:0]YESHARDERINVADER_ELF
-	[NATURAL_SKILL:DODGING:0]YESHARDERINVADER_ELF
+
+ --------------------# RACIAL SKILLS #-------------------
+    In MFORK skill learn rates are halved across the board, this was done for the following reasons;
+
+     * Slow down the rapid pace at which creatures level up their skills. A dwarf shouldn't be put to train with an axe for a season and forgotten about-
+        only for him to be a legendary axedwarf after just a few seasons; Characters of legendary skill should be a rare sight.
+	 * Make guilds and natrual skills be more relevant and desired traits when making decisions.
+	 * something else probably, i dunno.
+	 * skills now also rust 50 slower
+
+
+[SKILL_LEARN_RATES:50] global -50% skill learn rate // [SKILL_RUST_RATES:100:12:24:24] global -50% skill rust rate
+
+	NATURAL_SKILL:MINING:                   2]
+	    SKILL_RATE:MINING:          100:0:0:0]
+	NATURAL_SKILL:MASONRY:                  1]
+	    SKILL_RATE:MASONRY:         100:0:0:0]
+    NATURAL_SKILL:BREWING:                  1]
+	    SKILL_RATE:BREWING:         100:0:0:0]
+	NATURAL_SKILL:ENGRAVE_STONE:            1]
+	    SKILL_RATE:ENGRAVE_STONE:   100:0:0:0]
+	NATURAL_SKILL:FORGE_WEAPON:             1]
+	    SKILL_RATE:FORGE_WEAPON:    100:0:0:0]
+	NATURAL_SKILL:FORGE_ARMOR:              1]
+	    SKILL_RATE:FORGE_ARMOR:     100:0:0:0]
+	NATURAL_SKILL:METALCRAFT:               1]
+	    SKILL_RATE:METALCRAFT:      100:0:0:0]
+	NATURAL_SKILL:CUTGEM:                   1]
+	    SKILL_RATE:CUTGEM:          100:0:0:0]
+	NATURAL_SKILL:DISCIPLINE:               1]
+	    SKILL_RATE:DISCIPLINE:      100:0:0:0]
+	NATURAL_SKILL:MELEE_COMBAT:             1]
+	    SKILL_RATE:MELEE_COMBAT:    100:0:0:0] 
+	---------------------------------------------------------	
+
+
 	[STRANGE_MOODS]
 	[PREFSTRING:grace]
 	[SPEECH:elf.txt]
