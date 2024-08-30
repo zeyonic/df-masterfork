@@ -2,7 +2,67 @@ text_greet_reply_after_hero
 
 [OBJECT:TEXT_SET]
 
+Credits:
+Vanilla
+New
+SethCreiyd Speech Expansion
+Tarran (FlavorText)
+DF Wiki Speech Mods
+
 [TEXT_SET:GREET_REPLY_AFTER_HERO]
 
 I am [SPEAKER:TRANS_NAME].  Can I be of some help?
 I am [SPEAKER:TRANS_NAME].  How can I be of service?
+
+[AUDIENCE:TRANS_NAME]? The [AUDIENCE:TRANS_NAME]?
+The bards sing of you.  Where does [SPEAKER:TRANS_NAME] fit into your tale?
+I have heard.  My name is [SPEAKER:TRANS_NAME].
+Don't tell me.  I'm [SPEAKER:TRANS_NAME].
+You weave a thick yarn, [AUDIENCE:FIRST_NAME].
+A worthy rival to [SPEAKER:TRANS_NAME]!
+Will they sing of [SPEAKER:TRANS_NAME], too?
+Have you forgotten me? [SPEAKER:TRANS_NAME]?
+You're [AUDIENCE:FIRST_NAME].  I'm only a [SPEAKER:RACE].
+[SPEAKER:TRANS_NAME], [SPEAKER:UNIT_NAME] of legend, greets you.
+I'm little more than a [SPEAKER:FIRST_NAME] myself.
+I am [SPEAKER:TRANS_NAME].  I'm proud to be working with you.
+A friend of righteousness is a friend of [SPEAKER:FIRST_NAME].
+A friend of the people is a friend of [SPEAKER:FIRST_NAME].
+You would deign to the level of [SPEAKER:TRANS_NAME]? A hero of the people indeed!
+How chivalrous of you to speak to little old [SPEAKER:TRANS_NAME]!
+So, are you looking for something? I'm [SPEAKER:FIRST_NAME], by the way.
+The house of [SPEAKER:TRANS_NAME] welcomes you.
+You flatter me by your presence.  I am [SPEAKER:TRANS_NAME].
+And I'm [SPEAKER:TRANS_NAME], if that counts for anything.
+Where have I heard that name before?
+I thought you would be taller.
+So you are the one they call [AUDIENCE:FIRST_NAME].
+You will know the name [SPEAKER:TRANS_NAME]!
+
+Good day!  I'm [SPEAKER:TRANS_NAME].  Can I be of some help?
+Welcome!  I'm [SPEAKER:TRANS_NAME].  How can I be of service?
+I'm [SPEAKER:TRANS_NAME].  We are glad to have you here.
+I am [SPEAKER:TRANS_NAME].  It is an honor to speak with you.
+If there is anything I can do, I am humbly at your service.
+Please, if there is anything you need, simply ask.
+Let me know if there is anything I can help with.
+If you need to find a place to stay for the night, you need only ask.
+
+Oh, it's you! Greetings, hero! My name is [SPEAKER:TRANS_NAME]. Definitely pleased to meet you!
+Greetings, hero! What may I, [SPEAKER:TRANS_NAME] do for you?
+I know you! Greetings! My name is [SPEAKER:TRANS_NAME].
+Hi! My name is [SPEAKER:TRANS_NAME].
+Hello! My name is [SPEAKER:TRANS_NAME].
+Greetings! My name is [SPEAKER:TRANS_NAME].
+Oh my, it's you! What can [SPEAKER:TRANS_NAME] do for you?
+Greetings, [AUDIENCE:FIRST_NAME]. You are an example to us all. My name is [SPEAKER:TRANS_NAME].
+[AUDIENCE:FIRST_NAME]? Oh my, it's you! My name is [SPEAKER:TRANS_NAME], what may I do for you?
+I've certainly heard about you! My name is [SPEAKER:TRANS_NAME].
+Greetings. Your deeds are sung widely, hero. My name is [SPEAKER:TRANS_NAME].
+Oh, wow, it's you, mighty hero! My name is [SPEAKER:TRANS_NAME], what can I do for you?
+
+Looking into your eyes, I can see a depth that I have not witnessed since I last glanced in the well.
+I must say, I have never seen someone bearing boots of such an intriguing color before.
+[SPEAKER:TRANS_NAME], [SPEAKER:UNIT_NAME], at your service!
+I am ever grateful for your attention.   My name is [SPEAKER:TRANS_NAME].
+Local [SPEAKER:UNIT_NAME], [SPEAKER:TRANS_NAME], gracing you with [SPEAKER:PRO_POS] attention!

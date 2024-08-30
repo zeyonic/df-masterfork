@@ -64,7 +64,7 @@ Attribute Rebalancing:
 --------------------------------------------------------------------------------
 
 [OBJECT:CREATURE]
-[CREATURE:MFORK_KOBOLD]
+[CREATURE:KOBOLD]
 	[DESCRIPTION:A small humanoid with glowing eyes, pointy-ears, and a penchant for mischief.]
 	[NAME:kobold:kobolds:kobold]
 	[CASTE_NAME:kobold:kobolds:kobold]
@@ -73,8 +73,8 @@ Attribute Rebalancing:
 	[TRAPAVOID]
 	[INTELLIGENT]
 	[WANDERER]
-	[CAN_SPEAK]
-    [CAN_LEARN]
+	[CAN_LEARN]
+	[UTTERANCES]
 	[BONECARN]
 	[CANOPENDOORS]
 	[OUTSIDER_CONTROLLABLE]

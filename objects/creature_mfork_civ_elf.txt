@@ -2,7 +2,7 @@ creature_mfork_civ_elf
 
 [OBJECT:CREATURE]
 
-[CREATURE:MFORK_ELF]
+[CREATURE:ELF]
 	[DESCRIPTION:A medium-sized creature dedicated to the ruthless protection of nature.]
 	[NAME:elf:elves:elven]
 	[CASTE_NAME:elf:elves:elven]

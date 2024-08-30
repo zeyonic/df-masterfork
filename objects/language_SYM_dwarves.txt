@@ -1,0 +1,740 @@
+language_SYM_dwarves
+
+[OBJECT:LANGUAGE]
+
+Vanilla: +ARTIFICE +EARTH -DOMESTIC -SUBORDINATE -EVIL -FLOWERY -NEGATIVE -UGLY -NEGATOR
+Dwarves have a stereotypical naming scheme in fantasy fiction: "Thorin Oakenshield" from "Dwarrowdelf" (LotR) and "Bruenor Battlehammer" (D&D) being notables among them. There's also plenty of named dwarves in Norse folklore, with the Poetic Edda citing many. Since these symbols are also inextricably used for site compound names, geonyms also feature prominently among names.
+Many of the conventions established here, such as "minor" civ adjectives or "profession"-themed names also extend to the other naming conventions. The tags <, V, and > denote what compound positions a word can be used in, with V being the unpredictable STANDARD_VERB case. Double-verbs often look silly, so I've taken care to generally limit them to the main symbol.
+Squads don't use the MILITARY_UNIT symbol, but I've defined them for all of the namelists in case they start to be used.
+
+[SYMBOL:DWARF_NAME]
+	Urban Geonyms
+	[S_WORD:CASTLE] <>
+	[S_WORD:CITY] >
+	[S_WORD:DUNGEON] <>
+	[S_WORD:HALL] <>
+	[S_WORD:HAME] >
+	[S_WORD:HEARTH] <>
+	[S_WORD:HOLD] <>
+	[S_WORD:HOME] >
+	[S_WORD:MANOR] <>
+	[S_WORD:PALACE] >
+	[S_WORD:TOWN] >
+	[S_WORD:VILLAGE] >
+
+	Construction Geonyms
+	[S_WORD:ARCH NOUN] <>
+	[S_WORD:BASEMENT] <>
+	[S_WORD:BASTION] <>
+	[S_WORD:BORE DRILL] <>
+	[S_WORD:BRIDGE] >
+	[S_WORD:BULWARK] >
+	[S_WORD:CHAMBER] >
+	[S_WORD:DOOR] >
+	[S_WORD:FORD] <>
+	[S_WORD:GATE] >
+	[S_WORD:PASSAGE] >
+	[S_WORD:PILLAR] >
+	[S_WORD:ROAD] >
+	[S_WORD:SHAFT] >
+	[S_WORD:TOWER] <>
+	[S_WORD:VAULT PLACE] >
+	[S_WORD:WALL] <>
+
+	Natural Geonyms
+	[S_WORD:CANYON] <>
+	[S_WORD:CAVERN] <>
+	[S_WORD:CAVE] <>
+	[S_WORD:DEN] <>
+	[S_WORD:GORGE_NOUN] >
+	[S_WORD:GROTTO] <>
+	[S_WORD:GULF DISTANCE] >
+	[S_WORD:GULF PIT] <>
+	[S_WORD:HILL] <>
+	[S_WORD:LAND] <>
+	[S_WORD:MOUNTAIN] <>
+	[S_WORD:PASS MOUNTAIN] >
+	[S_WORD:TUNNEL] <V>
+	[S_WORD:VALE] <>
+	[S_WORD:VALLEY] <>
+
+	Battle items
+	[S_WORD:ARMOR] >
+	[S_WORD:ARM] <>
+	[S_WORD:ARROW] <>
+	[S_WORD:AXE] <>
+	[S_WORD:BLADE] <>
+	[S_WORD:BOLT] >
+	[S_WORD:DAGGER] <>
+	[S_WORD:HAMMER] <>
+	[S_WORD:HATCHET] >
+	[S_WORD:HELM] <>
+	[S_WORD:LANCE] >
+	[S_WORD:RAZOR] <
+	[S_WORD:SABRE] <>
+	[S_WORD:SHIELD] V>
+	[S_WORD:SPEAR] <
+	[S_WORD:SWORD] >
+
+	Other items
+	[S_WORD:ALE] <
+	[S_WORD:ANVIL] >
+	[S_WORD:BEER] <
+	[S_WORD:BREW] <>
+	[S_WORD:DRUM] <>
+	[S_WORD:GEAR] <>
+	[S_WORD:HORN] >
+	[S_WORD:KEG] >
+	[S_WORD:LETTER] <>
+	[S_WORD:LOOT] >
+	[S_WORD:MEAD] <
+	[S_WORD:PICK] <>
+	[S_WORD:RELIC] <>
+	[S_WORD:SEAL_ART] <>
+	[S_WORD:THRONE] <>
+	[S_WORD:WEALTH] <>
+	[S_WORD:WHISKY] <
+	[S_WORD:WINE] <>
+
+	Earth
+	[S_WORD:BLACK] <
+	[S_WORD:BOULDER] <>
+	[S_WORD:BRONZE] <
+	[S_WORD:CRYSTAL] <>
+	[S_WORD:DARK] <>
+	[S_WORD:DEEP] <>
+	[S_WORD:DEPTH] <>
+	[S_WORD:DIAMOND] <>
+	[S_WORD:EARTH] <>
+	[S_WORD:GEM] <
+	[S_WORD:GOLD] <
+	[S_WORD:GRANITE] <
+	[S_WORD:GRAVEL] <>
+	[S_WORD:IRON] <
+	[S_WORD:JEWEL] <V>
+	[S_WORD:MARBLE BALL] <
+	[S_WORD:METAL] <>
+	[S_WORD:QUAKE] >
+	[S_WORD:ROCK] <>
+	[S_WORD:SILVER] <
+	[S_WORD:STEEL] <>
+	[S_WORD:STONE] <>
+	[S_WORD:UNDER] <
+
+	Professions and organizations
+	[S_WORD:DEFEND] V>
+	[S_WORD:HERO] <>
+	[S_WORD:JUDGE] <V>
+	[S_WORD:KNIGHT] <V>
+	[S_WORD:PRINCE] <>
+	[S_WORD:SMITH] >
+	[S_WORD:WARRIOR] <>
+
+	Dwarfy stuff and body
+	[S_WORD:AUBURN] <
+	[S_WORD:BEARD] <>
+	[S_WORD:BLOOD] >
+	[S_WORD:BRAID] <>
+	[S_WORD:EAR] >
+	[S_WORD:FIST] >
+	[S_WORD:GRAY] <
+	[S_WORD:LOCK HAIR] >
+	[S_WORD:LOW] <>
+	[S_WORD:PLAIT] <>
+	[S_WORD:RUSSET] <
+
+	Virtues and Adjectives
+	[S_WORD:BATTLE] <>
+	[S_WORD:BOLD] <
+	[S_WORD:GREED] <>
+	[S_WORD:LONG] <>
+	[S_WORD:PURE] <
+	[S_WORD:RED] <
+	[S_WORD:SHORT] <
+	[S_WORD:SWIFT] <
+	[S_WORD:TALL] <>
+	[S_WORD:TRUTH] <>
+	[S_WORD:WAR] <
+	[S_WORD:WHITE] <
+	[S_WORD:WISDOM] <>
+
+[SYMBOL:DWARF_NAME_MAIN]
+As the primary name symbol, this uses exclusivity to prevent too much overlap on things dwarves feel strongly about - no dwarf would be caught dead being named "Clanbane" or so.
+	+ Urban Geonyms
+	[S_WORD:CHAMBER] >
+	[S_WORD:CRYPT] <>
+	[S_WORD:FORTRESS] >
+	[S_WORD:HOUSE] >
+	[S_WORD:MARKET] >
+	[S_WORD:TOMB] <>
+
+	+ Construction Geonyms
+	[S_WORD:CHANNEL] V>
+	[S_WORD:DWELLING] >
+	[S_WORD:FENCE] >
+	[S_WORD:MINE] <V>
+	[S_WORD:SPIRE] <>
+	[S_WORD:TRENCH] <>
+
+	+ Natural Geonyms
+	[S_WORD:BASIN] >
+	[S_WORD:HEDGE] <>
+	[S_WORD:HOLE] >
+
+	+ Battle items
+	[S_WORD:BOW] >
+	[S_WORD:FORK] <V>
+	[S_WORD:KNIFE] <>
+	[S_WORD:PLATE] <>
+	[S_WORD:SHOOT] V>
+	[S_WORD:STAFF] >
+
+	+ Other items
+	[S_WORD:BANNER] <>
+	[S_WORD:BRIM] >
+	[S_WORD:CUP] >
+	[S_WORD:DRINK] <V>
+	[S_WORD:DYE] <>
+	[S_WORD:FLAG] >
+	[S_WORD:FURNACE] <>
+	[S_WORD:MOLE] <>
+	[S_WORD:MOSS] <>
+	[S_WORD:MUSHROOM] <>
+	[S_WORD:PAGE] V>
+	[S_WORD:RIM] >
+	[S_WORD:SHOVEL] <V>
+	[S_WORD:SILK] <>
+	[S_WORD:STANDARD FLAG] <>
+	[S_WORD:TREASURE] <>
+	[S_WORD:WHEAT] <>
+
+	+ Earth
+	[S_WORD:BRASS] <
+	[S_WORD:COAL] <>
+	[S_WORD:COPPER] <
+	[S_WORD:DIKE] >
+	[S_WORD:EMERALD] <>
+	[S_WORD:JADE] <>
+	[S_WORD:OCHRE] <>
+	[S_WORD:SALT] <>
+	[S_WORD:SHADOW] <>
+	[S_WORD:SILT] <>
+	[S_WORD:TIN] <
+	[S_WORD:UMBER] <>
+
+	+ Professions and organizations
+	[S_WORD:CONSTRUCT] <V>
+	[S_WORD:CRAFT] V>
+	[S_WORD:FIND] V>
+	[S_WORD:GUARD] V>
+	[S_WORD:GUILD] >
+	[S_WORD:JACK] >
+	[S_WORD:KEEPER] >
+	[S_WORD:KING] <
+	[S_WORD:LANCER] >
+	[S_WORD:LORD] >
+	[S_WORD:MACHINE] <>
+	[S_WORD:MASTER] >
+	[S_WORD:MERCHANT] >
+	[S_WORD:MONGER] >
+	[S_WORD:QUEEN] <
+	[S_WORD:SCRIBE] <V>
+	[S_WORD:WARD] V>
+	[S_WORD:WATCH] V>
+	[S_WORD:WIELD] V>
+	[S_WORD:WORKER] >
+
+	+ Dwarfy stuff and body
+	[S_WORD:ANCIENT] <>
+	[S_WORD:AUTUMN] <
+	[S_WORD:BARB] <>
+	[S_WORD:BOTTOM] >
+	[S_WORD:BROTHER] >
+	[S_WORD:CHILD] >
+	[S_WORD:CLAN] <>
+	[S_WORD:DOUR] <
+	[S_WORD:DWELL] >
+	[S_WORD:FATHER] <>
+	[S_WORD:FELLOWSHIP] <>
+	[S_WORD:HAND] >
+	[S_WORD:HEART] <>
+	[S_WORD:KIN] <>
+	[S_WORD:RACE_GROUP] >
+	[S_WORD:STAND] V>
+	[S_WORD:STERN] <>
+	[S_WORD:STRIKE] V>
+
+	+ Negator
+	[S_WORD:BANE] <>
+	[S_WORD:BREAK] V>
+	[S_WORD:CINDER] <>
+	[S_WORD:CLEAVE] <V>
+	[S_WORD:COLD] <
+	[S_WORD:CRACK] V>
+	[S_WORD:CRUSHER] V>
+	[S_WORD:CUT] V
+	[S_WORD:DIRT] <
+	[S_WORD:GRIND] V
+	[S_WORD:MURDER] <V
+	[S_WORD:RAGE] <>
+	[S_WORD:RUST] <V>
+	[S_WORD:SCRAPE] <V>
+	[S_WORD:SHAKE] V>
+	[S_WORD:SHATTER] <V>
+	[S_WORD:SHEAR] V
+	[S_WORD:SMASH] V
+	[S_WORD:SOOT] <>
+	[S_WORD:SPLIT] <V>
+	[S_WORD:TARNISH] V>
+
+	+ Virtues/adjectives
+	[S_WORD:BRAVERY] <V>
+	[S_WORD:DEAR] <
+	[S_WORD:ELDER] <>
+	[S_WORD:EVER] <
+	[S_WORD:FAIR EVEN] <>
+	[S_WORD:FIRST] <
+	[S_WORD:FRIEND] <>
+	[S_WORD:GLAD] <
+	[S_WORD:GRAND] <
+	[S_WORD:GREAT] <
+	[S_WORD:HARDY] <
+	[S_WORD:HIGH] <
+	[S_WORD:HONOR] <V>
+	[S_WORD:HUMBLE] <
+	[S_WORD:JUST] >
+	[S_WORD:LAW] <>
+	[S_WORD:LOYAL] <>
+	[S_WORD:LUSTER] <>
+	[S_WORD:MIGHTY] <
+	[S_WORD:NEW] <
+	[S_WORD:POWER] <
+	[S_WORD:PRIDE] <>
+	[S_WORD:SOUL] <>
+	[S_WORD:STRENGTH] <>
+	[S_WORD:WILL] <>
+
+	+ Some translated names from the Poetic Edda
+	[S_WORD:BOARD PLANK] <>
+	[S_WORD:BOAR] <>
+	[S_WORD:BOIL] >
+	[S_WORD:FLAME] <>
+	[S_WORD:FROST] <>
+	[S_WORD:GLEAM] <V>
+	[S_WORD:OX] <>
+	[S_WORD:SPARK] <>
+	[S_WORD:THUNDER] <V>
+
+	+ First names only
+	[S_WORD:ARTIFICE]
+
+[SYMBOL:DWARF_NAME_SUB]
+These words can appear either with a negator or with the words dwarves value most highly, so these words are exclusive.
+	~ Opinionated stuff, very dwarfy to care about these things
+	[S_WORD:COBALT] <
+	[S_WORD:DRAGON] <> //Fafnir!
+	[S_WORD:FAME] <>
+	[S_WORD:GHOST] <>
+	[S_WORD:KING] <
+	[S_WORD:MOLTEN] <
+	[S_WORD:NOBLE] <
+	[S_WORD:OAK] <>
+	[S_WORD:QUEEN] <
+	[S_WORD:SKULL] <>
+
+	~ Other items
+	[S_WORD:AZURE] < //lapis lazuli
+	[S_WORD:BOAT] <> //A very famous fortres...
+
+	~ Dwarfy stuff and body
+	[S_WORD:HAND] <
+
+	~ Adjectives, a little bit more neutral this time
+	[S_WORD:GRIM] <
+	[S_WORD:MANY] <
+	[S_WORD:ONE] >
+	[S_WORD:ONE_PREF] <
+	[S_WORD:ROUGH] <>
+	[S_WORD:SQUAT] <
+	[S_WORD:THREE] <
+	[S_WORD:TWO] <>
+
+[SYMBOL:DWARF_CIV_THE]
+	[S_WORD:BANNER]
+	[S_WORD:BASTION]
+	[S_WORD:CLAN]
+	[S_WORD:CROWN]
+	[S_WORD:DOMAIN]
+	[S_WORD:EMPIRE]
+	[S_WORD:KINGDOM]
+	[S_WORD:LAND]
+	[S_WORD:NATION]
+	[S_WORD:REALM]
+	[S_WORD:REIGN]
+	[S_WORD:THRONE]
+
+	[S_WORD:JEWEL]
+	[S_WORD:TREASURE]
+
+	[S_WORD:MOUNTAIN]
+	[S_WORD:SPIRE]
+	[S_WORD:STONE]
+
+	[S_WORD:ANVIL]
+	[S_WORD:FURNACE]
+
+[SYMBOL:DWARF_CIV_ADJ_MAJOR]
+	[S_WORD:AGELESS]
+	[S_WORD:AGE]
+	[S_WORD:ANCIENT]
+	[S_WORD:AUTUMN]
+	[S_WORD:DUSK]
+	[S_WORD:DUST]
+	[S_WORD:ELDER]
+	[S_WORD:ETERNAL]
+	[S_WORD:EVERLASTING]
+	[S_WORD:GRAY]
+	[S_WORD:IMMORTAL]
+	[S_WORD:IMPERVIOUS]
+	[S_WORD:OAK]
+	[S_WORD:OLD]
+	[S_WORD:RELIC]
+	[S_WORD:RUST]
+	[S_WORD:TWILIGHT]
+	[S_WORD:VENERATE]
+	[S_WORD:YEAR]
+	[S_WORD:YORE]
+
+	[S_WORD:BRILLIANT]
+	[S_WORD:FAIR EVEN]
+	[S_WORD:GRAND]
+	[S_WORD:GREAT]
+	[S_WORD:HERO]
+	[S_WORD:HIGH]
+	[S_WORD:HONEST]
+	[S_WORD:HONOR]
+	[S_WORD:LAW]
+	[S_WORD:MIGHTY]
+	[S_WORD:NOBLE]
+	[S_WORD:PURE]
+	[S_WORD:QUIET]
+	[S_WORD:REGAL]
+	[S_WORD:ROYAL]
+	[S_WORD:STERN]
+
+	[S_WORD:BEARD]
+	[S_WORD:BROTHER]
+	[S_WORD:DWELL]
+	[S_WORD:LETTER]
+	[S_WORD:RUSSET]
+	[S_WORD:UNSEEN]
+	[S_WORD:VENERATE]
+
+[SYMBOL:DWARF_CIV_ADJ_MINOR]
+	[S_WORD:ARMOR]
+	[S_WORD:ARTIFACT]
+	[S_WORD:CRAFT]
+	[S_WORD:CREATE]
+	[S_WORD:FORTUNE WEALTH]
+	[S_WORD:FURNACE]
+	[S_WORD:LABOR]
+	[S_WORD:PALACE]
+	[S_WORD:SMITH]
+	[S_WORD:STEEL]
+	[S_WORD:TREASURE]
+	[S_WORD:WEALTH]
+
+	[S_WORD:BASEMENT]
+	[S_WORD:CANYON]
+	[S_WORD:CRYSTAL]
+	[S_WORD:DEEP]
+	[S_WORD:DIAMOND]
+	[S_WORD:EARTH]
+	[S_WORD:GEM]
+	[S_WORD:GRANITE]
+	[S_WORD:GRAVEL]
+	[S_WORD:HILL]
+	[S_WORD:IRON]
+	[S_WORD:JEWEL]
+	[S_WORD:MARBLE BALL]
+	[S_WORD:METAL]
+	[S_WORD:MOUNTAIN]
+	[S_WORD:ROCK]
+	[S_WORD:STONE]
+
+	[S_WORD:CASTLE]
+	[S_WORD:DEFEND]
+	[S_WORD:FORTIFY]
+	[S_WORD:FORTRESS]
+	[S_WORD:SPIRE]
+
+	[S_WORD:ALE]
+	[S_WORD:BEER]
+	[S_WORD:DRINKER]
+	[S_WORD:DRINK]
+	[S_WORD:MEAD]
+	[S_WORD:WHISKY]
+	[S_WORD:WINE]
+
+	[S_WORD:AMETHYST]
+	[S_WORD:AQUAMARINE]
+	[S_WORD:BRASS]
+	[S_WORD:BRONZE]
+	[S_WORD:COBALT]
+	[S_WORD:GOLD]
+	[S_WORD:OCHRE]
+	[S_WORD:SABLE COLOR]
+	[S_WORD:SIENNA]
+	[S_WORD:SILVER]
+	[S_WORD:UMBER]
+
+[SYMBOL:DWARF_SITE_THE] ~ARTIFICE ~EARTH
+	[S_WORD:ABBEY]
+	[S_WORD:CASTLE]
+	[S_WORD:CHAMBER]
+	[S_WORD:CITADEL]
+	[S_WORD:CITY]
+	[S_WORD:CLOISTER]
+	[S_WORD:FORTIFY]
+	[S_WORD:FORTRESS]
+	[S_WORD:HALL]
+	[S_WORD:HEARTH]
+	[S_WORD:HOLD]
+	[S_WORD:HOUSE]
+	[S_WORD:LAND]
+	[S_WORD:MANOR]
+	[S_WORD:PALACE]
+	[S_WORD:SPIRE]
+	[S_WORD:TOWER]
+	[S_WORD:TOWN]
+	[S_WORD:VILLAGE]
+
+	[S_WORD:CANYON]
+	[S_WORD:CAVERN]
+	[S_WORD:CAVE]
+	[S_WORD:CRYPT]
+	[S_WORD:DEEP]
+	[S_WORD:DEN]
+	[S_WORD:GULLY]
+	[S_WORD:HILL]
+	[S_WORD:MINE]
+	[S_WORD:PASS MOUNTAIN]
+	[S_WORD:PASSAGE]
+	[S_WORD:PEAK]
+	[S_WORD:PILLAR]
+	[S_WORD:POINT]
+	[S_WORD:RIM]
+	[S_WORD:TUNNEL]
+	[S_WORD:VALE]
+
+	[S_WORD:ARTIFICE]
+	[S_WORD:AXE]
+	[S_WORD:FURNACE]
+	[S_WORD:HAMMER]
+	[S_WORD:JEWEL]
+	[S_WORD:KEG]
+	[S_WORD:PILLAR]
+	[S_WORD:SHIELD]
+	[S_WORD:TREASURE]
+	[S_WORD:WEALTH]
+
+	[S_WORD:BARRICADE]
+	[S_WORD:BASTION]
+	[S_WORD:BULWARK]
+	[S_WORD:FORD]
+	[S_WORD:GATE]
+	[S_WORD:PALISADE]
+	[S_WORD:POST]
+	[S_WORD:RAMPART]
+	[S_WORD:STOCKADE]
+	[S_WORD:VAULT PLACE]
+	[S_WORD:WALL]
+
+	[S_WORD:ARMORY]
+	[S_WORD:AUTHORITY]
+	[S_WORD:BAND GROUP]
+	[S_WORD:BAND OBJECT]
+	[S_WORD:BANNER]
+	[S_WORD:BIND]
+	[S_WORD:BROTHER]
+	[S_WORD:CLAN]
+	[S_WORD:COALITION]
+	[S_WORD:COMPANY]
+	[S_WORD:FELLOWSHIP]
+	[S_WORD:GROUP]
+	[S_WORD:GUILD]
+	[S_WORD:KIN]
+	[S_WORD:KNIGHT]
+	[S_WORD:LEAGUE GROUP]
+	[S_WORD:LORD]
+	[S_WORD:MARKET]
+	[S_WORD:ORDER GROUP]
+	[S_WORD:SEAL_ART]
+	[S_WORD:SOCIETY]
+	[S_WORD:TREASURY]
+	[S_WORD:TREATY]
+	[S_WORD:TRIBE]
+
+[SYMBOL:DWARF_SQUAD_THE]
+	[S_WORD:ARMORY]
+	[S_WORD:ARM]
+	[S_WORD:AXE]
+	[S_WORD:BLADE]
+	[S_WORD:BOLT]
+	[S_WORD:BOOT]
+	[S_WORD:CUDGEL]
+	[S_WORD:DAGGER]
+	[S_WORD:HAMMER]
+	[S_WORD:HATCHET]
+	[S_WORD:LANCE]
+	[S_WORD:LASH]
+	[S_WORD:RAZOR]
+	[S_WORD:SCOURGE]
+	[S_WORD:SLING]
+	[S_WORD:SPEAR]
+	[S_WORD:SPIKE]
+	[S_WORD:SWORD]
+	[S_WORD:TORCH]
+
+	[S_WORD:ARMOR]
+	[S_WORD:BANNER]
+	[S_WORD:DEFEND]
+	[S_WORD:DEFENSE]
+	[S_WORD:ESCORT]
+	[S_WORD:FLAG]
+	[S_WORD:GUARD]
+	[S_WORD:HELM]
+	[S_WORD:RAMPART]
+	[S_WORD:SHIELD]
+	[S_WORD:STANDARD FLAG]
+
+	[S_WORD:ANVIL]
+	[S_WORD:AVALANCHE]
+	[S_WORD:BOULDER]
+	[S_WORD:COMET]
+	[S_WORD:METEOR]
+	[S_WORD:PICK]
+	[S_WORD:QUAKE]
+	[S_WORD:VOLCANO]
+
+	[S_WORD:BAND GROUP]
+	[S_WORD:BAND OBJECT]
+	[S_WORD:BROTHER]
+	[S_WORD:CHAMPION]
+	[S_WORD:COALITION]
+	[S_WORD:COMPANY]
+	[S_WORD:CONQUEROR]
+	[S_WORD:CRUSHER]
+	[S_WORD:HAMMERER]
+	[S_WORD:HERO]
+	[S_WORD:JACK]
+	[S_WORD:JUDGE]
+	[S_WORD:KNIGHT]
+	[S_WORD:LANCER]
+	[S_WORD:RAVAGER]
+	[S_WORD:SOLDIER]
+	[S_WORD:TROOPER]
+	[S_WORD:WARRIOR]
+
+[SYMBOL:DWARF_SQUAD_ADJ]
+	[S_WORD:ANGER]
+	[S_WORD:BATTLE]
+	[S_WORD:BLADE]
+	[S_WORD:BLEED]
+	[S_WORD:BLOODY]
+	[S_WORD:BLOOD]
+	[S_WORD:CHOP]
+	[S_WORD:CLEAVE]
+	[S_WORD:COMBAT]
+	[S_WORD:CRUSH]
+	[S_WORD:CUT]
+	[S_WORD:DANGER]
+	[S_WORD:DESTRUCTION]
+	[S_WORD:DISEMBOWELMENT]
+	[S_WORD:EVISCERATION]
+	[S_WORD:FEROCITY]
+	[S_WORD:FIERCE]
+	[S_WORD:FIGHT]
+	[S_WORD:FRENZY]
+	[S_WORD:FURY]
+	[S_WORD:IMPALE]
+	[S_WORD:RAGE]
+	[S_WORD:RAZOR]
+	[S_WORD:ROAR]
+	[S_WORD:RUIN_V]
+	[S_WORD:SCAR]
+	[S_WORD:SHATTER]
+	[S_WORD:SHOOT]
+	[S_WORD:SIEGE]
+	[S_WORD:SLAYER]
+	[S_WORD:STRIKE]
+	[S_WORD:SUNDER]
+	[S_WORD:THROWER]
+	[S_WORD:WAR]
+	[S_WORD:WRATH]
+	[S_WORD:YELL]
+
+	[S_WORD:ADVENTURE]
+	[S_WORD:BOLD]
+	[S_WORD:BRAVERY]
+	[S_WORD:COURAGE]
+	[S_WORD:DECISIVE]
+	[S_WORD:DOUR]
+	[S_WORD:DUTY]
+	[S_WORD:FREE]
+	[S_WORD:GREAT]
+	[S_WORD:HALE]
+	[S_WORD:HARDY]
+	[S_WORD:HERO]
+	[S_WORD:IMPERVIOUS]
+	[S_WORD:LAW]
+	[S_WORD:LOYAL]
+	[S_WORD:MASTER]
+	[S_WORD:MIGHTY]
+	[S_WORD:PEACE]
+	[S_WORD:POWER]
+	[S_WORD:PRIDE]
+	[S_WORD:QUEST]
+	[S_WORD:SPECIAL]
+	[S_WORD:STERN]
+	[S_WORD:STRENGTH]
+	[S_WORD:SUPERIOR]
+	[S_WORD:SWIFT]
+	[S_WORD:TENACITY]
+	[S_WORD:TRUTH]
+	[S_WORD:WORTHY]
+
+	[S_WORD:ARMOR]
+	[S_WORD:BRONZE]
+	[S_WORD:DEFENSE]
+	[S_WORD:FORTIFY]
+	[S_WORD:FORTRESS]
+	[S_WORD:GATE]
+	[S_WORD:GEAR]
+	[S_WORD:IRON]
+	[S_WORD:LACONIC]
+	[S_WORD:METAL]
+	[S_WORD:STEEL]
+	[S_WORD:WARD]
+
+	[S_WORD:CAVERN]
+	[S_WORD:DEEP]
+	[S_WORD:DEPTH]
+	[S_WORD:DIAMOND]
+	[S_WORD:EARTH]
+	[S_WORD:FURNACE]
+	[S_WORD:GOLD]
+	[S_WORD:MOUNTAIN]
+	[S_WORD:QUAKE]
+	[S_WORD:ROCK]
+	[S_WORD:ROUGH]
+	[S_WORD:SILVER]
+	[S_WORD:VOLCANO]
+
+	[S_WORD:BLAZE]
+	[S_WORD:BURN]
+	[S_WORD:FLAME]
+	[S_WORD:MOLTEN]
+	[S_WORD:SHOCK]
+	[S_WORD:STORM]
+	[S_WORD:THUNDER]

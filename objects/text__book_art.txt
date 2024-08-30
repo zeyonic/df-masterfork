@@ -1,0 +1,134 @@
+text_book_art
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:BOOK_ART]
+
+[NAME]
+[PHRASE]
+[ADJ] [NO_ART_NAME]
+The [ADJ] [NO_ART_NAME]
+[NAME] [ADJ]
+[NAME] and the [NOUN]
+[NAME] and the [ADJ] [NOUN]
+The [NOUN] and [NAME]
+The [ADJ] [NOUN] and [NAME]
+[NAME]: [PHRASE]
+It Must Have Been [NAME]
+My Friend [NAME]
+The Birth of [NAME]
+The Sun Sets on [NAME]
+We See [NAME]
+[NAME] Ever Onward
+[NAME] and Nothing More
+And [ANY_PRONOUN] Sang '[NAME]!'
+
+[NAME]
+[NAME]
+[NAME]
+[PHRASE]
+[PHRASE]
+[PHRASE]
+[PHRASE]
+[PHRASE]
+[NAME] [ADJ]
+The [ADJ] [NO_ART_NAME]
+The [ADJ] [NO_ART_NAME]
+[ANY_AGE] and [NAME]
+Dreams of [NAME]
+A Book For [ADJ] [NO_ART_NAME]
+A [ADJ] [NOUN]'s [NO_ART_NAME]
+All's [ADJ] That Ends [ADJ]
+Chronicles of [PHRASE]
+Diary of [NAME]
+Folk [NO_ART_NAME]
+Hymn to [NAME]
+Much Ado About [NAME]
+Ode to [NAME]
+Slaves to [NAME]
+Homage to [NAME]
+Of [NOUN] and [NO_ART_NAME]
+Still [PHRASE]
+The Allegory of [NAME]
+The Ballad of [NAME]
+The Comedy of [NAME]
+The Land of [NAME]
+The Legend of [NAME]
+The Life of [NAME]
+The Secret of [NAME]
+The Saga of [NAME]
+The Song of [NAME]
+The Story of [NAME]
+The Tale of [NAME]
+The Tragedy of [NAME]
+The Path of [NAME]
+The Follies of [NAME]
+The Prophecy of [NAME]
+The [ADJ] [NOUN] of [NAME]
+The [NOUN] of [NAME]
+The [NOUN] of [NOUN] and [NAME]
+The [NOUN] to [NAME]
+[ANY_PRONOUN] shall be [NAME]
+[ADJ] [NO_ART_NAME]
+[ADJ] Stories
+[ADJ] Fantasies
+[ADJ] Tales
+[ADJ] Songs
+[ADJ] Chronicles
+[ADJ] Poetry
+[NAME] Affair
+[NAME] Saga
+[NAME] and the [NOUN] of [NOUN]
+[NAME] is [NOUN]
+[NAME] of [PHRASE]
+[NAME] is [ADJ]
+[NAME] out of [NOUN]
+[NAME]: [ADJ] [NOUN]
+[NOUN] of [NAME]
+[NO_ART_NAME] II: [ADJ] [NOUN]
+[NO_ART_NAME] II: [PHRASE]
+[NOUN] Chronicles
+[NOUN] Stories
+[NAME]'s Heart
+[NAME]'s Tale
+[NAME]'s [NOUN]
+[NAME]'s [NOUN]
+[NAME], [PHRASE]
+[PHRASE], [PHRASE]
+Histories of [NOUN] and [NAME]
+I Am [NOUN]
+To [NOUN] and [NAME]!
+An Offering to [NAME]
+[ADJ] [NO_ART_NAME] and [ADJ] [NO_ART_NAME]
+In Search of [ADJ] [NAME]
+From [NAME] to [NOUN]
+Within [NAME]
+[NAME]'s Journey
+[NAME]'s [NOUN]
+[NAME] in the [NOUN]
+[ADJ] [ANY_AGE]
+[NOUN] for [NO_ART_NAME]
+To Be [ADJ] and [ADJ]
+Life in [NAME]
+[NAME] in [NOUN]
+The Quest for [NAME]
+[ANY_AGE] and [NAME]
+All Hail [NAME]
+[NAME]bound
+[ANY_PRONOUN] Shall Be [ADJ]
+[NAME], the [ADJ]
+A [ADJ] [NO_ART_NAME] of [NOUN]
+After Many a [NO_ART_NAME]
+Letter to the [ADJ]
+Listen, [NAME]!
+A Matter of [NOUN] and [NAME]
+And [ANY_PRONOUN] Saw The [NO_ART_NAME]
+In a Word, '[NAME]'
+Hearken to [NAME]
+Be [ANY_PRONOUN] as [ADJ] as a [NO_ART_NAME]
+[ANY_PRONOUN] Who Would Be [ADJ]
+You Are Absolutely Certain [ANY_PRONOUN] Said That
+Land of [NAME] and [NOUN]
+[ADJ] Ever After
+As [ADJ], So [ADJ]
+May [ANY_PRONOUN] Be [ADJ]

@@ -1,7 +1,7 @@
 creature_mfork_civ_dwarf
 
 [OBJECT:CREATURE]
-[CREATURE:MFORK_DWARF]
+[CREATURE:DWARF]
 	[DESCRIPTION:A short, sturdy creature fond of drink and industry.]
 	[NAME:dwarf:dwarves:dwarven]
 	[CASTE_NAME:dwarf:dwarves:dwarven]
@@ -41,13 +41,6 @@ creature_mfork_civ_dwarf
 	[NATURAL_SKILL:MELEE_COMBAT:             1]
 	    [SKILL_RATE:MELEE_COMBAT:    100:0:0:0] 
  
- [CREATURE:MFORK_DWARF]
-	[DESCRIPTION:A short, sturdy creature fond of drink and industry.]
-	[NAME:dwarf:dwarves:dwarven]
-	[CASTE_NAME:dwarf:dwarves:dwarven]
-	[CREATURE_TILE:1][COLOR:3:0:0]
-	[CREATURE_SOLDIER_TILE:2]
-    [CREATURE_CLASS:MAMMAL]
 
 	
 	Many of the following tags are actually caste-level tags (in this case, male and female), but because there are no differences between the castes for these tags in a dwarf, you can add them earlier.  Any caste-level tag that occurs before castes are explicitly declared is saved up and placed on any caste that is declared later, unless the caste is explicitly derived from another caste.

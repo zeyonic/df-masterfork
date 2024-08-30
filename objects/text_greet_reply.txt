@@ -2,6 +2,53 @@ text_greet_reply
 
 [OBJECT:TEXT_SET]
 
+Credits:
+Vanilla
+New
+SethCreiyd Speech Expansion
+Igfig (FlavorText)
+Cruxador (FlavorText)
+DF Wiki Speech Mods
+
 [TEXT_SET:GREET_REPLY]
 
 Ah, hello.  I'm [SPEAKER:TRANS_NAME].
+
+I'm alright. My name is [SPEAKER:TRANS_NAME].
+I'm glad you're here.  I'm [SPEAKER:FIRST_NAME].
+I'm [SPEAKER:TRANS_NAME].  Let's be friends.
+It's me, [SPEAKER:TRANS_NAME].
+My name is [AUDIENCE:TRANS_NAME], but just [SPEAKER:FIRST_NAME] is fine.
+My name is [SPEAKER:TRANS_NAME], don't wear it out.
+Oh, I haven't gotten to introduce myself.  I'm [SPEAKER:TRANS_NAME].
+Pray tell, [AUDIENCE:TRANS_NAME].  This is [SPEAKER:TRANS_NAME].
+Speak freely, [AUDIENCE:TRANS_NAME].  My name is [SPEAKER:FIRST_NAME].
+State your peace, [AUDIENCE:TRANS_NAME].  I'm [SPEAKER:FIRST_NAME].
+Welcome, [AUDIENCE:TRANS_NAME]. I'm [SPEAKER:TRANS_NAME].
+Well, hello there. I'm [SPEAKER:TRANS_NAME].
+You are among friends, [AUDIENCE:TRANS_NAME].  I'm [SPEAKER:FIRST_NAME].
+You can call me [SPEAKER:FIRST_NAME].
+You have my attention.  This is [SPEAKER:TRANS_NAME].
+[SPEAKER:FIRST_NAME].  [AUDIENCE:TRANS_NAME].
+
+Ah, welcome. I'm [SPEAKER:TRANS_NAME].
+Ah, well met.  My name is [SPEAKER:TRANS_NAME].
+Good day to you. I'm [SPEAKER:FIRST_NAME].
+Hail, friend. I'm [SPEAKER:FIRST_NAME].
+I'm [SPEAKER:TRANS_NAME].
+My name is [SPEAKER:TRANS_NAME].
+Pleased to meet you. I'm [SPEAKER:TRANS_NAME].
+
+The name's [SPEAKER:TRANS_NAME].  What can I do for you?
+Well met.  I am [SPEAKER:TRANS_NAME].
+
+I'm the one they call [SPEAKER:TRANS_NAME].
+Nice to meet you. My name is [SPEAKER:TRANS_NAME].
+Oh, hi, I'm [SPEAKER:FIRST_NAME].
+Well, how do you do? I'm [SPEAKER:TRANS_NAME].
+
+I am grateful for your attention. My name is [SPEAKER:TRANS_NAME].
+Local [SPEAKER:UNIT_NAME], [SPEAKER:TRANS_NAME], gracing you with [SPEAKER:PRO_POS] attention!
+Please, hush. If you must talk, call me [SPEAKER:FIRST_NAME].
+Well!  My name is [SPEAKER:FIRST_NAME]. And it is nice to see you!
+[SPEAKER:TRANS_NAME], at your service!

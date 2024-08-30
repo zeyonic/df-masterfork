@@ -1,7 +1,62 @@
 text_curse
 
+Credits:
+Vanilla
+New
+Tarran (FlavorText)
+Cruxador (FlavorText)
+NetHack taunts
+https://alt.org/nethack/addmsgs/
+
 [OBJECT:TEXT_SET]
 
 [TEXT_SET:CURSE]
 
 Who dares to enter my house?  I curse you!
+
+Oh, what arrogance you display, what hubris!
+If anything will be left to curse, your name will be cursed for all eternity to follow!
+And you would take this rest away from us, from all [SPEAKER:RACE]kind? You disgust me.
+You will perish from the horror your own curiosity shall unleash upon you.
+It will all end here soon enough, one way or another.
+You shall be the end of it, the cruellest [AUDIENCE:RACE] in all history.
+You would unleash pandemonium, out of vain hope?
+In your ignorance, you have created suffering and sin!
+You will only heal when you have atoned for your crime!
+
+Who dares awaken me, [SPEAKER:TRANS_NAME], who has defeated death itself?
+Who dares to trot on my lair's floor? Who dares to test my patience?
+A malediction for you, foolish [AUDIENCE:RACE]!
+May the grass underneath your feet die, and the sun never shine on your ignorant self!
+May our souls be eternally damned!
+Another insolent [AUDIENCE:RACE], who dares to walk on my grave, even as bones crunch under [AUDIENCE:PRO_POS] feet?
+I damn you, [AUDIENCE:RACE], I damn you to your death!
+Your life is forfeit and your soul is mine!
+And you do not know who I am? I, [SPEAKER:TRANS_NAME], spite you to oblivion!
+May your body turn to dust on your feet, and your name be forgotten by everyone you hold dear!
+
+Aw, damn, what are you doing in here? You know, I'm gonna have to curse you now.
+What manner of mortal being dares disturb my slumber? Begone, and may my curse ever dog your steps!
+May the souls of all who have entered here be eternally plagued by the malediction of [SPEAKER:TRANS_NAME]!
+After ten thousand years, I am free at last! The hour of my triumph is at hand!
+What foul vermin disgraces my stately sanctum? I bite my thumb at you, vile knave, and my spite shall hang as an iron mantle.
+Despair, for in entering this noble tomb you have crossed the eternal [SPEAKER:TRANS_NAME], and now my curse shall ever rest upon your shoulders!
+
+They have made a mistake in sending you, [AUDIENCE:RACE].
+There is no medicine which will cure you of me!
+You are far too arrogant - it weakens you. You shall die in this place.
+I shall rend the flesh from your body while you still breathe!
+Go now! You are banished from this place!
+Despair now, [AUDIENCE:RACE]. The gods cannot help you.
+Call upon your precious guardian, [AUDIENCE:RACE]. It shall not avail you.
+The time of your death draws near.
+Your life belongs to me now!
+You shall pay for your insolence!
+You are but a godless void!
+
+Become as you behold...
+Foolishness, [AUDIENCE:RACE]. Foolishness.
+Eternal darkness comes unto you!
+Every light must fade, every heart return to darkness!
+Sleep with this trauma that will leave you sleepless!
+You dare bring light into my lair? You must die!

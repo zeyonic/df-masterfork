@@ -1,0 +1,603 @@
+language_SYM_humans
+
+[OBJECT:LANGUAGE]
+
+Vanilla: -SUBORDINATE -EVIL -NEGATIVE -UGLY -NEGATOR
+Humans specify no name symbol in vanilla, leading to the theoretically most varied names. I've tried to add a more focused "medieval" feel to human names instead, with plenty of geonymic and professional names. I've also played up the few defined attributes of the plains civilization - their fixation on fanciful beasts, their affinity for war, and their comfort with "domestic" goods in their name.
+They're also the only namelist with "man" on it by default, fitting with the idea that the other ancestries are outside humanity. Personally, I see all the civilized creatures as sharing in the human condition, but it feels cleaner to limit to humans. A very versatile suffix, indeed.
+
+[SYMBOL:HUMAN_NAME]
+	Urban Geonyms
+	[S_WORD:CASTLE] <>
+	[S_WORD:CITY] >
+	[S_WORD:FORTRESS] >
+	[S_WORD:HALL] <>
+	[S_WORD:HAME] >
+	[S_WORD:HEARTH] <>
+	[S_WORD:HOLD] <>
+	[S_WORD:HOME] >
+	[S_WORD:HOUSE] >
+	[S_WORD:INN] <>
+	[S_WORD:LEAGUE GROUP] >
+	[S_WORD:MANOR] <>
+	[S_WORD:MARKET] >
+	[S_WORD:PALACE] >
+	[S_WORD:TOWN] >
+	[S_WORD:VILLAGE] >
+
+	Construction Geonyms
+	[S_WORD:BRIDGE] >
+	[S_WORD:COTTAGE] >
+	[S_WORD:FARM] <V>
+	[S_WORD:FENCE] >
+	[S_WORD:GATE] >
+	[S_WORD:PASS MOUNTAIN] >
+	[S_WORD:PATH] <>
+	[S_WORD:PORTAL] >
+	[S_WORD:ROAD] >
+	[S_WORD:ROOM] >
+	[S_WORD:TEMPLE] <>
+	[S_WORD:TOWER] <>
+	[S_WORD:WALL] <>
+	[S_WORD:WAY] <>
+
+	Natural Geonyms
+	[S_WORD:BANK] >
+	[S_WORD:BOTTOM] >
+	[S_WORD:CREEK] <>
+	[S_WORD:DALE] >
+	[S_WORD:DELL] >
+	[S_WORD:FIELD] >
+	[S_WORD:GLEN] >
+	[S_WORD:GREEN] <>
+	[S_WORD:GROVE] >
+	[S_WORD:HILL] <>
+	[S_WORD:LAKE] <>
+	[S_WORD:LAND] <>
+	[S_WORD:MARSH] <>
+	[S_WORD:REALM] <>
+	[S_WORD:RIVER] <>
+	[S_WORD:SHORE] >
+	[S_WORD:VALE] <>
+	[S_WORD:WATER] <>
+	[S_WORD:WOOD] <>
+
+	Measurement
+	[S_WORD:MILE] <>
+
+	Battle items
+	[S_WORD:ARM] <>
+	[S_WORD:ARROW] <>
+	[S_WORD:BLADE] <>
+	[S_WORD:BOW] >
+	[S_WORD:STAFF] >
+	[S_WORD:SWORD] >
+
+	Products and other items
+	[S_WORD:BANNER] <>
+	[S_WORD:BELL] <>
+	[S_WORD:BOAT] <>
+	[S_WORD:BOOT] >
+	[S_WORD:BREECHES] >
+	[S_WORD:CLOAK] <>
+	[S_WORD:COPPER] <
+	[S_WORD:FLAG] >
+	[S_WORD:FLUTE] >
+	[S_WORD:GRASS] <>
+	[S_WORD:HOOD] >
+	[S_WORD:IRON] <
+	[S_WORD:LACE] <>
+	[S_WORD:LETTER] <>
+	[S_WORD:LUTE] >
+	[S_WORD:OAK] <>
+	[S_WORD:PANTS] >
+	[S_WORD:PINE] <>
+	[S_WORD:QUILL] >
+	[S_WORD:RIM] >
+	[S_WORD:ROCK] <>
+	[S_WORD:SHIP] <>
+	[S_WORD:SKIRT_CLOTHING] >
+	[S_WORD:TORCH] <>
+
+	Food and pets
+	[S_WORD:ALE] <
+	[S_WORD:APPLE] <>
+	[S_WORD:BREW] <>
+	[S_WORD:BUSHEL] >
+	[S_WORD:CHEESE] <>
+	[S_WORD:DISH] >
+	[S_WORD:FRUIT] <>
+	[S_WORD:GRAIN] <>
+	[S_WORD:GRAPE] <>
+	[S_WORD:HARVEST] <>
+	[S_WORD:HONEY] <>
+	[S_WORD:LOAF] <>
+	[S_WORD:MEAL_DOM] >
+	[S_WORD:OLIVE] <>
+	[S_WORD:PLUM] <>
+	[S_WORD:SPICE] <
+	[S_WORD:STEED] >
+	[S_WORD:WINE] <>
+
+	Professions
+	[S_WORD:BRIDE] <>
+	[S_WORD:BUTCHER] <>
+	[S_WORD:DEFEND] V>
+	[S_WORD:FIND] V>
+	[S_WORD:FISH_VERB] <V>
+	[S_WORD:GENERAL] <>
+	[S_WORD:GUARD] V>
+	[S_WORD:GUILD] >
+	[S_WORD:HERO] <>
+	[S_WORD:JACK] >
+	[S_WORD:KEEPER] >
+	[S_WORD:KING] <
+	[S_WORD:KNIGHT] <V>
+	[S_WORD:LANCER] >
+	[S_WORD:MASTER] >
+	[S_WORD:MERCHANT] >
+	[S_WORD:MONGER] >
+	[S_WORD:MONK] <>
+	[S_WORD:POET] >
+	[S_WORD:PRIEST] <>
+	[S_WORD:PRINCE] <>
+	[S_WORD:QUEEN] <
+	[S_WORD:RIDER] >
+	[S_WORD:SCRIBE] <V>
+	[S_WORD:SMITH] >
+	[S_WORD:SOLDIER] >
+	[S_WORD:SUITOR] >
+	[S_WORD:WARD] V>
+	[S_WORD:WARRIOR] <>
+	[S_WORD:WATCH] V>
+	[S_WORD:WORKER] >
+
+	Human stuff / body
+	[S_WORD:CHILD] >
+	[S_WORD:EYE] >
+	[S_WORD:FIST] >
+	[S_WORD:FOOT] >
+	[S_WORD:HAIR] >
+	[S_WORD:HAND] >
+	[S_WORD:HEAD] >
+	[S_WORD:HEART] <>
+	[S_WORD:LOCK HAIR] >
+	[S_WORD:MAN] >
+	[S_WORD:MOUTH] >
+	[S_WORD:ONE] >
+	[S_WORD:PALM] >
+	[S_WORD:TONGUE] >
+	[S_WORD:TWO] >
+
+	Virtues/adjectives
+	[S_WORD:ARCH] <
+	[S_WORD:ARDENT] <
+	[S_WORD:BOLD] <
+	[S_WORD:CREED] <>
+	[S_WORD:DEAR] <
+	[S_WORD:ELDER] <>
+	[S_WORD:EVER] <
+	[S_WORD:FAIR EVEN] <>
+	[S_WORD:FAITH] <>
+	[S_WORD:FIRST] <
+	[S_WORD:FRIEND] <>
+	[S_WORD:GLAD] <
+	[S_WORD:GOOD] <>
+	[S_WORD:GRAND] <
+	[S_WORD:GREAT] <
+	[S_WORD:HANDY] <
+	[S_WORD:HARDY] <
+	[S_WORD:HIGH] <
+	[S_WORD:HOMELY] <
+	[S_WORD:HOPE] <>
+	[S_WORD:HUMBLE] <
+	[S_WORD:JUST] >
+	[S_WORD:LAW] <>
+	[S_WORD:LONG] <>
+	[S_WORD:LOYAL] <>
+	[S_WORD:MIGHTY] <
+	[S_WORD:NEW] <
+	[S_WORD:ONE_PREF] >
+	[S_WORD:ORDER GROUP] <>
+	[S_WORD:POWER] <
+	[S_WORD:PRIDE] <>
+	[S_WORD:PURE] <
+	[S_WORD:RIGHT BETTER] <>
+	[S_WORD:RUSTIC] <
+	[S_WORD:SAINT] <>
+	[S_WORD:SIMPLE] <
+	[S_WORD:SOUL] <>
+	[S_WORD:STRENGTH] <>
+	[S_WORD:SWIFT] <
+	[S_WORD:TALL] <>
+	[S_WORD:TRUTH] <>
+	[S_WORD:VICE] <
+	[S_WORD:WILL] <>
+	[S_WORD:WISDOM] <>
+	[S_WORD:WORTHY] <>
+	[S_WORD:YOUNG] <
+
+	Humans love their colors
+	[S_WORD:AMBER] <
+	[S_WORD:AZURE] <
+	[S_WORD:BLACK] <
+	[S_WORD:BLUE] <
+	[S_WORD:BRIGHT] <>
+	[S_WORD:FAIR COLOR] <
+	[S_WORD:GRAY] <
+	[S_WORD:PEARL] <>
+	[S_WORD:RED] <
+	[S_WORD:ROSE] <>
+	[S_WORD:SCARLET] <
+	[S_WORD:WHITE] <
+
+	Fearsome beasts
+	[S_WORD:BEAR] <>
+	[S_WORD:BUCK] <>
+	[S_WORD:DEER] <>
+	[S_WORD:EAGLE] <>
+	[S_WORD:GRIFFON] <>
+	[S_WORD:HAWK] <>
+	[S_WORD:HOUND] <>
+	[S_WORD:LEOPARD] <>
+	[S_WORD:LION] <>
+	[S_WORD:OWL] <>
+	[S_WORD:PANTHER] <>
+	[S_WORD:RAVEN] <>
+
+
+[SYMBOL:HUMAN_NAME_MAIN]
+	+ Urban Geonyms
+	[S_WORD:CAMP] <V>
+
+	+ Construction Geonyms
+	[S_WORD:CHAMBER] >
+	[S_WORD:CROSS_VERB] V>
+	[S_WORD:FORD] <>
+	[S_WORD:PLOT] V>
+
+	+ Natural Geonyms
+	[S_WORD:GULF PIT] <>
+	[S_WORD:MEADOW] <>
+	[S_WORD:WORLD] <>
+
+	+ Measurement
+	[S_WORD:EAST] <
+	[S_WORD:INCH] <>
+	[S_WORD:NORTH] <
+	[S_WORD:SIDE] >
+	[S_WORD:SOUTH] <
+	[S_WORD:WEST] <
+
+	+ Battle items
+	[S_WORD:AXE] <>
+	[S_WORD:KNIFE] <>
+	[S_WORD:SABRE] <>
+	[S_WORD:SHIELD] V>
+	[S_WORD:SPEAR] <
+
+	+ Products and other items
+	[S_WORD:BRAND] <>
+	[S_WORD:BRONZE] <
+	[S_WORD:BUCKLE] V>
+	[S_WORD:COTTON] <>
+	[S_WORD:CROWN] <>
+	[S_WORD:DRESS_CLOTHING] >
+	[S_WORD:DRESS_GENERAL] <V
+	[S_WORD:FORTUNE WEALTH] >
+	[S_WORD:GIFT] V>
+	[S_WORD:GILD] <V
+	[S_WORD:GLOVE] <>
+	[S_WORD:GOLD] <
+	[S_WORD:KNOWLEDGE] <>
+	[S_WORD:LOOT] >
+	[S_WORD:PICK] <>
+	[S_WORD:POT] <>
+	[S_WORD:SEAL_ART] <>
+	[S_WORD:SHELL] <>
+	[S_WORD:SILVER] <
+	[S_WORD:SING] <V>
+	[S_WORD:SLEEVE] >
+	[S_WORD:STANDARD FLAG] <>
+	[S_WORD:STONE] <>
+	[S_WORD:THRONE] <>
+	[S_WORD:TRADE] <V>
+	[S_WORD:WEALTH] <>
+
+	+ Food and pets
+	[S_WORD:BOAR] <>
+	[S_WORD:BUTTER] <V
+	[S_WORD:CRAB] <>
+	[S_WORD:DATE_FRUIT] <
+	[S_WORD:GOAT] <>
+	[S_WORD:HORSE] <>
+	[S_WORD:LAMB] <>
+	[S_WORD:MEAD] <
+	[S_WORD:MULE] <>
+	[S_WORD:OAT] <>
+	[S_WORD:OX] <>
+	[S_WORD:PEAR] <>
+	[S_WORD:SWINE] <
+	[S_WORD:WHEAT] <>
+
+	+ Professions
+	[S_WORD:BAKE] <V>
+	[S_WORD:CHAMPION] >
+	[S_WORD:CONSTRUCT] <V>
+	[S_WORD:COOK]
+	[S_WORD:CRAFT] V>
+	[S_WORD:DABBLE] <V>
+	[S_WORD:DANCE] V>
+	[S_WORD:FERRY] <V>
+	[S_WORD:GROW] <V>
+	[S_WORD:HEAL] <V>
+	[S_WORD:JAILER] >
+	[S_WORD:JEST] V>
+	[S_WORD:JUDGE] <V>
+	[S_WORD:LEADER] V>
+	[S_WORD:LORD] >
+	[S_WORD:MARK] V>
+	[S_WORD:OWN] V>
+	[S_WORD:PARTNER] V>
+	[S_WORD:PLANTER] >
+	[S_WORD:REIGN] V>
+	[S_WORD:RUN] V>
+	[S_WORD:SCHOLAR]
+	[S_WORD:SELL] <V>
+	[S_WORD:SPEAKER] >
+	[S_WORD:STOKE] <V>
+	[S_WORD:TAKER] V>
+	[S_WORD:TEACH] <V>
+	[S_WORD:TENDER] <>
+	[S_WORD:THROWER] V>
+	[S_WORD:WANDER] V>
+	[S_WORD:WEAVER] V>
+	[S_WORD:WIELD] V>
+
+	+ Human stuff / body
+	[S_WORD:CLAN] <>
+	[S_WORD:FELLOWSHIP] <>
+	[S_WORD:KIN] <>
+	[S_WORD:LIP] >
+	[S_WORD:TALK] >
+	[S_WORD:TOUCH] V>
+	[S_WORD:TRIBE] <>
+	[S_WORD:VOICE] V>
+	[S_WORD:WALK] V
+
+	+ Virtues/adjectives
+	[S_WORD:BRAVERY] <V>
+	[S_WORD:CLEAN] <V>
+	[S_WORD:DECENT] <
+	[S_WORD:ESTEEM] <V>
+	[S_WORD:FREE] <>
+	[S_WORD:HONOR] <V>
+	[S_WORD:LOVE] <V>
+	[S_WORD:MANY] <
+	[S_WORD:RAPID] <>
+	[S_WORD:VIRTUE] <>
+
+	+ Colors
+	[S_WORD:BROWN] <
+	[S_WORD:DYE] <>
+	[S_WORD:FLAX] <>
+	[S_WORD:INDIGO] <
+	[S_WORD:IVORY] <
+	[S_WORD:SAFFRON] <>
+	[S_WORD:TAN] >
+	[S_WORD:VIOLET] <
+
+	+ Mythics
+	[S_WORD:BIRTH] <V>
+	[S_WORD:BLOSSOM] V>
+	[S_WORD:CLOUD] <>
+	[S_WORD:COLD] <
+	[S_WORD:DAWN] <>
+	[S_WORD:DAY] <>
+	[S_WORD:FLAME] <>
+	[S_WORD:GALE] <>
+	[S_WORD:GLORY] <>
+	[S_WORD:GOD] <
+	[S_WORD:HOLY] <
+	[S_WORD:LEGEND] <
+	[S_WORD:MOON] <>
+	[S_WORD:MORNING] <>
+	[S_WORD:NOBLE] <
+	[S_WORD:PEACE] <>
+	[S_WORD:RAIN] <V>
+	[S_WORD:SEASON] >
+	[S_WORD:SPARK] <>
+	[S_WORD:SUMMER] <
+	[S_WORD:SUN] <>
+	[S_WORD:TEMPEST] >
+	[S_WORD:THORN] <>
+	[S_WORD:WARM] >
+	[S_WORD:WAR] <
+	[S_WORD:WEATHER] >
+	[S_WORD:WIND STORM] >
+
+	+ First names only
+	[S_WORD:ARTIFICE]
+	[S_WORD:BUTTERFLY]
+	[S_WORD:CONQUEROR]
+	[S_WORD:RADIANCE]
+
+[SYMBOL:HUMAN_NAME_SUB]
+	~ Professions
+	[S_WORD:SCHOLAR] <>
+
+	~ Extra Germanic words
+	[S_WORD:WERE] <
+	[S_WORD:GANG] >
+
+	~ Colors
+	[S_WORD:SABLE COLOR] <>
+
+no need to add a HUMAN_CIV_THE - NAME_ENTITY_KINGDOM works just fine
+
+[SYMBOL:HUMAN_CIV_ADJ_MAJOR]
+	[S_WORD:MAN]
+
+	[S_WORD:BRILLIANT]
+	[S_WORD:FAIR EVEN]
+	[S_WORD:GRAND]
+	[S_WORD:GREAT]
+	[S_WORD:HERO]
+	[S_WORD:HIGH]
+	[S_WORD:HONEST]
+	[S_WORD:HONOR]
+	[S_WORD:LAW]
+	[S_WORD:MIGHTY]
+	[S_WORD:NOBLE]
+	[S_WORD:PURE]
+	[S_WORD:REGAL]
+	[S_WORD:ROYAL]
+	[S_WORD:STERN]
+
+	[S_WORD:ABSOLUTE]
+	[S_WORD:ALLEGIANCE]
+	[S_WORD:AWE-INSPIRING]
+	[S_WORD:CHAMPION]
+	[S_WORD:COURAGE]
+	[S_WORD:DAWN]
+	[S_WORD:DAY]
+	[S_WORD:EAGLE]
+	[S_WORD:FELLOWSHIP]
+	[S_WORD:GRIFFON]
+	[S_WORD:HALE]
+	[S_WORD:HARMONY]
+	[S_WORD:HEAVEN]
+	[S_WORD:HIGH]
+	[S_WORD:JUST]
+	[S_WORD:KING]
+	[S_WORD:LIGHT]
+	[S_WORD:LION]
+	[S_WORD:NOBLE]
+	[S_WORD:OWL]
+	[S_WORD:POWER]
+	[S_WORD:PRESTIGE]
+	[S_WORD:PRIDE]
+	[S_WORD:RADIANCE]
+	[S_WORD:RAVEN]
+	[S_WORD:RENOWN]
+	[S_WORD:REVERE]
+	[S_WORD:STRENGTH]
+	[S_WORD:SWIFT]
+	[S_WORD:TALL]
+	[S_WORD:TRUTHFUL]
+	[S_WORD:UNION]
+	[S_WORD:UNSWERVING]
+	[S_WORD:VENERATE]
+	[S_WORD:VIRGIN]
+	[S_WORD:WILL]
+	[S_WORD:WORTHY]
+
+	[S_WORD:BRONZE]
+	[S_WORD:IRON]
+
+[SYMBOL:HUMAN_CIV_ADJ_MINOR]
+	[S_WORD:EAST]
+	[S_WORD:NORTH]
+	[S_WORD:SOUTH]
+	[S_WORD:WEST]
+
+	[S_WORD:AZURE]
+	[S_WORD:BRIGHT]
+	[S_WORD:CRIMSON]
+	[S_WORD:HARVEST]
+	[S_WORD:HONEY]
+	[S_WORD:INDIGO]
+	[S_WORD:IVORY]
+	[S_WORD:MAROON_COLOR]
+	[S_WORD:PEARL]
+	[S_WORD:PINE]
+	[S_WORD:ROSE]
+	[S_WORD:SABLE COLOR]
+	[S_WORD:SCARLET]
+	[S_WORD:SHELL]
+	[S_WORD:SILK]
+	[S_WORD:VERMILION]
+	[S_WORD:VIOLET]
+	[S_WORD:WHITE]
+
+	[S_WORD:BIG]
+	[S_WORD:BRAVERY]
+	[S_WORD:CALM]
+	[S_WORD:DALE]
+	[S_WORD:DUTY]
+	[S_WORD:EMANCIPATE]
+	[S_WORD:EQUITY]
+	[S_WORD:ESTEEM]
+	[S_WORD:FAIR COLOR]
+	[S_WORD:FIELD]
+	[S_WORD:FORTUITOUS]
+	[S_WORD:FORTUNE LUCK]
+	[S_WORD:FREE]
+	[S_WORD:HOPE]
+	[S_WORD:HUMBLE]
+	[S_WORD:JOY]
+	[S_WORD:LIBERTY]
+	[S_WORD:MERCHANT]
+	[S_WORD:PATH]
+	[S_WORD:PLAIN]
+	[S_WORD:PRAIRIE]
+	[S_WORD:PRAISE]
+	[S_WORD:RIVER]
+	[S_WORD:ROAD]
+	[S_WORD:STEPPE]
+	[S_WORD:STRAPPING_ADJ]
+	[S_WORD:TRADE]
+	[S_WORD:TRUTH]
+	[S_WORD:VIRTUE]
+	[S_WORD:WATCH]
+	[S_WORD:YOUNG]
+	[S_WORD:YOUTH]
+
+[SYMBOL:HUMAN_SITE_THE] +NAME_ENTITY_TOWN_FOUNDER ~HUMAN_CIV_ADJ_MINOR ~TRAVEL ~FOOD
+	[S_WORD:AUTHORITY]
+	[S_WORD:CITADEL]
+	[S_WORD:CITY]
+	[S_WORD:COMPANY]
+	[S_WORD:GUILD]
+	[S_WORD:HALL]
+	[S_WORD:HOME]
+	[S_WORD:MANOR]
+	[S_WORD:MARKET]
+	[S_WORD:MARK]
+	[S_WORD:PORTAL]
+	[S_WORD:POST]
+	[S_WORD:TOWN]
+	[S_WORD:TREATY]
+	[S_WORD:VILLAGE]
+
+[SYMBOL:HUMAN_SQUAD_THE] ~ASSERTIVE
+	[S_WORD:ARMOR]
+	[S_WORD:ARM]
+	[S_WORD:ARROW]
+	[S_WORD:BANNER]
+	[S_WORD:BLADE]
+	[S_WORD:DEFEND]
+	[S_WORD:DEFENSE]
+	[S_WORD:ESCORT]
+	[S_WORD:GUARD]
+	[S_WORD:RAMPART]
+	[S_WORD:SHIELD]
+	[S_WORD:STANDARD FLAG]
+	[S_WORD:SWORD]
+
+	[S_WORD:BAND GROUP]
+	[S_WORD:CHAMPION]
+	[S_WORD:COALITION]
+	[S_WORD:COMPANY]
+	[S_WORD:CONQUEROR]
+	[S_WORD:CONTINGENT]
+	[S_WORD:CREW]
+	[S_WORD:HAMMERER]
+	[S_WORD:HERO]
+	[S_WORD:JACK]
+	[S_WORD:KNIGHT]
+	[S_WORD:LANCER]
+	[S_WORD:RAVAGER]
+	[S_WORD:SOLDIER]
+	[S_WORD:TROOPER]
+	[S_WORD:WARRIOR]

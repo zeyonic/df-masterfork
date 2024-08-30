@@ -1,30 +1,8 @@
 creature_mfork_civ_human
 
 [OBJECT:CREATURE]
-	
-[CREATURE:MFORK_HUMAN]
-	
+[CREATURE:HUMAN]
 [CREATURE_CLASS:HUMAN]
-
-[NATURAL_SKILL:AXE:1]
-[NATURAL_SKILL:SWORD:1]
-[NATURAL_SKILL:MACE:1]
-[NATURAL_SKILL:HAMMER:1]
-[NATURAL_SKILL:SPEAR:1]
-[NATURAL_SKILL:CROSSBOW:1]
-[NATURAL_SKILL:SHIELD:1]
-[NATURAL_SKILL:ARMOR:1]
-[NATURAL_SKILL:PIKE:1]
-[NATURAL_SKILL:WHIP:1]
-[NATURAL_SKILL:BOW:1]
-[NATURAL_SKILL:BLOWGUN:1]
-[NATURAL_SKILL:MELEE_COMBAT:1]
-[NATURAL_SKILL:RANGED_COMBAT:1]
-[NATURAL_SKILL:WRESTLING:1]
-[NATURAL_SKILL:BITE:1]
-[NATURAL_SKILL:GRASP_STRIKE:1]
-[NATURAL_SKILL:STANCE_STRIKE:1]
-[NATURAL_SKILL:DODGING:1]
 
 
 	[CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:A medium-sized creature prone to great ambition. The folk of men is a great one. They build mighty cities and roads, fortresses and castles. Having an intrepid mind they invented firearms and trade muskets or pistols, even handcannons. Be sure to stay on their side, otherwise a guard squadron will be sent to punish you for your crimes against the empire.]

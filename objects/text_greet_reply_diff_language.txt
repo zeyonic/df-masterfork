@@ -2,6 +2,56 @@ text_greet_reply_diff_language
 
 [OBJECT:TEXT_SET]
 
+Credits:
+Vanilla
+New
+Igfig (FlavorText)
+SethCreiyd Speech Expansion
+
 [TEXT_SET:GREET_REPLY_DIFF_LANGUAGE]
 
 Hello, [AUDIENCE:RACE].  I am [SPEAKER:TRANS_NAME].
+
+Are you enjoying your stay here?  My name is [SPEAKER:TRANS_NAME].
+Be grateful I know enough words to say my name is [SPEAKER:TRANS_NAME].
+Have you tried the food?  Just say [SPEAKER:FIRST_NAME] sent you.
+Here comes the [AUDIENCE:RACE].  Call me [SPEAKER:TRANS_NAME].
+I never thought I'd meet a [AUDIENCE:RACE] like this.  I am [SPEAKER:TRANS_NAME].
+Just call me [SPEAKER:FIRST_NAME], [AUDIENCE:RACE].  I do not want to hear you butcher the tongue of my people.
+My name is [SPEAKER:TRANS_NAME], which means [SPEAKER:TRANS_NAME] in your tongue.
+My name is [SPEAKER:TRANS_NAME].  Say it right, [AUDIENCE:RACE].
+Pray tell, [AUDIENCE:RACE].  This is [SPEAKER:TRANS_NAME].
+State your peace, [AUDIENCE:RACE].  I'm [SPEAKER:FIRST_NAME].
+We aren't so different.  I'm [SPEAKER:TRANS_NAME].
+What business have you with a [SPEAKER:RACE]?
+Why must [AUDIENCE:RACE] names be so confusing?  I'll have you know [SPEAKER:TRANS_NAME] is quite respectable!
+You are among friends, [AUDIENCE:RACE]. I'm [SPEAKER:FIRST_NAME].
+You aren't much like any other [AUDIENCE:RACE] I've seen.
+You certainly sound like a [AUDIENCE:RACE]. I am [SPEAKER:TRANS_NAME].
+You look like you've never seen a [SPEAKER:RACE] before. My name is [SPEAKER:TRANS_NAME].
+Your command of my mother tongue is... admirable. Let's just say I'm [SPEAKER:FIRST_NAME].
+[AUDIENCE:FIRST_NAME] what?  Pray forgive my difficulties, though I imagine you would struggle with [SPEAKER:TRANS_NAME] yourself.
+[AUDIENCE:FIRST_NAME] has an exotic ring to it.  Mine is [SPEAKER:TRANS_NAME].
+
+Out of my way.  [SPEAKER:TRANS_NAME] doesn't talk to your kind.
+Speak slower, [AUDIENCE:RACE].  I can barely understand you.
+Welcome to [CONTEXT:PLACE:TRANS_NAME].  I'm [SPEAKER:TRANS_NAME].
+Well!  What brings a [AUDIENCE:RACE] all the way here?
+
+Greetings, [AUDIENCE:RACE].
+Greetings, [AUDIENCE:RACE].  I am [SPEAKER:TRANS_NAME].
+Greetings, [AUDIENCE:RACE].  What brings you here?
+Greetings.  My name is [SPEAKER:TRANS_NAME].
+Hail, [AUDIENCE:RACE].  What can I do for you?
+Hello, [AUDIENCE:RACE].
+Hello.  I am [SPEAKER:TRANS_NAME].
+Hello.  My name is [SPEAKER:TRANS_NAME].
+I am [SPEAKER:TRANS_NAME].
+My name is [SPEAKER:TRANS_NAME].
+Pleased to meet you.  My name is [SPEAKER:TRANS_NAME].
+Welcome, [AUDIENCE:RACE].  My name is [SPEAKER:TRANS_NAME].
+Well, [AUDIENCE:RACE], what can I do for you?
+What can I do for you, [AUDIENCE:RACE]?
+What do you want, [AUDIENCE:RACE]?
+Yes, [AUDIENCE:RACE]?  What do you want?
+[AUDIENCE:RACE].

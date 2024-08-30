@@ -2,6 +2,35 @@ text_arch_info_justification
 
 [OBJECT:TEXT_SET]
 
+Credits:
+Vanilla
+New
+Kobold Quest (sorta)
+
 [TEXT_SET:ARCH_INFO_JUSTIFICATION]
 
 It is said that the [CONTEXT:ARCH_ELEMENT] of [CONTEXT:ABSTRACT_BUILDING:TRANS_NAME] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE] for the glory of [CONTEXT:HIST_FIG:TRANS_NAME].
+
+Folks have gathered from all over to pay homage to [CONTEXT:HIST_FIG:TRANS_NAME] at [CONTEXT:ABSTRACT_BUILDING:TRANS_NAME].
+
+There has been much debate over the years over [CONTEXT:ARCH_ELEMENT].
+No ones knows for sure how [CONTEXT:ARCH_ELEMENT] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].
+It is anybody's guess to how [CONTEXT:ARCH_ELEMENT] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].
+New theories on what [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE] are proposed regularly.
+Students of [CONTEXT:HIST_FIG:TRANS_NAME] haven't reached a consensus.
+It is one of the great mysteries of [CONTEXT:DEF_SPHERE].
+Even the wisest are driven to madness by the puzzle of [CONTEXT:ARCH_ELEMENT].
+The moral ramifications are enormous for followers of [CONTEXT:HIST_FIG:TRANS_NAME].
+[CONTEXT:HIST_FIG:TRANS_NAME] might be beyond our possible comprehension.
+It is generally agreed [CONTEXT:ARCH_ELEMENT] of [CONTEXT:ABSTRACT_BUILDING:TRANS_NAME] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE] to honor [CONTEXT:HIST_FIG:TRANS_NAME].
+Some think [CONTEXT:ARCH_ELEMENT] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].
+It is often posited that [CONTEXT:HIST_FIG:TRANS_NAME] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].
+One might consider how [CONTEXT:DEF_SPHERE] [CONTEXT:JUSTIFICATION] [CONTEXT:HIST_FIG:TRANS_NAME].
+Common sense dictates [CONTEXT:ARCH_ELEMENT] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].
+There are rumors about how [CONTEXT:ABSTRACT_BUILDING:TRANS_NAME] portrays [CONTEXT:HIST_FIG:TRANS_NAME].
+A few claim [CONTEXT:HIST_FIG:TRANS_NAME] designed [CONTEXT:ARCH_ELEMENT].
+There is evidence of how [CONTEXT:DEF_SPHERE] inspired [CONTEXT:ARCH_ELEMENT].
+Many died that we could know [CONTEXT:HIST_FIG:TRANS_NAME].
+No one denies [CONTEXT:HIST_FIG:TRANS_NAME] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].
+It would be foolish not to believe [CONTEXT:DEF_SPHERE] pervades [CONTEXT:ARCH_ELEMENT].
+It is clear once you see that [CONTEXT:ARCH_ELEMENT] [CONTEXT:JUSTIFICATION] [CONTEXT:DEF_SPHERE].

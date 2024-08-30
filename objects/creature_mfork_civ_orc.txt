@@ -2,7 +2,7 @@ creature_mfork_civ_orc
 
 [OBJECT:CREATURE]
 
-[CREATURE:MFORK_ORC]
+[CREATURE:ORC]
 
  --------------------# RACIAL SKILLS #-------------------
     In MFORK skill learn rates are halved across the board, this was done for the following reasons;

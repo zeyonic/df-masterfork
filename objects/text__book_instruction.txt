@@ -1,0 +1,311 @@
+text_book_instruction
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:BOOK_INSTRUCTION]
+
+[NAME]
+A Course on [NAME]
+A Humble Offering to [NAME]
+A Meditation on [NAME]
+A Record of [NAME]
+A Treatise on [NAME]
+A World of [NAME]
+About [NAME]
+After [NAME]
+Against [NAME]
+An Exploration of [NAME]
+An Introduction to [NAME]
+An Offering to [NAME]
+At One With [NAME]
+Before [NAME]
+Better [NO_ART_NAME]
+Beyond [NAME]
+Book of [NAME]
+Captivated by [NAME]
+Choose [NAME]
+Classic [NO_ART_NAME]
+Commentary on [NAME]
+Common Sense [NO_ART_NAME]
+Concerning [NAME]
+Discourse on [NAME]
+Discovering [NAME]
+Doubts About [NAME]
+Dreams of [NAME]
+Elements of [NAME]
+Errors In [NAME]
+Exploring [NAME]
+Explorations of [NAME]
+Factual [NO_ART_NAME]
+For the Love of [NAME]
+Foundations of [NAME]
+Give Me [NAME]
+Great [NO_ART_NAME]
+In Pursuit of [NAME]
+Inquiries on [NAME]
+Interpretations of [NAME]
+Introduction to [NAME]
+It All Begins With [NAME]
+It Is [NAME]
+Journey to [NAME]
+Life With [NAME]
+Master of [NAME]
+Mastering [NAME]
+Meditations on [NAME]
+Misconceptions About [NAME]
+More [NO_ART_NAME]
+Musings on [NAME]
+My Thoughts on [NAME]
+Mysteries of [NAME]
+Never Underestimate [NAME]
+New [NO_ART_NAME]
+Of [NAME]
+On [NAME]
+Pathways to [NAME]
+Principles of [NAME]
+Question [NAME]
+Questions About [NAME]
+Records of [NAME]
+Reflections on [NAME]
+Secret [NO_ART_NAME]
+Start Your Day With [NAME]
+Strange [NO_ART_NAME]
+The Art of [NAME]
+The Book of [NAME]
+The Future of [NAME]
+The Great [NO_ART_NAME]
+The Hidden Meaning of [NAME]
+The History of [NAME]
+The Interpretation of [NAME]
+The Journey into [NAME]
+The Knowledge of [NAME]
+The Meaning of [NAME]
+The Mysteries of [NAME]
+The Mystery of [NAME]
+The Nuanced [NO_ART_NAME]
+The Possibilities of [NAME]
+The Pursuit of [NAME]
+The Secret of [NAME]
+The Student's [NO_ART_NAME]
+The Study of [NAME]
+The True [NO_ART_NAME]
+The Truth About [NAME]
+The Unabridged [NO_ART_NAME]
+The Way With [NAME]
+The Wizard's Guide to [NAME]
+The World of [NAME]
+The World Without [NAME]
+Thoughts on [NAME]
+Time Spent With [NAME]
+Traditional [NO_ART_NAME]
+Treatise on [NAME]
+True [NO_ART_NAME]
+Uncanny [NO_ART_NAME]
+Uncovering [NAME]
+Understanding [NAME]
+Unknown [NO_ART_NAME]
+Unusual [NO_ART_NAME]
+Useful [NO_ART_NAME]
+Victory By [NAME]
+[NAME] After The End
+[NAME] and Beyond
+[NAME] and More
+[NAME] and Other Topics
+[NAME] and Other Travesties
+[NAME] and The Coming Troubles
+[NAME] and The Universe
+[NAME] Came Full Circle
+[NAME] Explained
+[NAME] Exposed
+[NAME] For Everyone
+[NAME] For Students
+[NAME] For The Beginning Practitioner
+[NAME] In Practice
+[NAME] In The Modern Era
+[NAME] In The Time of My Ancestors
+[NAME] In Theory
+[NAME] In [ANY_AGE]
+[NAME] Interpreted
+[NAME] Might Help
+[NAME] Questioned
+[NAME] The Easy Way
+[NAME] Uncovered
+[NAME] Understood
+[NAME] When It Counts
+[NAME] Within Reason
+[NAME] Without Limits
+[NAME], Abridged
+[NAME], My Life
+[NAME], My Love
+[NAME]: A Brief History
+[NAME]: A Brief Introduction
+[NAME]: A New Approach
+[NAME]: A Quandary
+[NAME]: Before and After
+[NAME]: Common Practice
+[NAME]: Fact or Fiction?
+[NAME]: Further Musings
+[NAME]: My Only Mistake
+[NAME]: Natural or Supernatural?
+[NAME]: Principles and Practice
+[NAME]: Problems And Solutions
+[NAME]: The Definitive Guide
+[NAME]: The Truth
+Can [NAME] Save The World?
+Could It Be [NAME]?
+Did [NAME] Falter?
+Do We Understand [NAME]?
+Do You Know [NAME]?
+First [NAME], Then The World!
+The [NO_ART_NAME] Book
+To [NAME] and Glory!
+
+A Dissertation on [NAME]
+A New Model of [NAME]
+A Proposal for [NAME]
+Advanced [NO_ART_NAME]
+An Affinity for [NAME]
+An Inquiry into [NAME]
+Analysis on [NAME]
+Answers to [NAME]
+Apocryphal [NO_ART_NAME]
+Applied [NO_ART_NAME]
+Arcane [NO_ART_NAME]
+Asking the Questions About [NAME]
+Attack upon [NAME]
+Basic [NO_ART_NAME]
+Beyond [NO_ART_NAME] and [NOUN]
+Can [NAME] Ever Be Truly Happy?
+Chronicles of [NAME]
+Codex [NO_ART_NAME]
+Confirming [NAME]
+Constructing [NAME]
+Credit to [NAME]
+Critique of [NAME]
+Encyclopedia of [NAME]
+Esoteric [NO_ART_NAME]
+Ethical [NO_ART_NAME]
+Explaining [NAME]
+For [NAME]
+Give [NO_ART_NAME] a Chance
+How Did [ANY_PRONOUN] Discover [NAME]?
+How to Make [NAME] [ADJ]
+Imagining [NAME]
+In Defense of [NAME]
+Influence of [NAME] in [ANY_AGE]
+Second-Order [NO_ART_NAME]
+A Factual Account of [NAME]
+What [ANY_PRONOUN] Won't Tell You About [NAME]
+Inner Workings of [NAME]
+Advice for [NAME]
+Just the Facts on [NAME]
+Keep [NAME] Close
+Lectures on [NAME]
+Life, the Universe, and [NAME]
+Manual of [NAME]
+Manufacturing [NAME]
+Notes upon [NAME]
+Objective [NO_ART_NAME]
+On [NAME] and [NOUN]
+On [NAME] in a [ADJ] Sense
+On the [NOUN] of [NAME]
+One Must Imagine [NAME]
+One-Dimensional [NO_ART_NAME]
+Practical [NO_ART_NAME]
+Praise for [NAME]
+Preface to [NAME]
+Proof of [NAME]
+Reading [NAME]
+Religion and [NAME]
+Rules for [NAME]
+Search for [NAME]
+Secrets of [NAME]
+Strategies of [NAME]
+Sum of [NAME]
+Taking [NAME] Seriously
+Teaching [NAME]
+Teachings of [NAME]
+The Allegory of [NAME]
+The Analects of [NAME]
+The City of [NAME]
+The Concept of [NAME]
+The Degrees of [NAME]
+The Didact's Guide to [NAME]
+The Existence of [NAME]
+The Incoherence of [NAME]
+The Incoherence of [NOUN] and [NAME]
+The Informed [NO_ART_NAME]
+The Methods of [NAME]
+The Mismeasure of [NAME]
+The Nature of [NAME]
+The Origin of [NAME]
+The Philosophy of [NOUN] and [NAME]
+The Riddle of [NAME]
+The Road to [NAME]
+The Wanderer's Guide to [NAME]
+The Will to [NO_ART_NAME]
+The [ADJ] Approach to [NAME]
+The [ADJ] Book of [NAME]
+The [ADJ] Truth About [NAME]
+The [NOUN] Behind [NAME]
+The [NOUN] of [NAME]
+The [NO_ART_NAME] Effect
+Thus Spoke [NAME]
+Two Minor [NO_ART_NAME] Treatises
+Two [NO_ART_NAME] Treatises
+Universal [NO_ART_NAME]
+What Is It Like To Be [NAME]?
+What Is [NAME]?
+Which [NO_ART_NAME]?
+Why [NAME] Matters
+Wisdom of the [NO_ART_NAME]
+Works of [NAME]
+[ADJ] [NOUN]: An Essay On [NO_ART_NAME]
+[ADJ] [NOUN]: The [NOUN] of [NAME]
+[ADJ] [NOUN]: [NAME] and [ADJ] [NOUN]
+[ADJ] [NO_ART_NAME]
+[ANY_AGE] and [NAME]
+[NAME] Beyond the [NOUN]
+[NAME] Made Easy
+[NAME] Reconsidered
+[NAME] Testified
+[NAME] and Civilization
+[NAME] and You
+[NAME] and [ADJ] [NOUN]
+[NAME] and [NAME]'s Limits
+[NAME] and its Consequences
+[NAME] and the Limits of [NOUN]
+[NAME] at Length
+[NAME] for Independent Study
+[NAME] in Life
+[NAME] in [ADJ] [NOUN]
+[NAME] in the History of [NOUN]
+[NAME] is [NOUN]
+[NAME] of Nations
+[NAME]'s Friend
+[NAME], Annotated
+[NAME], Appraised
+[NAME], Illustrated
+[NAME], Revised
+[NOUN] in the History of [NAME]
+[NOUN], [NOUN], and [NO_ART_NAME]
+[NOUN]: An Essay On [NO_ART_NAME]
+[NOUN]: On [NAME]
+[NOUN]: The [NOUN] of [NAME]
+[NO_ART_NAME] Affairs
+[NO_ART_NAME] Annals
+[NO_ART_NAME] Beyond Imagination
+[NO_ART_NAME] Chronicles
+[NO_ART_NAME] Classics
+[NO_ART_NAME] Hypothesis
+[NO_ART_NAME] Learning
+[NO_ART_NAME] Manifesto
+[NO_ART_NAME] Matters
+[NO_ART_NAME] Method
+[NO_ART_NAME] Philosophy
+[NO_ART_NAME] Studies
+[NO_ART_NAME] Theory
+[NO_ART_NAME]lore
+[PHRASE]: An Essay On [NO_ART_NAME]
+[PHRASE]: On [NAME]
+[PHRASE]: [NAME] and [ADJ] [NOUN]

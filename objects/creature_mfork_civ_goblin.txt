@@ -1,9 +1,7 @@
 creature_mfork_civ_goblin
 
 [OBJECT:CREATURE]
-
-
-[CREATURE:MFORK_GOBLIN]
+[CREATURE:GOBLIN]
 	[DESCRIPTION:A medium-sized humanoid driven to cruelty by its evil nature.]
 	[NAME:goblin:goblins:goblin]
 	[CASTE_NAME:goblin:goblins:goblin]
@@ -12,7 +10,7 @@ creature_mfork_civ_goblin
 	[EVIL][STRANGE_MOODS]
 	[INTELLIGENT]
 	[CANOPENDOORS]
-
+    [CREATURE_CLASS:MAMMAL]
  --------------------# RACIAL SKILLS #-------------------
     In MFORK skill learn rates are halved across the board, this was done for the following reasons;
 
@@ -47,7 +45,6 @@ creature_mfork_civ_goblin
 	    SKILL_RATE:MELEE_COMBAT:    100:0:0:0] 
 	---------------------------------------------------------	
 
-	[CREATURE_CLASS:MAMMAL]
 	[BONECARN]
 	[WANDERER]
 	[PREFSTRING:terrifying features]

@@ -2,6 +2,11 @@ text_general
 
 [OBJECT:TEXT_SET]
 
+Credits:
+Vanilla
+SethCreiyd Speech Expansion
+DF Wiki Speech Mods
+
 [TEXT_SET:GENERAL]
 
 whose cries for mercy went unheeded by my wrath
@@ -11,3 +16,40 @@ whom I buried alive under a mountain of hatred
 who lies dead, now only an embarrassing memory
 who sought my praise, only to be rejected in death
 once revered by those who didn't know any better
+
+who barely had the strength to lift [PRO_POS] own arms
+whose entrails covered the floor
+whose skull now lies in pieces
+whose life was snuffed out like an old candle
+whose bones you now stand on
+who was a fool to have stood before me
+who cowered before me in terror
+who begged for mercy as I laughed in [PRO_POS] face
+who cried like a babe at my approach
+who tried in vain to outrun me
+who wore my hand around [PRO_POS] throat
+whose bones you now stand on
+who made the mistake of angering me
+
+who wore [PRO_POS] entrails around [PRO_POS] neck
+who tried to fight, but was scattered before my strikes like grain to a scythe
+who tried to change things that were not meant to be changed
+who lost all in [PRO_POS] attempt at battle
+who couldn't fight on a real battlefield
+whose skill in fighting couldn't match [PRO_POS] tormentor's
+whose passion was only a candle compared to my raging fire
+who has been forever silenced
+who was lost
+for whom the bell now tolls
+who walks with the gods now
+whose story is ended
+who will never know another day
+who tried to fight [PRO_POS] fate
+who was made to swallow [PRO_POS] own weapon
+whose face met my foot at great speeds
+whose name shall be buried by the sands of time, forgotten by all
+who has gone to where all souls one day go
+who I barely remember
+whose ghost I laugh at
+upon whose grave I trample
+who knows the taste of death

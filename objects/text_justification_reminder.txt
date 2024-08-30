@@ -2,6 +2,32 @@ text_justification_reminder
 
 [OBJECT:TEXT_SET]
 
+Credits:
+Vanilla
+New
+SethCreiyd Speech Expansion
+
 [TEXT_SET:JUSTIFICATION_REMINDER]
 
 can remind one of
+
+evokes
+has some similarities to
+is like
+is not unlike
+is akin to
+is reminiscient of
+brings about
+calls to mind
+calls forth
+emphasizes
+gives emphasis to
+brings attention to
+is intertwined with
+is inseparable from
+
+can call up the image of
+can be defined as
+can be evocative of
+can bring to mind the memory of
+can evoke the idea of
