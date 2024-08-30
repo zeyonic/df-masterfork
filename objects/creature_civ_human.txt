@@ -576,7 +576,7 @@ Mason's Guild
 [SKILL_RATE:DESIGNBUILDING:200:0:0:0]       
  [SKILL_RATE:MASONRY:200:0:0:0]         
  [SKILL_RATE:STONECRAFT:200:0:0:0]          
-[SKILL_RATE:DETAILSTONE:200:0:0:0]   
+[SKILL_RATE:ENGRAVE_STONE:200:0:0:0]   
   	
 [SELECT_CASTE:MASON_MALE]
 	[MALE]
@@ -594,7 +594,7 @@ Mason's Guild
 [SKILL_RATE:DESIGNBUILDING:200:0:0:0]       
  [SKILL_RATE:MASONRY:200:0:0:0]         
  [SKILL_RATE:STONECRAFT:200:0:0:0]          
-[SKILL_RATE:DETAILSTONE:200:0:0:0]   
+[SKILL_RATE:ENGRAVE_STONE:200:0:0:0]   
 --------------------------------------------------------------------------------------------
 Smith's Guild
 [SELECT_CASTE:SMITH_FEMALE]

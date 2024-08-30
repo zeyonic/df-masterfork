@@ -1,0 +1,9 @@
+tile_page_darkorc
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:DARKORC_WORKSHOPS_5x5]
+	[FILE:images/workshops_5x5.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1120:192]
+

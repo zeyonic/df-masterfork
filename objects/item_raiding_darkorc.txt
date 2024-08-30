@@ -1,0 +1,365 @@
+item_raiding_darkorc
+
+[OBJECT:ITEM]
+
+#################################################################################################################################
+
+
+
+#######################################################################################################################################
+/// Orc Raiding Items
+
+[ITEM_TOOL:ITEM_TOOL_RAIDGEAR1]
+[NAME:tribal raiders weapon kit:tribal raiders weapon kit]
+[DESCRIPTION:A reagent for the raiders outpost. Used to start raids on foreign civs.]
+[VALUE:50]
+[TILE:251]
+[SIZE:10000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_RAIDGEAR2]
+[NAME:crude raiders weapon kit:crude raiders weapon kit]
+[DESCRIPTION:A reagent for the raiders outpost. Used to start raids on foreign civs.]
+[VALUE:50]
+[TILE:251]
+[SIZE:10000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_RAIDGEAR3]
+[NAME:raiders weapon kit:raiders weapon kit]
+[DESCRIPTION:A reagent for the raiders outpost. Used to start raids on foreign civs.]
+[VALUE:50]
+[TILE:251]
+[SIZE:10000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+# T1-raiding
+
+#Food drink seeds plants meat all the good stuff
+[ITEM_TOOL:FARMLAND_LOOT_CRATE]
+[NAME:crate laden with farmland loot:crates laden with farmland loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+ #Elfstuff/wood/slaves
+[ITEM_TOOL:ELF_LOOT_CRATE]
+[NAME:crate laden with elvish loot:crates laden with elvish loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+ #Humanstuff/slaves
+[ITEM_TOOL:HUMAN_LOOT_CRATE]
+[NAME:crate laden with human:crates laden with human loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+ #Dwarfstuff/slaves
+[ITEM_TOOL:DWARF_LOOT_CRATE]
+[NAME:crate laden with dwarven loot:crates laden with dwarven loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+
+# T-2 raiding
+
+ #Ancient orc loot
+[ITEM_TOOL:RUINS_LOOT_CRATE]
+[NAME:crate laden with loot from ruins:crates laden with loot from ruins]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Dwarfloot
+[ITEM_TOOL:MINES_LOOT_CRATE]
+[NAME:crate laden with loot from mines:crates laden with loot from mines]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#A bit more variety mostly coins and treasured artefacts
+[ITEM_TOOL:MERCHANT_LOOT_CRATE]
+[NAME:crate laden with merchants loot:crates laden with merchants loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+# T-3 raiding
+
+#Human loot, fancy metals goblets and the like, maybe a hooman weapon or two
+[ITEM_TOOL:ABBEY_LOOT_CRATE]
+[NAME:crate laden with loot from abbey:ships laden with loot from abbey]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+ #First sorcerymaterials required for lategame orcstuff
+[ITEM_TOOL:WARLOCK_LOOT_CRATE]
+[NAME:crate laden with warlock loot:crates laden with warlock loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#For the succubusfort if enabled similar to the one above but with succubus items
+[ITEM_TOOL:SUCCUBUS_LOOT_CRATE]
+[NAME:crate laden with succubus loot:crates laden with succubus loot]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+
+
+#T-4 raiding Human/Dwarf/Elf capitals/highvalue targets and also more for T4 sorcery
+
+#Dwarfloot++
+[ITEM_TOOL:MOUNTAINHOME_LOOT_CRATE]
+[NAME:crate laden with loot from the mountainhomes:crates laden with loot from the mountainhomes]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Warlockloot++ for sorcerystuff/sorcerybranch of lategame
+[ITEM_TOOL:DARKTOWER_LOOT_CRATE]
+[NAME:crate laden with loot from a dark tower:crates laden with loot from a dark tower]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+ #Ancient orc loot++ lategame mats and stuff/materialbranch of lategame
+[ITEM_TOOL:UNDERCITY_LOOT_CRATE]
+[NAME:crate laden with loot from the ancient undercities:crates laden with loot from the ancient undercities]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Elfloot++
+[ITEM_TOOL:WORLDTREE_LOOT_CRATE]
+[NAME:crate laden with loot from the worldtree:cratess laden with loot from the worldtree]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Humanloot++
+[ITEM_TOOL:CAPITAL_LOOT_CRATE]
+[NAME:crate laden with loot from the capital of man:cratess laden with loot from the capital of man]
+[DESCRIPTION:A crate full of loot. Will be unpacked at the outpost.]
+[VALUE:20]
+[TILE:152]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+
+#######################################################################################################################################
+/// Orc Toolkits for the high end raids
+
+
+#Used for The ancient undercities and the sorcerytower
+[ITEM_TOOL:ITEM_MAP1_ORC]
+[NAME:raider treasure map:raider treasure maps]
+[DESCRIPTION:A reagent needed in the raiders dry-dock. It opens up new targets.]
+[VALUE:20]
+[TILE:128]
+[SIZE:100]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Used for human/dwarf/elf T-3 highends
+[ITEM_TOOL:ITEM_MAP2_ORC]
+[NAME:raider assault plan:raider assault plans]
+[DESCRIPTION:A reagent needed in the raiders dry-dock. It opens up new targets.]
+[VALUE:20]
+[TILE:128]
+[SIZE:100]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+
+############################################################################################################################################
+// Captives/migrants and the like
+
+#Dwarfcrafts and some workshops 
+[ITEM_TOOL:ITEM_CAPTIVE_DWARF]
+[NAME:dwarven captive cage:dwarven captive cages]
+[DESCRIPTION:A captive dwarf in a cage. Can be sold for money at the shadowbroker, used to build a dwarven worker cell or released as a slave at the ghetto overseer.]
+[VALUE:200]
+[TILE:2]
+[SIZE:70000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Humancrafts and some workshops
+[ITEM_TOOL:ITEM_CAPTIVE_HUMAN]
+[NAME:human captive cage:human captive cages]
+[DESCRIPTION:A captive human in a cage. Can be sold for money at the shadowbroker, used to build a human worker cell or released as a slave at the ghetto overseer.]
+[VALUE:200]
+[TILE:64]
+[SIZE:70000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Elfcrafts and some workshops
+[ITEM_TOOL:ITEM_CAPTIVE_ELF]
+[NAME:elven captive cage:elven captive cages]
+[DESCRIPTION:A captive elf in a cage. Can be sold for money at the shadowbroker, used to build a elven worker cell or released as a slave at the ghetto overseer.]
+[VALUE:200]
+[TILE:140]
+[SIZE:60000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Tribal orc captured by the round up tribals action
+[ITEM_TOOL:ITEM_TOOL_MIGRANT_ORC]
+[NAME:orc captive cage:orc captive cages]
+[DESCRIPTION:A tribal orc captured in a cage, can be released to join the horde.]
+[VALUE:100]
+[TILE:151]
+[SIZE:20000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Good for fighting!
+[ITEM_TOOL:ITEM_TOOL_MIGRANT_OGRE]
+[NAME:ogre captive cage:ogre captive cages]
+[DESCRIPTION:A captive ogre in a cage. Can be released to do labors in the ghetto overseer.]
+[VALUE:100]
+[TILE:151]
+[SIZE:20000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#Goblincrafts and some workshops
+[ITEM_TOOL:ITEM_TOOL_MIGRANT_GOBLIN]
+[NAME:goblin captive cage:goblin captive cages]
+[DESCRIPTION:A captive goblin in a cage. Can be released to do labors by the ghetto overseer or used to build a goblin ghetto workshop.]
+[VALUE:100]
+[TILE:151]
+[SIZE:20000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+#Coolbold crafts and some workshops
+[ITEM_TOOL:ITEM_TOOL_MIGRANT_KOBOLD]
+[NAME:kobold captive cage:kobold captive cages]
+[DESCRIPTION:A captive kobold in a cage. Can be released to do labors by the ghetto overseer or used to build a kobold ghetto workshop.]
+[VALUE:100]
+[TILE:154]
+[SIZE:20000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+
+#######################################################################################################################################
+
+#######################################################################################################################################
+/// Orc Building Blueprints 
+  
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_NETHERMILL]
+[NAME:underdark nethermill blueprint:underdark nethermill blueprints]
+[DESCRIPTION:A build-material needed for the nethermill.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_LEGION]
+[NAME:legion outpost blueprint:legion outpost blueprints]
+[DESCRIPTION:A build-material needed for the legion outpost.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_ANCIENTFOUNDRY]
+[NAME:ancient foundry blueprint:ancient foundry blueprints]
+[DESCRIPTION:A build-material needed for the ancient foundry.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_LABORATORY]
+[NAME:heavy weapons blueprint:heavy weapons blueprints]
+[DESCRIPTION:A build-material needed for the heavy-weapons lab.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_ARCANELIBRARY]
+[NAME:library blueprint:library blueprints]
+[DESCRIPTION:A build-material needed for the arcane library.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_RUNESMITH]
+[NAME:runesmith blueprint:runesmith blueprints]
+[DESCRIPTION:A build-material needed for the runesmith.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BLUEPRINT_MAGMA]
+[NAME:fluid source blueprint:fluid source blueprints]
+[DESCRIPTION:A build-material needed for the fluid caster.]
+[VALUE:1000]
+[TILE:10]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
