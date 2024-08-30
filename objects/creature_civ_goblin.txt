@@ -1,4 +1,4 @@
-creature_mfork_civ_goblin
+creature_civ_goblin
 
 [OBJECT:CREATURE]
 [CREATURE:GOBLIN]

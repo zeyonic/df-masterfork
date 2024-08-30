@@ -283,10 +283,6 @@ nature, and peace
 	[VARIABLE_POSITIONS:ALL]
 	[SITE_VARIABLE_POSITIONS:ALL]
 	#A- added in, since it was missing
-	For the LAND_HOLDER positions below (baron etc.) this sets up the different levels your fort needs to reach to attain them.  LAND_HOLDER_TRIGGER:<land holder number>:<population>:<wealth exported>:<created wealth>
-	[LAND_HOLDER_TRIGGER:1:20:10000:100000]
-	[LAND_HOLDER_TRIGGER:2:20:20000:200000]
-	[LAND_HOLDER_TRIGGER:3:20:30000:300000]
 	#
 	[POSITION:MONARCH]
 		[NAME_MALE:king:kings]
