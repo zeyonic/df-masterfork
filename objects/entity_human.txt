@@ -1,4 +1,4 @@
-entity_mfork_human_civ
+entity_human
 
 [OBJECT:ENTITY]
 
@@ -20,7 +20,7 @@ entity_mfork_human_civ
 	
 [DIPLOMAT_BODYGUARDS]
 [MERCHANT_BODYGUARDS]
-	
+[MERCHANT_NOBILITY]	
 
 [ACTIVE_SEASON:SUMMER]
 [SIEGER]
@@ -260,17 +260,18 @@ entity_mfork_human_civ
 	[ETHIC:MAKE_TROPHY_SAPIENT:ACCEPTABLE]
 	[ETHIC:MAKE_TROPHY_ANIMAL:ACCEPTABLE]
 	#
-	[VARIABLE_VALUE:ALL:-30:30]
+	[VARIABLE_VALUE:ALL:-37:37
 	[VARIABLE_VALUE:FAMILY:10:35]
-	[VARIABLE_VALUE:POWER:0:33]
+	[VARIABLE_VALUE:POWER:5:33]
 	[VARIABLE_VALUE:ARTWORK:0:33]
-	[VARIABLE_VALUE:CRAFTSMANSHIP:0:33]
-	[VARIABLE_VALUE:MARTIAL_PROWESS:0:33]
+	[VARIABLE_VALUE:CRAFTSMANSHIP:10:33]
+	[VARIABLE_VALUE:MARTIAL_PROWESS:10:33]
 	[VARIABLE_VALUE:SKILL:0:33]
 	[VARIABLE_VALUE:COMMERCE:20:45]
 	[VARIABLE_VALUE:ROMANCE:10:35]
-	[VARIABLE_VALUE:KNOWLEDGE:0:33]
-missing:law,loyalty,friendship,truth,cunning,eloquence,fairness,decorum, tradition,
+	[VARIABLE_VALUE:KNOWLEDGE:15:25]
+	[VARIABLE_VALUE:LAW:15:35]
+missing:loyalty,friendship,truth,cunning,eloquence,fairness,decorum, tradition,
 cooperation, independence, stoicism,introspection, self_control,tranquility,
 harmony, merriment, hard_work, sacrifice, competition, preserverance, leisure_time,
 nature, and peace
@@ -278,7 +279,7 @@ nature, and peace
 	[WILL_ACCEPT_TRIBUTE]
 	[BUILDS_OUTDOOR_FORTIFICATIONS]
 	[BUILDS_OUTDOOR_TOMBS]
-	[BANDITRY:10]
+	[BANDITRY:15]
 	[VARIABLE_POSITIONS:ALL]
 	[SITE_VARIABLE_POSITIONS:ALL]
 	#A- added in, since it was missing
@@ -1024,20 +1025,6 @@ YES_MORE_LEATHERMOD[PERMITTED_REACTION:TAN_A_HIDE_SHEARED] /adds a reaction that
 	# reactions such sections will not be here as they will be inside of the 
 	# construct that they belongs too.
 
-###############################################################################
-##### patron content ##########################################################
-YES_PATREON_REWARDS[TOOL:ITEM_TOOL_PIPE]
-YES_PATREON_REWARDS[PERMITTED_REACTION:SMOKE_PIPE_DEEP]
-YES_PATREON_REWARDS[PERMITTED_REACTION:SMOKE_PIPE_SWEET]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ANTI_MECHANISM]
-YES_PATREON_REWARDS[PERMITTED_REACTION:PLANTS_DWARF]
-YES_PATREON_REWARDS[PERMITTED_BUILDING:ORRERY]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ORRERY_HELP]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ORRERY_SLOWEST]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ORRERY_SLOW]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ORRERY_NORMAL]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ORRERY_FAST]
-YES_PATREON_REWARDS[PERMITTED_REACTION:ORRERY_FASTEST]
 
 ###############################################################################
 ##### HANDPUMP, WATERWELL, MAGMAWELL ##########################################

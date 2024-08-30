@@ -1,4 +1,4 @@
-creature_mfork_civ_elf
+creature_civ_elf
 
 [OBJECT:CREATURE]
 

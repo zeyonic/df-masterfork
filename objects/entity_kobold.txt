@@ -1,4 +1,4 @@
-entity_mfork_kobold
+entity_kobold
 --------------------------------------------------------------------------------
                     CREDITS & ACKNOWLEDGEEMENTS
 

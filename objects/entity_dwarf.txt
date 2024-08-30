@@ -1,4 +1,4 @@
-entity_mfork_dwarf
+entity_dwarf
 
 [OBJECT:ENTITY]
 
