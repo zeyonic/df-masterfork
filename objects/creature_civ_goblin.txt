@@ -24,7 +24,7 @@ creature_civ_goblin
  [SKILL_LEARN_RATES:50] global -50% skill learn rate // [SKILL_RUST_RATES:100:12:24:24] global -50% skill rust rate
 
 	[NATURAL_SKILL:DODGING:                 1]
-	    [SKILL_RATE:DODGING:        100:0:0:0]
+	    [SKILL_RATE:DODGING:        50:0:0:0]
 	NATURAL_SKILL:MASONRY:                  1]
 	    SKILL_RATE:MASONRY:         100:0:0:0]
     NATURAL_SKILL:BREWING:                  1]
@@ -46,7 +46,6 @@ creature_civ_goblin
 	---------------------------------------------------------	
 
 	[BONECARN]
-	[WANDERER]
 	[PREFSTRING:terrifying features]
 	[NOCTURNAL]
 	[PERSONALITY:ANGER_PROPENSITY:25:75:100]
