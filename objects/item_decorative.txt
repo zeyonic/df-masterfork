@@ -1,0 +1,55 @@
+item_decorative
+
+[OBJECT:ITEM]
+
+[ITEM_HELM:ITEM_HELM_MASK]
+	[NAME:mask:masks]
+	[LAYER:COVER]
+	[COVERAGE:80]800
+	[LAYER_SIZE:10]
+	[LAYER_PERMIT:18]
+	[MATERIAL_SIZE:1]
+	[HARD]
+	[METAL]
+	[BARRED]
+	[SCALED]
+
+[ITEM_PANTS:ITEM_PANTS_PLAQUE]
+	[NAME:plaque belt:plaque belts]
+	[LBSTEP:0]
+	[LAYER:COVER]
+	[COVERAGE:1] Low contact area prevents this from being easily destroyed due to the pants layering bug.
+	[LAYER_SIZE:8]
+	[LAYER_PERMIT:22]
+	[MATERIAL_SIZE:6]
+	[HARD]
+	[METAL]
+	[BARRED]
+	[SCALED]
+	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+[ITEM_PANTS:ITEM_PANTS_BELT]
+	[NAME:belt:belts]
+	[LBSTEP:0]
+	[LAYER:COVER]
+	[COVERAGE:1]
+	[LAYER_SIZE:8]
+	[LAYER_PERMIT:22]
+	[MATERIAL_SIZE:3]
+	[LEATHER]
+	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+	
+This piece not distrubuted in entity file due to inability to get material assignments right.
+Either the game makes them out of weapon-grade metal only, or out of... cloth, regardless of the HARD tag.
+[ITEM_HELM:ITEM_HELM_BROOCH]
+	[NAME:brooch:brooches]
+	[LAYER:COVER]
+	[COVERAGE:4]
+	[LAYER_SIZE:4]
+	[LAYER_PERMIT:25]
+	[MATERIAL_SIZE:2]
+	[HARD]
+	[METAL]
+	[BARRED]
+	[SCALED]
+	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]

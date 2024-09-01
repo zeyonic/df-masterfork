@@ -1,24 +1,56 @@
 item_ammo
 
+<><><><><><><><>    File modified for Historic Arms & Armor    <><><><><><><><>
+Items from other mods will likely need to be adjusted to work with the balancing scheme.
+
 [OBJECT:ITEM]
+		
+[ITEM_AMMO:ITEM_AMMO_THROW_DART]
+	[NAME:war dart:war darts]
+	[CLASS:THROW]
+	[SIZE:300]
+	[ATTACK:EDGE:14:20000:stab:stabs:NO_SUB:1400]
+		[ATTACK_PREPARE_AND_RECOVER:3:1]
+		
+[ITEM_AMMO:ITEM_AMMO_THROW_JAVELIN]
+	[NAME:javelin:javelins]
+	[CLASS:THROW]
+	[SIZE:3000]Only to be used with wood-using hippies
+	[ATTACK:EDGE:8:10000:stab:stabs:NO_SUB:900]
+		[ATTACK_PREPARE_AND_RECOVER:3:1]
 
 [ITEM_AMMO:ITEM_AMMO_BOLTS]
-[NAME:bolt:bolts]
-[CLASS:BOLT]
-[SIZE:150]
-[ATTACK:EDGE:5:1000:stab:stabs:NO_SUB:1000]
-	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[NAME:bolt:bolts]
+	[CLASS:BOLT]
+	[SIZE:90]
+	[ATTACK:EDGE:10:3000:stab:stabs:NO_SUB:400]
+	
+[ITEM_AMMO:ITEM_AMMO_BOLTS_BROADHEAD]
+	[NAME:broadhead bolt:broadhead bolts]
+	[CLASS:BOLT]
+	[SIZE:110]
+	[ATTACK:EDGE:20:6500:stab:stabs:NO_SUB:400]
 
 [ITEM_AMMO:ITEM_AMMO_ARROWS]
-[NAME:arrow:arrows]
-[CLASS:ARROW]
-[SIZE:150]
-[ATTACK:EDGE:5:1000:stab:stabs:NO_SUB:1000]
-	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[NAME:bodkin arrow:bodkin arrows]
+	[CLASS:ARROW]
+	[SIZE:50]
+	[ATTACK:EDGE:12:4000:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_SWALLOWTAIL]
+	[NAME:swallowtail arrow:swallowtail arrows]
+	[CLASS:ARROW]
+	[SIZE:70]
+	[ATTACK:EDGE:26:8000:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_FORKHEAD]
+	[NAME:forkhead arrow:forkhead arrows]
+	[CLASS:ARROW]
+	[SIZE:80]
+	[ATTACK:EDGE:40:12000:stab:stabs:NO_SUB:400]
 
 [ITEM_AMMO:ITEM_AMMO_BLOWDARTS]
-[NAME:blowdart:blowdarts]
-[CLASS:BLOWDART]
-[SIZE:20]
-[ATTACK:EDGE:1:50:stick:sticks:NO_SUB:1000]
-	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[NAME:blowdart:blowdarts]
+	[CLASS:BLOWDART]
+	[SIZE:5]
+	[ATTACK:EDGE:1:50:stick:sticks:NO_SUB:185]

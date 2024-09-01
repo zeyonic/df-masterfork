@@ -1,0 +1,92 @@
+item_zHistoric_AnA_Munitions_Grade
+
+╔═╗ ╔╗  ╦ ╔╦╗ ╦   ╔═╗ ╔═╗ ║╔═ ╔═╗ ╗ ╔═╗   ╗ ╔ ╦ ╔═╗ ╔╦╗ ╔═╗ ╔╗  ╦ ╔═╗   ╔═╗ ╔╗  ╔╦╗ ╔═╗    ╔╗   ╔═╗ ╔╗  ╔╦╗ ╔═╗ ╔╗ 
+║╠╗ ╠╩╗ ║ ║║║ ║   ║ ║ ║   ╠╩╗ ╠╣    ╚═╗   ╠═╣ ║ ╚═╗  ║  ║ ║ ╠╩╗ ║ ║     ╠═╣ ╠╩╗ ║║║ ╚═╗   ╔╩╣   ╠═╣ ╠╩╗ ║║║ ║ ║ ╠╩╗
+╚═╝ ║ ║ ╩ ║╩║ ╚═╝ ╚═╝ ╚═╝ ║ ║ ╚═╝   ╚═╝   ╝ ╚ ╩ ╚═╝  ║  ╚═╝ ║ ║ ╩ ╚═╝   ║ ║ ║ ║ ║╩║ ╚═╝   ╚═╬   ║ ║ ║ ║ ║╩║ ╚═╝ ║ ║
+'A rubbish helmet is better than no helmet!'
+
+Somewhat experimental 'munitions grade armor'. Historically, this was cheaply, often sloppily made armor used to 'munition' levies and city militias.
+I have set these to be used by goblins to make dirt-poor goblins show up with at least some kind of protection, and look Historically Correct in doing so!
+
+Note that this does result in far bigger piles of goblinite. Can be considered both good and bad.
+
+[OBJECT:ITEM]
+
+<><><><><><><><>    Head armor    <><><><><><><><>
+	
+[ITEM_HELM:ITEM_HELM_KETTLE_OCULAR_MUNITIONS]
+	[NAME:munitions ocular kettle helm:munitions ocular kettle helms]
+	[LAYER:COVER]
+	[SHAPED]
+	[COVERAGE:90]1440
+	[LAYER_SIZE:16]
+	[LAYER_PERMIT:17]
+	[MATERIAL_SIZE:4]
+	[METAL]
+	[HARD]
+	
+[ITEM_HELM:ITEM_HELM_KETTLE_MUNITIONS]
+	[NAME:munitions kettle helm:munitions kettle helms]
+	[LAYER:COVER]
+	[SHAPED]
+	[COVERAGE:78]1482
+	[LAYER_SIZE:19]
+	[LAYER_PERMIT:17]
+	[MATERIAL_SIZE:3]
+	[METAL]
+	[HARD]
+
+[ITEM_HELM:ITEM_HELM_SALLET_MUNITIONS]
+	[NAME:munitions sallet:munitions sallets]
+	[SHAPED]
+	[LAYER:COVER]
+	[COVERAGE:73]1533
+	[LAYER_SIZE:21]
+	[LAYER_PERMIT:17]
+	[MATERIAL_SIZE:3]
+	[METAL]
+	[HARD]
+	
+	
+<><><><><><><><>    Body armor    <><><><><><><><>
+	
+[ITEM_ARMOR:ITEM_ARMOR_BRIGANDINE_MUNITIONS]
+	[NAME:munitions brigandine:munitions brigandines]
+	[UBSTEP:1]
+	[LBSTEP:0]
+	[LAYER:COVER]
+	[SHAPED]
+	[COVERAGE:107]~1600
+	[LAYER_SIZE:12]
+	[LAYER_PERMIT:14]
+	[MATERIAL_SIZE:5]
+	[METAL]
+	[HARD]
+	
+	
+<><><><><><><><>    Limb Armor    <><><><><><><><>
+
+[ITEM_GLOVES:ITEM_GLOVES_PARTIAL_MUNITIONS]
+	[NAME:munitions partial arm harness:munitions partial arm harnesses]
+	[UPSTEP:MAX]
+	[LAYER:COVER]
+	[SHAPED]
+	[COVERAGE:80]~1800
+	[LAYER_SIZE:13]
+	[LAYER_PERMIT:14]
+	[MATERIAL_SIZE:3]
+	[METAL]
+	[HARD]
+	
+[ITEM_SHOES:ITEM_SHOES_PARTIAL_MUNITIONS]
+	[NAME:munitions partial leg harness:munitions partial leg harnesses]
+	[METAL_ARMOR_LEVELS]
+	[UPSTEP:MAX]
+	[LAYER:COVER]
+	[SHAPED]
+	[COVERAGE:80]~1800
+	[LAYER_SIZE:13]
+	[LAYER_PERMIT:14]
+	[MATERIAL_SIZE:3]
+	[METAL]
+	[HARD]
