@@ -168,7 +168,7 @@ entity_dwarf
 	[ACTIVE_SEASON:AUTUMN]
 
 	[MAX_STARTING_CIV_NUMBER:2]
-	[MAX_POP_NUMBER:2500]
+	[MAX_POP_NUMBER:3000]
 	[MAX_SITE_POP_NUMBER:80]
 
 ----------# PREFS #----------
@@ -198,41 +198,41 @@ entity_dwarf
 ----------# RELIGION #----------
 	[RELIGION_SPHERE:EARTH]
 	    [SPHERE_ALIGNMENT:METALS:512]
-	    [SPHERE_ALIGNMENT:MOUNTAINS:512]
-        [SPHERE_ALIGNMENT:MINERALS:512]
+	    [SPHERE_ALIGNMENT:MOUNTAINS:1024]
+        [SPHERE_ALIGNMENT:MINERALS:1024]
         [SPHERE_ALIGNMENT:JEWELS:512]
-        [SPHERE_ALIGNMENT:FORTRESSES:512]
+        [SPHERE_ALIGNMENT:FORTRESSES:1024]
 
 	[RELIGION_SPHERE:CRAFTS]
 	    [SPHERE_ALIGNMENT:LABOR:512]
-	    [SPHERE_ALIGNMENT:CREATION:512]
+	    [SPHERE_ALIGNMENT:CREATION:1024]
         [SPHERE_ALIGNMENT:INSPIRATION:512]
 		[SPHERE_ALIGNMENT:VOLCANOS:512]
 		[SPHERE_ALIGNMENT:FIRE:512]
 
 	[RELIGION_SPHERE:WEALTH]
 	    [SPHERE_ALIGNMENT:JEALOUSY:512]
-	    [SPHERE_ALIGNMENT:TRADE:512]
+	    [SPHERE_ALIGNMENT:TRADE:1024]
 	    [SPHERE_ALIGNMENT:PERSUATION:512]
 
 	[RELIGION_SPHERE:BIRTH]
 	    [SPHERE_ALIGNMENT:PREGNANCY:512]
-	    [SPHERE_ALIGNMENT:FAMILY:512]
-	    [SPHERE_ALIGNMENT:MARRIAGE:512]
+	    [SPHERE_ALIGNMENT:FAMILY:1024]
+	    [SPHERE_ALIGNMENT:MARRIAGE:1024]
 	    [SPHERE_ALIGNMENT:LONGEVITY:512]
 		[SPHERE_ALIGNMENT:FERTILITY:512]
-		[SPHERE_ALIGNMENT:BEAUTY:512]
+		[SPHERE_ALIGNMENT:BEAUTY:1024]
 		[SPHERE_ALIGNMENT:LOVE:512]
 
 	[RELIGION_SPHERE:OATHS]
 	    [SPHERE_ALIGNMENT:TRUTH:512]
 	    [SPHERE_ALIGNMENT:ORDER:512]
 	    [SPHERE_ALIGNMENT:HOSPITALITY:512]
-	    [SPHERE_ALIGNMENT:REVENGE:512]
+	    [SPHERE_ALIGNMENT:REVENGE:1024]
 		[SPHERE_ALIGNMENT:WAR:512]
-		[SPHERE_ALIGNMENT:VALOR:512]
+		[SPHERE_ALIGNMENT:VALOR:1024]
 		[SPHERE_ALIGNMENT:JUSTICE:512]
-		[SPHERE_ALIGNMENT:DUTY:512]
+		[SPHERE_ALIGNMENT:DUTY:1024]
 		[SPHERE_ALIGNMENT:LAWS:512]
 		[SPHERE_ALIGNMENT:RULERSHIP:512]
 		[SPHERE_ALIGNMENT:FAME:512]
@@ -244,7 +244,7 @@ entity_dwarf
 	    [SPHERE_ALIGNMENT:MUSIC:512]
 		[SPHERE_ALIGNMENT:REVELRY:512]
 		[SPHERE_ALIGNMENT:SPEECH:512]
-		[SPHERE_ALIGNMENT:FOOD:]
+		[SPHERE_ALIGNMENT:FOOD:512]
 		
 
 
@@ -454,11 +454,10 @@ entity_dwarf
 ----------# NOBLE TITLES #----------
 	[POSITION:MONARCH]
 		[NAME:monarch:monarchs]
-		[NAME_MALE:King Under the Mountain:kings]
-		#[NAME_FEMALE:Queen Under the Mountain:queens]
+		[NAME_MALE:High King:high kings]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[NUMBER:1]
-		[SPOUSE_MALE:king consort:kings consort]
-		[SPOUSE_FEMALE:queen consort:queens consort]
+		[SPOUSE_MALE:King-consort:kings consort]
 		[SUCCESSION:BY_HEIR]
 		[RESPONSIBILITY:LAW_MAKING]
 		[RESPONSIBILITY:RECEIVE_DIPLOMATS]
@@ -493,6 +492,7 @@ entity_dwarf
 		
 	[POSITION:GENERAL]
 		[NAME:general:generals]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[NUMBER:1]
 		[SQUAD:10:soldier:soldiers]
 		[APPOINTED_BY:MONARCH]
@@ -522,6 +522,7 @@ entity_dwarf
 		
 	[POSITION:LIEUTENANT]
 		[NAME:lieutenant:lieutenants]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[NUMBER:AS_NEEDED]
 		[SQUAD:10:soldier:soldiers]
 		[APPOINTED_BY:GENERAL]
@@ -547,6 +548,7 @@ entity_dwarf
 		
 	[POSITION:CAPTAIN]
 		[NAME:captain:captains]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[NUMBER:AS_NEEDED]
 		[SQUAD:10:soldier:soldiers]
 		[APPOINTED_BY:GENERAL]
@@ -564,6 +566,7 @@ entity_dwarf
 		
 	[POSITION:MILITIA_COMMANDER]
 		[NAME:militia commander:militia commanders]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SITE]
 		[NUMBER:1]
 		[SQUAD:10:militia-dwarf:militia-dwarves]
@@ -577,6 +580,7 @@ entity_dwarf
 		
 	[POSITION:MILITIA_CAPTAIN]
 		[NAME:militia captain:militia captains]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SITE]
 		[NUMBER:AS_NEEDED]
 		[SQUAD:10:militia-dwarf:militia-dwarves]
@@ -588,6 +592,7 @@ entity_dwarf
 		
 	[POSITION:SHERIFF]
 		[NAME:sheriff:sheriffs]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SITE]
 		[NUMBER:1]
 		[RESPONSIBILITY:LAW_ENFORCEMENT]
@@ -609,6 +614,7 @@ entity_dwarf
 		
 	[POSITION:CAPTAIN_OF_THE_GUARD]
 		[NAME:captain of the guard:captains of the guard]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SITE]
 		[NUMBER:1]
 		[RESPONSIBILITY:LAW_ENFORCEMENT]
@@ -645,7 +651,7 @@ entity_dwarf
 		[DUTY_BOUND]
 		
 	[POSITION:MAYOR]
-		[NAME:mayor:mayors]
+		[NAME:chief elder:chief elders]
 		[SITE]
 		[NUMBER:1]
 		[RESPONSIBILITY:MEET_WORKERS]
@@ -674,7 +680,7 @@ entity_dwarf
 		[REQUIRED_DINING:500]
 		
 	[POSITION:MANAGER]
-		[NAME:manager:managers]
+		[NAME:chief hold manager:hold managers]
 		[DESCRIPTION:The manager handles work orders. Once your fortress reaches a certain population, the manager must work in an office to validate work orders.]
 		[SITE]
 		[REQUIRES_MARKET]
@@ -689,7 +695,7 @@ entity_dwarf
 		[REQUIRED_OFFICE:1]
 		
 	[POSITION:CHIEF_MEDICAL_DWARF]
-		[NAME:chief medical dwarf:chief medical dwarves]
+		[NAME:chief healer:chief healers]
 		[DESCRIPTION:The chief medical dwarf allows you to see the overall health of dwarves in your fortress.]
 		[SITE]
 		[REQUIRES_MARKET]
@@ -779,12 +785,11 @@ entity_dwarf
 		
 	[POSITION:DUKE]
 		[NAME_MALE:thane:thanes]
-		#[NAME_FEMALE:duchess:duchesses]
-		[SPOUSE_MALE:consort:consort]
-		[SPOUSE_FEMALE:consort:consort]
+		[ALLOWED_CLASS:DWARF_MALE]
+		[SPOUSE_MALE:thane-consort:thane-consorts]
 		[NUMBER:AS_NEEDED]
 		[LAND_HOLDER:3]
-		[LAND_NAME:a duchy]
+		[LAND_NAME:a thanedom]
 		[RESPONSIBILITY:LAW_MAKING]
 		[RESPONSIBILITY:RECEIVE_DIPLOMATS]
 		[SUCCESSION:BY_HEIR]
@@ -815,13 +820,12 @@ entity_dwarf
 		[REQUIRED_TOMB:2500]
 		
 	[POSITION:COUNT]
-		[NAME_MALE:count:counts]
-		#[NAME_FEMALE:countess:countesses]
-		[SPOUSE_MALE:count consort:counts consort]
-		[SPOUSE_FEMALE:countess consort:countesses consort]
+		[NAME_MALE:petty thane:petty thanes]
+		[ALLOWED_CLASS:DWARF_MALE]
+		[SPOUSE_MALE:consort:consorts]
 		[NUMBER:AS_NEEDED]
 		[LAND_HOLDER:2]
-		[LAND_NAME:a county]
+		[LAND_NAME:a petty thanedom]
 		[RESPONSIBILITY:LAW_MAKING]
 		[RESPONSIBILITY:RECEIVE_DIPLOMATS]
 		[SUCCESSION:BY_HEIR]
@@ -854,9 +858,8 @@ entity_dwarf
 		
 	[POSITION:BARON]
 		[NAME_MALE:baron:barons]
-		#[NAME_FEMALE:baroness:baronesses]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SPOUSE_MALE:baron consort:barons consort]
-		[SPOUSE_FEMALE:baroness consort:baronesses consort]
 		[NUMBER:AS_NEEDED]
 		[LAND_HOLDER:1]
 		[LAND_NAME:a barony]
@@ -892,6 +895,7 @@ entity_dwarf
 		
 	[POSITION:CHAMPION]
 		[NAME:champion:champions]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SITE]
 		[REQUIRES_MARKET]
 		[NUMBER:1]
@@ -910,6 +914,7 @@ entity_dwarf
 		
 	[POSITION:HAMMERER]
 		[NAME:hammerer:hammerers]
+		[ALLOWED_CLASS:DWARF_MALE]
 		[SITE]
 		[REQUIRES_MARKET]
 		[NUMBER:1]

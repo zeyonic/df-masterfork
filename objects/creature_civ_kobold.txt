@@ -83,6 +83,156 @@ Attribute Rebalancing:
 	[PREFSTRING:utterances]
 	[PREFSTRING:mischief]
 
+ ----------------------------------------# RACIAL SKILLS #----------------------------------------
+    In MFORK skill learn rates are halved across the board, this was done for the following reasons;
+
+     - Slow down the rapid pace at which creatures level up their skills. A dwarf shouldn't be put to train with an axe for a season and forgotten about-
+        only for him to be a legendary axedwarf after just a few seasons; Characters of legendary skill should be a rare sight.
+	 - Make guilds and natrual skills be more relevant and desired traits when making decisions.
+	 - something else probably, i dunno.
+	 - skills now also rust 50 slower
+
+	 Note: Try to refrain from giving a natural skill bonus for specific weapontypes, as my interpretation for natural skillbonuses are that they are either one or both;
+	 - A.) The creature have a biological propensity for the natural bonus such as; Goblins & Kobolds are naturally slippery, justifying the Dodging NSkill.
+	 - B.) The creatures' civilization have a long cultural and/or historic significance such as; all Dwarves have a basic familiarity of brewing, smithing, mining and stoneworking.
+
+ [SELECT_CASTE:ALL]
+    [SKILL_LEARN_RATES:50] global -50% skill learn rate // [SKILL_RUST_RATES:100:12:24:24] global -50% skill rust rate
+
+ MINING
+ WOODCUTTING
+ CARPENTRY
+ ENGRAVE_STONE	
+ MASONRY
+ ANIMALTRAIN	
+ ANIMALCARE
+ DISSECT_FISH
+ DISSECT_VERMIN
+ PROCESSFISH	
+ BUTCHER
+ TRAPPING
+ TANNER
+ WEAVING
+ BREWING
+ CLOTHESMAKING
+ MILLING
+ PROCESSPLANTS
+ CHEESEMAKING
+ MILK
+ COOK
+ PLANT
+ [NATURAL_SKULL:HERBALISM:2]
+    [SKILL_LEARN_RATE:HERBALISM:75]
+ [NATURAL_SKULL:FISH:1]
+    [SKILL_LEARN_RATE:FISH:75] 
+ SMELT
+ EXTRACT_STRAND
+ FORGE_WEAPON
+ FORGE_ARMOR
+ FORGE_FURNITURE
+ CUTGEM
+ ENCRUSTGEM
+ WOODCRAFT
+ STONECRAFT
+ METALCRAFT
+ GLASSMAKER
+ LEATHERWORK
+ [NATURAL_SKULL:BONECARVE:1]
+    [SKILL_LEARN_RATE:BONECARVE:75]
+ AXE
+ SWORD
+ DAGGER
+ MACE
+ HAMMER
+ SPEAR
+ CROSSBOW
+ SHIELD
+ ARMOR
+ SIEGECRAFT
+ SIEGEOPERATE
+ BOWYER
+ PIKE
+ WHIP
+ [NATURAL_SKULL:BOW:1]
+    [SKILL_LEARN_RATE:BOW:75]
+ BLOWGUN
+ THROW
+ MECHANICS
+ [NATURAL_SKULL:SNEAK:]
+    [SKILL_LEARN_RATE:SNEAK:75]
+ DRESS_WOUNDS
+ DIAGNOSE
+ SURGERY
+ SET_BONE	
+ SUTURE
+ SWIMMING
+ PERSUASION
+ NEGOTIATION
+ JUDGING_INTENT
+ APPRAISAL
+ ORGANIZATION
+ RECORD_KEEPING
+ LYING
+ INTIMIDATION
+ CONVERSATION
+ COMEDY
+ FLATTERY
+ CONSOLE
+ PACIFY
+ TRACKING
+ KNOWLEDGE_ACQUISITION
+ CONCENTRATION
+ DISCIPLINE
+ [NATURAL_SKULL:SITUATIONAL_AWARENESS:2]
+    [SKILL_LEARN_RATE:SITUATIONAL_AWARENESS:75]
+ WRITING
+ PROSE
+ POETRY
+ READING
+ SPEAKING
+ COORDINATION
+ BALANCE
+ LEADERSHIP
+ TEACHING
+ MELEE_COMBAT
+ [NATURAL_SKULL:RANGED_COMBAT:1]
+    [SKILL_LEARN_RATE:RANGED_COMBAT:75]
+ WRESTLING
+ BITE
+ GRASP_STRIKE
+ STANCE_STRIKE
+ [NATURAL_SKULL:DODGING:2]
+    [SKILL_LEARN_RATE:DODGING:75]
+ KNAPPING
+ MILITARY_TACTICS
+ SHEARING
+ SPINNING
+ POTTERY
+ GLAZING
+ PRESSING
+ BEEKEEPING
+ WAX_WORKING
+ [NATURAL_SKULL:CLIMBING:2]
+    [SKILL_LEARN_RATE:CLIMBING:75]
+ GELD
+ DANCE
+ MAKE_MUSIC
+ SIN
+ PLAY_KEYBOARD_INSTRUMENT
+ PLAY_STRINGED_INSTRUMENT
+ PLAY_WIND_INSTRUMENT
+ PLAY_PERCUSSION_INSTRUMENT
+ CRITICAL_THINKING
+ LOGIC
+ MATHEMATICS
+ ASTRONOMY
+ GEOGRAPHY
+ INTRIGUE
+ RIDING
+ CUT_STONE
+ CARVE_STONE
+------------------------------------------------
+	
 	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:babble:babbles:a babbling]
 	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:chatter:chatters:a chattering]
 	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:yammer:yammers:a yammering]
@@ -418,7 +568,7 @@ Attribute Rebalancing:
 	
 	[CASTE:FEMALE]
 		[FEMALE]
-		[LITTERSIZE:2:4]
+		[LITTERSIZE:1:6]
 	[CASTE:MALE]
 		[MALE]
 		[TISSUE_LAYER:BY_CATEGORY:HEAD:CHIN_WHISKERS:BOTTOM]

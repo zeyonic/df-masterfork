@@ -13,40 +13,151 @@ creature_civ_elf
 	[CANOPENDOORS]
 	[BENIGN]
 
- --------------------# RACIAL SKILLS #-------------------
+ ----------------------------------------# RACIAL SKILLS #----------------------------------------
     In MFORK skill learn rates are halved across the board, this was done for the following reasons;
 
-     * Slow down the rapid pace at which creatures level up their skills. A dwarf shouldn't be put to train with an axe for a season and forgotten about-
+     - Slow down the rapid pace at which creatures level up their skills. A dwarf shouldn't be put to train with an axe for a season and forgotten about-
         only for him to be a legendary axedwarf after just a few seasons; Characters of legendary skill should be a rare sight.
-	 * Make guilds and natrual skills be more relevant and desired traits when making decisions.
-	 * something else probably, i dunno.
-	 * skills now also rust 50 slower
+	 - Make guilds and natrual skills be more relevant and desired traits when making decisions.
 
+	 Note: Try to refrain from giving a natural skill bonus for specific weapontypes/armour, as my interpretation for natural skillbonuses are that they are either one or both;
+	 - A.) The creature have a biological propensity for the natural bonus, such as: Goblins & Kobolds are naturally slippery, justifying the Dodging NSkill.
+	 - B.) The creatures' civilization have a long cultural and/or historic significance, such as: all Dwarves have a basic familiarity of brewing, smithing, mining and stoneworking.
 
-[SKILL_LEARN_RATES:50] global -50% skill learn rate // [SKILL_RUST_RATES:100:12:24:24] global -50% skill rust rate
+ [SELECT_CASTE:ALL]
+    [SKILL_LEARN_RATES:35:0:0:0] Due to their immortal nature, Elves' learn all skills slower // [SKILL_RUST_RATES:100:24:50:50] // Elves suffer almost no skill rust
 
-	NATURAL_SKILL:MINING:                   2]
-	    SKILL_RATE:MINING:          100:0:0:0]
-	NATURAL_SKILL:MASONRY:                  1]
-	    SKILL_RATE:MASONRY:         100:0:0:0]
-    NATURAL_SKILL:BREWING:                  1]
-	    SKILL_RATE:BREWING:         100:0:0:0]
-	NATURAL_SKILL:ENGRAVE_STONE:            1]
-	    SKILL_RATE:ENGRAVE_STONE:   100:0:0:0]
-	NATURAL_SKILL:FORGE_WEAPON:             1]
-	    SKILL_RATE:FORGE_WEAPON:    100:0:0:0]
-	NATURAL_SKILL:FORGE_ARMOR:              1]
-	    SKILL_RATE:FORGE_ARMOR:     100:0:0:0]
-	NATURAL_SKILL:METALCRAFT:               1]
-	    SKILL_RATE:METALCRAFT:      100:0:0:0]
-	NATURAL_SKILL:CUTGEM:                   1]
-	    SKILL_RATE:CUTGEM:          100:0:0:0]
-	NATURAL_SKILL:DISCIPLINE:               1]
-	    SKILL_RATE:DISCIPLINE:      100:0:0:0]
-	NATURAL_SKILL:MELEE_COMBAT:             1]
-	    SKILL_RATE:MELEE_COMBAT:    100:0:0:0] 
-	---------------------------------------------------------	
-
+ MINING
+ WOODCUTTING
+ CARPENTRY
+ ENGRAVE_STONE	
+ MASONRY
+ ANIMALTRAIN	
+ ANIMALCARE
+ DISSECT_FISH
+ DISSECT_VERMIN
+ PROCESSFISH	
+ BUTCHER
+ TRAPPING
+ TANNER
+ WEAVING
+ BREWING
+ CLOTHESMAKING
+ MILLING
+ PROCESSPLANTS
+ CHEESEMAKING
+ MILK
+ COOK
+ PLANT
+ HERBALISM
+ FISH
+ SMELT
+ EXTRACT_STRAND
+ FORGE_WEAPON
+ FORGE_ARMOR
+ FORGE_FURNITURE
+ CUTGEM
+ ENCRUSTGEM
+ WOODCRAFT
+ STONECRAFT
+ METALCRAFT
+ GLASSMAKER
+ LEATHERWORK
+ BONECARVE
+ AXE
+ SWORD
+ DAGGER
+ MACE
+ HAMMER
+ SPEAR
+ CROSSBOW
+ SHIELD
+ ARMOR
+ SIEGECRAFT
+ SIEGEOPERATE
+ BOWYER
+ PIKE
+ WHIP
+ BOW
+ BLOWGUN
+ THROW
+ MECHANICS
+ SNEAK
+ DRESS_WOUNDS
+ DIAGNOSE
+ SURGERY
+ SET_BONE	
+ SUTURE
+ SWIMMING
+ PERSUASION
+ NEGOTIATION
+ JUDGING_INTENT
+ APPRAISAL
+ ORGANIZATION
+ RECORD_KEEPING
+ LYING
+ INTIMIDATION
+ CONVERSATION
+ COMEDY
+ FLATTERY
+ CONSOLE
+ PACIFY
+ TRACKING
+ KNOWLEDGE_ACQUISITION
+ CONCENTRATION
+ [NATURAL_SKULL:DISCIPLINE:1]
+    [SKILL_LEARN_RATE:DISCIPLINE:70]
+ SITUATIONAL_AWARENESS
+ WRITING
+ PROSE
+ POETRY
+ READING
+ SPEAKING
+ COORDINATION
+ [NATURAL_SKULL:BALANCE:2]
+    [SKILL_LEARN_RATE:BALANCE:70]
+ LEADERSHIP
+ TEACHING
+ [NATURAL_SKULL:MELEE_COMBAT:1]
+    [SKILL_LEARN_RATE:MELEE_COMBAT:70]
+ [NATURAL_SKULL:RANGED_COMBAT:3]
+    [SKILL_LEARN_RATE:RANGED_COMBAT:70]
+ WRESTLING
+ BITE
+ GRASP_STRIKE
+ STANCE_STRIKE
+ [NATURAL_SKULL:DODGING:2]
+    [SKILL_LEARN_RATE:DODGING:70]
+ KNAPPING
+ [NATURAL_SKULL:MILITARY_TACTICS:1]
+    [SKILL_LEARN_RATE:MILITARY_TACTICS:70]
+ SHEARING
+ SPINNING
+ POTTERY
+ GLAZING
+ PRESSING
+ BEEKEEPING
+ WAX_WORKING
+ CLIMBING
+ GELD
+ DANCE
+ SIN
+ PLAY_KEYBOARD_INSTRUMENT
+ PLAY_STRINGED_INSTRUMENT
+ PLAY_WIND_INSTRUMENT
+ PLAY_PERCUSSION_INSTRUMENT
+ [NATURAL_SKULL:CRITICAL_THINKING:1]
+    [SKILL_LEARN_RATE:CRITICAL_THINKING:70]
+ LOGIC
+ MATHEMATICS
+ ASTRONOMY
+ GEOGRAPHY
+ [NATURAL_SKULL:INTRIGUE:2]
+    [SKILL_LEARN_RATE:INTRIGUE:70]
+ [NATURAL_SKULL:RIDING:1]
+    [SKILL_LEARN_RATE:RIDING:70] CUT_STONE
+ CARVE_STONE
+------------------------------------------------
 
 	[STRANGE_MOODS]
 	[PREFSTRING:grace]
