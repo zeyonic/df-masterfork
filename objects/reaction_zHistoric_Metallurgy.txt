@@ -197,7 +197,7 @@ Revision 6d
 	[DESCRIPTION:Billets may need more than one round of treatment before being usable.]
 	[DESCRIPTION:This reaction will run automatically from a finery forge, and can be manually ordered from a regular forge.]
 	
-[REACTION:FINERY_METEORITE->-BLOOM_SMALL]
+[REACTION:FINERY_METEORITE_BLOOM_SMALL]
 	[NAME:split iron meteorite]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
@@ -227,7 +227,7 @@ Revision 6d
 	[DESCRIPTION:    ]
 	[DESCRIPTION:Produces a billet that will need to go through multiple rounds of hammering and folding.]
 	
-[REACTION:FINERY_IRON->-STEEL]
+[REACTION:FINERY_IRON_STEEL]
 	[NAME:make steel billet by case hardening iron bars]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
@@ -247,7 +247,7 @@ Revision 6d
 	[DESCRIPTION:    ]
 	[DESCRIPTION:Produces a billet that will need to go through multiple rounds of hammering and folding.]
 	
-[REACTION:FINERY_IRON->-PIG_IRON]
+[REACTION:FINERY_IRON_PIG_IRON]
 	[NAME:make pig iron billet by case hardening iron bars]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
@@ -267,7 +267,7 @@ Revision 6d
 	[DESCRIPTION:    ]
 	[DESCRIPTION:Only practical if you intend to produce pattern-welded steel.]
 	
-[REACTION:FINERY_STEEL->-PIG_IRON]
+[REACTION:FINERY_STEEL_PIG_IRON]
 	[NAME:make pig iron billet by case hardening steel bars]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:CUSTOM_ALT_C]
@@ -288,7 +288,7 @@ Revision 6d
 	[DESCRIPTION:Only practical if you intend to produce pattern-welded steel,]
 	[DESCRIPTION:or if you want to recycle steel for use in crucible steel making.]
 	
-[REACTION:FINERY_PIG_IRON_4->-SMALL_BLOOM]
+[REACTION:FINERY_PIG_IRON_4_SMALL_BLOOM]
 	[NAME:fine pig iron into iron]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:CUSTOM_R]
@@ -353,7 +353,7 @@ Revision 6d
 	[DESCRIPTION:    ]
 	[DESCRIPTION:Crucibles are consumed when used, each bar of crucible steel will need one of these crucibles.]
 	
-[REACTION:GLASS->-GLASS_POWDER]
+[REACTION:GLASS_GLASS_POWDER]
 	[NAME:grind up raw glass(bag)]
 	[BUILDING:QUERN:CUSTOM_S]
 	[BUILDING:MILLSTONE:CUSTOM_S]
@@ -371,7 +371,7 @@ Revision 6d
 	[DESCRIPTION:    ]
 	[DESCRIPTION:Each measure of glass will be enough for 5 bars of crucible steel.]
 	
-[REACTION:CHARCOAL->-CHARCOAL_POWDER]
+[REACTION:CHARCOAL_CHARCOAL_POWDER]
 	[NAME:grind charcoal into powder(bag)]
 	[BUILDING:QUERN:CUSTOM_S]
 	[BUILDING:MILLSTONE:CUSTOM_S]
@@ -389,7 +389,7 @@ Revision 6d
 	[DESCRIPTION:Each measure of charcoal will be enough for five case hardered bars or five crucible steel bars.]
 	
 	Thanks to Amostubal for doing these for me :)
-[REACTION:GLASS->-GLASS_POWDER_2]
+[REACTION:GLASS_GLASS_POWDER_2]
 	[NAME:grind up raw glass(jug)]
 	[BUILDING:QUERN:CUSTOM_S]
 	[BUILDING:MILLSTONE:CUSTOM_S]
@@ -406,7 +406,7 @@ Revision 6d
 	[DESCRIPTION:    ]
 	[DESCRIPTION:Each measure of glass will be enough for 5 bars of crucible steel.]
 	
-[REACTION:CHARCOAL->-CHARCOAL_POWDER_2]
+[REACTION:CHARCOAL_CHARCOAL_POWDER_2]
 	[NAME:grind charcoal into powder(jug)]
 	[BUILDING:QUERN:CUSTOM_S]
 	[BUILDING:MILLSTONE:CUSTOM_S]

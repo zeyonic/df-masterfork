@@ -21015,3 +21015,13 @@ Introduces additional forms, especially if they're fitting adjectives.
 		[THE_NOUN_SING]
 		[OF_NOUN_SING] +
 		OF_NOUN_PLUR -
+
+[WORD:MITHRIL]
+	[NOUN:mithril]
+		[REAR_COMPOUND_NOUN_SING]
+		[THE_COMPOUND_NOUN_SING]
+		[OF_NOUN_SING]
+	[ADJ:mithril]
+		[ADJ_DIST:1]
+		[REAR_COMPOUND_ADJ]
+		[THE_COMPOUND_ADJ]
