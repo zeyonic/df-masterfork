@@ -326,7 +326,7 @@ creature_mfork_civ_dwarf
 	[SET_BP_GROUP:BY_CATEGORY:TOOTH]
 		[BP_APPEARANCE_MODIFIER:GAPS:0:70:90:100:110:130:200]
 			[APP_MOD_NOUN:teeth:PLURAL]
-		[BP_APPEARANCE_MODIFIER:LENGTH:100:100:100:100:100:100:100] for vampires
+		[BP_APPEARANCE_MODIFIER:LENGTH:100:100:100:100:100:100:200]for vampires
 			[APP_MOD_IMPORTANCE:1000]
 			[APP_MOD_NOUN:teeth:PLURAL]
 			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
@@ -504,82 +504,6 @@ creature_mfork_civ_dwarf
 	
     Now we'll declare the specific castes.
 
-    ----------# GENDER CASTE #----------
-    CREDITS: RAWS EXCERPT FROM "creature_dwarves_mow.txt, Bourbon's March of Wrath"
-
-  [CASTE:FEMALE]
-		[FEMALE]
-		 [CREATURE_CLASS:DWARF_FEMALE]
-		 [CASTE_NAME:dwarf:dwarves:dwarven]
-
-		# Dwarven women are rare and prized above diamonds, atleast for the dwarven men.
-
-		[ORIENTATION:MALE:0:0:1][ORIENTATION:FEMALE:1:0:0]
-		[POP_RATIO:1]
-		[MULTIPLE_LITTER_RARE]
-		
-		[PHYS_ATT_RANGE:STRENGTH:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[PHYS_ATT_RANGE:AGILITY:			 100: 250: 500: 750:1000:1250:1750]	Mundane Poor
-		[PHYS_ATT_RANGE:TOUGHNESS:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[PHYS_ATT_RANGE:ENDURANCE:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[PHYS_ATT_RANGE:RECUPERATION:		 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[PHYS_ATT_RANGE:DISEASE_RESISTANCE:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:ANALYTICAL_ABILITY:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:CREATIVITY:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:EMPATHY:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:FOCUS:				 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:INTUITION:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:KINESTHETIC_SENSE:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:LINGUISTIC_ABILITY:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:MEMORY:				 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
-		[MENT_ATT_RANGE:MUSICALITY:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:PATIENCE:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-		[MENT_ATT_RANGE:SOCIAL_AWARENESS:	 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-		[MENT_ATT_RANGE:SPATIAL_SENSE:		 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:WILLPOWER:			 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
-
-		[PERSONALITY:DISCORD:0:50:85]
-		[PERSONALITY:VIOLENT:0:30:75]
-		[PERSONALITY:ALTRUISM:0:65:100]
-		[PERSONALITY:POLITENESS:0:65:100]
-
-		[SET_BP_GROUP:BY_CATEGORY:THROAT]
-			[BP_APPEARANCE_MODIFIER:DEEP_VOICE:0:70:90:100:110:130:150]
-			[BP_APPEARANCE_MODIFIER:RASPY_VOICE:0:70:80:90:100:120:150]
-		
-  [CASTE:MALE]
-		[MALE]
-		
-		 [CASTE_NAME:dwarf:dwarves:dwarven]
-		 [CREATURE_CLASS:DWARF_MALE]
-		# Of the seven fathers of the dwarves, each awoke paired with his wife; save Urist, who woke and walked alone.
-
-		[ORIENTATION:FEMALE:1:0:6][ORIENTATION:MALE:1:0:0]
-		[POP_RATIO:3]
-
-		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
-		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-
-		[PHYS_ATT_RANGE:STRENGTH:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-		[PHYS_ATT_RANGE:AGILITY:			 100: 250: 500: 750:1000:1250:1750]	Mundane Poor
-		[PHYS_ATT_RANGE:TOUGHNESS:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-		[PHYS_ATT_RANGE:ENDURANCE:			 750:1000:1250:1500:1750:2000:3000]	Superhuman Greatness
-		[PHYS_ATT_RANGE:RECUPERATION:		 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-		[PHYS_ATT_RANGE:DISEASE_RESISTANCE:	 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-		[MENT_ATT_RANGE:ANALYTICAL_ABILITY:	 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:CREATIVITY:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:EMPATHY:			 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
-		[MENT_ATT_RANGE:FOCUS:				 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:INTUITION:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:KINESTHETIC_SENSE:	 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:LINGUISTIC_ABILITY:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:MEMORY:				 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
-		[MENT_ATT_RANGE:MUSICALITY:			 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
-		[MENT_ATT_RANGE:PATIENCE:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:SOCIAL_AWARENESS:	 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
-		[MENT_ATT_RANGE:SPATIAL_SENSE:		 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
-		[MENT_ATT_RANGE:WILLPOWER:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
-
   [SELECT_CASTE:ALL]
 
 		Now we'll select all of the hair tissue layers we can find so that we can add colorations to them.  Even if the castes have different tissue layers, it'll find the layers and establish modifiers for each of the castes properly.
@@ -688,6 +612,83 @@ creature_mfork_civ_dwarf
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:IRIS_EYE_AMETHYST:1:IRIS_EYE_AQUAMARINE:1:IRIS_EYE_BRASS:1:IRIS_EYE_BRONZE:1:IRIS_EYE_COBALT:1:IRIS_EYE_COPPER:1:IRIS_EYE_EMERALD:1:IRIS_EYE_GOLD:1:IRIS_EYE_HELIOTROPE:1:IRIS_EYE_JADE:1:IRIS_EYE_OCHRE:1:IRIS_EYE_RAW_UMBER:1:IRIS_EYE_RUST:1:IRIS_EYE_SILVER:1:IRIS_EYE_SLATE_GRAY:1:IRIS_EYE_TURQUOISE:1]
 			[TLCM_NOUN:eyes:PLURAL]
+
+
+    CREDITS: RAWS EXCERPT FROM "creature_dwarves_mow.txt, Bourbon's March of Wrath"
+
+[CASTE:MALE]
+		[MALE]
+		
+		 [CASTE_NAME:dwarf:dwarves:dwarven]
+		 [CREATURE_CLASS:DWARF_MALE]
+		# Of the seven fathers of the dwarves, each awoke paired with his wife; save Urist, who woke and walked alone.
+
+		[ORIENTATION:FEMALE:1:0:6][ORIENTATION:MALE:1:0:0]
+		[POP_RATIO:4]
+
+		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
+		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
+
+		[PHYS_ATT_RANGE:STRENGTH:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+		[PHYS_ATT_RANGE:AGILITY:			 100: 250: 500: 750:1000:1250:1750]	Mundane Poor
+		[PHYS_ATT_RANGE:TOUGHNESS:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+		[PHYS_ATT_RANGE:ENDURANCE:			 750:1000:1250:1500:1750:2000:3000]	Superhuman Greatness
+		[PHYS_ATT_RANGE:RECUPERATION:		 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+		[PHYS_ATT_RANGE:DISEASE_RESISTANCE:	 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+		[MENT_ATT_RANGE:ANALYTICAL_ABILITY:	 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:CREATIVITY:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:EMPATHY:			 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
+		[MENT_ATT_RANGE:FOCUS:				 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:INTUITION:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:KINESTHETIC_SENSE:	 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:LINGUISTIC_ABILITY:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:MEMORY:				 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:MUSICALITY:			 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
+		[MENT_ATT_RANGE:PATIENCE:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:SOCIAL_AWARENESS:	 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
+		[MENT_ATT_RANGE:SPATIAL_SENSE:		 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:WILLPOWER:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+
+[CASTE:FEMALE]
+		[FEMALE]
+		 [CREATURE_CLASS:DWARF_FEMALE]
+		 [CASTE_NAME:dwarf:dwarves:dwarven]
+
+		# Dwarven women are rare and prized above diamonds, atleast for the dwarven men.
+
+		[ORIENTATION:MALE:0:0:1][ORIENTATION:FEMALE:1:0:0]
+		[POP_RATIO:1]
+		[MULTIPLE_LITTER_RARE]
+		
+		[PHYS_ATT_RANGE:STRENGTH:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[PHYS_ATT_RANGE:AGILITY:			 100: 250: 500: 750:1000:1250:1750]	Mundane Poor
+		[PHYS_ATT_RANGE:TOUGHNESS:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[PHYS_ATT_RANGE:ENDURANCE:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[PHYS_ATT_RANGE:RECUPERATION:		 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[PHYS_ATT_RANGE:DISEASE_RESISTANCE:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:ANALYTICAL_ABILITY:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:CREATIVITY:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:EMPATHY:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:FOCUS:				 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:INTUITION:			 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:KINESTHETIC_SENSE:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:LINGUISTIC_ABILITY:	 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:MEMORY:				 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
+		[MENT_ATT_RANGE:MUSICALITY:			 500: 650: 750:1000:1250:1500:2250]	Mundane Inclined
+		[MENT_ATT_RANGE:PATIENCE:			 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+		[MENT_ATT_RANGE:SOCIAL_AWARENESS:	 500: 750:1000:1250:1500:1750:2500]	Mundane Greatness
+		[MENT_ATT_RANGE:SPATIAL_SENSE:		 200: 500: 750:1000:1250:1500:2000]	Mundane Normalcy
+		[MENT_ATT_RANGE:WILLPOWER:			 500: 650: 750:1000:1250:1350:1500]	Mundane Mediocrity
+
+		[PERSONALITY:DISCORD:0:50:85]
+		[PERSONALITY:VIOLENT:0:30:75]
+		[PERSONALITY:ALTRUISM:0:65:100]
+		[PERSONALITY:POLITENESS:0:65:100]
+
+		[SET_BP_GROUP:BY_CATEGORY:THROAT]
+			[BP_APPEARANCE_MODIFIER:DEEP_VOICE:0:70:90:100:110:130:150]
+			[BP_APPEARANCE_MODIFIER:RASPY_VOICE:0:70:80:90:100:120:150]
+		
 
 
   [CASTE:MERCHANT_MALE]
@@ -817,7 +818,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:MERCHANT_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]      
+	[POP_RATIO:200]     
     [SKILL_RATE:FLATTERY:100:0:0:0]
     [SKILL_RATE:INTIMIDATION:100:0:0:0]
     [SKILL_RATE:JUDGING_INTENT:100:0:0:0]
@@ -840,7 +841,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]
+	[POP_RATIO:200]
     [SKILL_RATE:FLATTERY:100:0:0:0]                
     [SKILL_RATE:INTIMIDATION:100:0:0:0]                
     [SKILL_RATE:JUDGING_INTENT:100:0:0:0]           
@@ -852,18 +853,18 @@ creature_mfork_civ_dwarf
     [SKILL_RATE:LEADERSHIP:100:0:0:0]                
     [SKILL_RATE:ORGANIZATION:100:0:0:0]                
     [SKILL_RATE:RECORD_KEEPING:100:0:0:0]       
-    [CASTE_PROFESSION_NAME:CLERK:*Clerk*:*Clerks*]                                    
-    [CASTE_PROFESSION_NAME:ADMINISTRATOR:*Administrator*:*Administrators*]                                    
+    [CASTE_PROFESSION_NAME:CLERK:*Clerk*:*Clerks*]
+    [CASTE_PROFESSION_NAME:ADMINISTRATOR:*Administrator*:*Administrators*]
     [CASTE_PROFESSION_NAME:TRADER:*Trader*:*Traders*]        
     [CASTE_PROFESSION_NAME:MERCHANT:*Merchant*:*Merchants*]    
-	    [CASTE_PROFESSION_NAME:STANDARD:*Merchant-Guild*:*Merchant-Guilds*]   
+	    [CASTE_PROFESSION_NAME:STANDARD:*Merchant-Guild*:*Merchant-Guilds*]
 
 
 
  [SELECT_CASTE:CARPENTER_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:WOODWORKER:*Woodworker*:*Woodworkers*]
     [CASTE_PROFESSION_NAME:CARPENTER:*Carpenter*:*Carpenters*]                                    
     [CASTE_PROFESSION_NAME:BOWYER:*Bowyer*:*Bowyers*]                                  
@@ -879,7 +880,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]
     [CASTE_PROFESSION_NAME:WOODWORKER:*Woodworker*:*Woodworkers*]
     [CASTE_PROFESSION_NAME:CARPENTER:*Carpenter*:*Carpenters*]                                    
     [CASTE_PROFESSION_NAME:BOWYER:*Bowyer*:*Bowyers*]                                  
@@ -895,7 +896,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:MASON_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]     
+	[POP_RATIO:200]    
     [CASTE_PROFESSION_NAME:MINER:*Miner*:*Miners*]
     [CASTE_PROFESSION_NAME:STONEWORKER:*Stoneworker*:*Stoneworkers*]                                    
     [CASTE_PROFESSION_NAME:ENGRAVER:*Engraver*:*Engravers*]                                    
@@ -911,7 +912,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:MINER:*Miner*:*Miners*]
     [CASTE_PROFESSION_NAME:STONEWORKER:*Stoneworker*:*Stoneworkers*]                                    
     [CASTE_PROFESSION_NAME:ENGRAVER:*Engraver*:*Engravers*]                                    
@@ -926,7 +927,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]       
+	[POP_RATIO:200]      
     [CASTE_PROFESSION_NAME:METALSMITH:*Metalsmith*:*Metalsmiths*]                                    
     [CASTE_PROFESSION_NAME:FURNACE_OPERATOR:*Furnace operator*:*Furnace operators*]                                    
     [CASTE_PROFESSION_NAME:WEAPONSMITH:*Weaponsmith*:*Weaponsmiths*]                                    
@@ -945,7 +946,7 @@ creature_mfork_civ_dwarf
      [SELECT_CASTE:JEWELER_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:JEWELER:*Jeweler*:*Jewelers*]                                    
     [CASTE_PROFESSION_NAME:GEM_CUTTER:*Gem cutter*:*Gem cutters*]                                    
     [CASTE_PROFESSION_NAME:GEM_SETTER:*Gem setter*:*Gem setters*]  
@@ -959,7 +960,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:JEWELER:*Jeweler*:*Jewelers*]                                    
     [CASTE_PROFESSION_NAME:GEM_CUTTER:*Gem cutter*:*Gem cutters*]                                    
     [CASTE_PROFESSION_NAME:GEM_SETTER:*Gem setter*:*Gem setters*]  
@@ -972,7 +973,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:CRAFTDWARF_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:CRAFTSMAN:*Craftsdwarf*:*Craftsdwarves*]                                                                            
     [CASTE_PROFESSION_NAME:LEATHERWORKER:*Leatherworker*:*Leatherworkers*]                                    
     [CASTE_PROFESSION_NAME:BONE_CARVER:*Bone carver*:*Bone carvers*]                 
@@ -997,7 +998,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:CRAFTSMAN:*Craftsdwarf*:*Craftsdwarves*]                                                                            
     [CASTE_PROFESSION_NAME:LEATHERWORKER:*Leatherworker*:*Leatherworkers*]      
     [CASTE_PROFESSION_NAME:TANNER:*Tanner*:*Tanners*]                    
@@ -1020,7 +1021,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:FISHERMAN_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:FISHERY_WORKER:*Fishery worker*:*Fishery workers*]                                    
     [CASTE_PROFESSION_NAME:FISHERMAN:*Fisher*:*Fishers*]                                    
     [CASTE_PROFESSION_NAME:FISH_DISSECTOR:*Fish dissector*:*Fish dissectors*]                                    
@@ -1034,7 +1035,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]      
+	[POP_RATIO:200]     
     [CASTE_PROFESSION_NAME:FISHERY_WORKER:*Fishery worker*:*Fishery workers*]                                    
     [CASTE_PROFESSION_NAME:FISHERMAN:*Fisher*:*Fishers*]                                    
     [CASTE_PROFESSION_NAME:FISH_DISSECTOR:*Fish dissector*:*Fish dissector*]                                    
@@ -1047,7 +1048,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:FARMER_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:BUTCHER:*Butcher*:*Butchers*]      
     [CASTE_PROFESSION_NAME:FARMER:*Farmworker*:*Farmworkers*]                                    
     [CASTE_PROFESSION_NAME:CHEESE_MAKER:*Cheese maker*:*Cheese makers*]                                    
@@ -1075,7 +1076,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:BUTCHER:*Butcher*:*Butchers*]      
     [CASTE_PROFESSION_NAME:FARMER:*Farmworker*:*Farmworkers*]                                    
     [CASTE_PROFESSION_NAME:CHEESE_MAKER:*Cheese maker*:*Cheese makers*]                                    
@@ -1102,7 +1103,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:HEALER_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:DOCTOR:*Doctor*:*Doctors*]                                    
     [CASTE_PROFESSION_NAME:DIAGNOSER:*Diagnoser*:*Diagnosers*]                                    
     [CASTE_PROFESSION_NAME:BONE_SETTER:*Bone doctor*:*Bone doctors*]                                    
@@ -1119,7 +1120,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]           
+	[POP_RATIO:200]          
     [CASTE_PROFESSION_NAME:DOCTOR:*Doctor*:*Doctors*]                                    
     [CASTE_PROFESSION_NAME:DIAGNOSER:*Diagnoser*:*Diagnosers*]                                    
     [CASTE_PROFESSION_NAME:BONE_SETTER:*Bone doctor*:*Bone doctors*]                                    
@@ -1135,7 +1136,7 @@ creature_mfork_civ_dwarf
  [SELECT_CASTE:ENGINEER_FEMALE]
 	[FEMALE]
 	[MULTIPLE_LITTER_RARE]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:ENGINEER:*Engineer*:*Engineers*]                                    
     [CASTE_PROFESSION_NAME:MECHANIC:*Mechanic*:*Mechanics*]                                    
     [CASTE_PROFESSION_NAME:SIEGE_ENGINEER:*Siege Engineer*:*Siege Engineers*]                                    
@@ -1153,7 +1154,7 @@ creature_mfork_civ_dwarf
 	[MALE]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
     [CASTE_PROFESSION_NAME:ENGINEER:*Engineer*:*Engineers*]                                    
     [CASTE_PROFESSION_NAME:MECHANIC:*Mechanic*:*Mechanics*]                                    
     [CASTE_PROFESSION_NAME:SIEGE_ENGINEER:*Siege Engineer*:*Siege Engineers*]                                    
@@ -1216,7 +1217,7 @@ creature_mfork_civ_dwarf
 	[MALE]	[TRANCES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 	[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
-	[POP_RATIO:100]    
+	[POP_RATIO:200]   
 	    [SKILL_RATE:TEACHING:100:0:0:0]        
 	    [SKILL_RATE:LEADERSHIP:100:0:0:0]   
 	    [SKILL_RATE:MILITARY_TACTICS:100:0:0:0]                
