@@ -232,7 +232,7 @@ Dwarfoloid picked out a lot of the material numbers here to replace my placehold
 	
 [INORGANIC:STEEL_CRUCIBLE]					The actual 'Damascus steel', also called wootz. Very pure high carbon steel with a white-noise-like pattern to it.
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]	Produced in south India and central Asia. Various processes existed, the details sadly lost in time.
-	[STATE_NAME_ADJ:ALL_SOLID:crucible steel]
+	[STATE_NAME_ADJ:ALL_SOLID:wootz steel]
 	[STATE_NAME_ADJ:LIQUID:molten steel]
 	[STATE_NAME_ADJ:GAS:boiling steel]
 	[DISPLAY_COLOR:0:7:1]
@@ -1164,7 +1164,8 @@ value is weighted average of 3 gold and 1 copper
 	[STATE_NAME_ADJ:LIQUID:molten mithril]
 	[STATE_NAME_ADJ:GAS:mithril vapor]
 	[STATE_ADJ:ALL_SOLID:mithril]
-	[DISPLAY_COLOR:7:6:1]	[BUILD_COLOR:7:6:1]
+	[DISPLAY_COLOR:7:6:1]	
+	[BUILD_COLOR:7:6:1]
 	[MATERIAL_VALUE:45]
 	[SPEC_HEAT:129]
 	[MELTING_POINT:20000]
@@ -1201,3 +1202,4 @@ value is weighted average of 3 gold and 1 copper
 	[STOCKPILE_THREAD_METAL]
 	[ITEMS_AMMO]
 	[ITEMS_ARMOR]
+	[STATE_COLOR:ALL_SOLID:WHITE]
