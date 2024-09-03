@@ -1,0 +1,8 @@
+tile_page_interactions
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:INTERACTION_LIST_ICONS]
+	[FILE:images/interaction_list_icons.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:72]

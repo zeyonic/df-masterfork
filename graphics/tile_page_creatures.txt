@@ -58,34 +58,29 @@ tile_page_creatures
 	[PAGE_DIM_PIXELS:384:704]
 
 [TILE_PAGE:DWARF_BODY]
-	[FILE:images/dwarf_body.png]
+	[FILE:images/dwarf/dwarf_body.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:288:416]
+	[PAGE_DIM_PIXELS:288:224]
 
-[TILE_PAGE:DWARF_HAIR_STRAIGHT]
-	[FILE:images/dwarf_hair_straight.png]
+[TILE_PAGE:DWARF_HAIR]
+	[FILE:images/dwarf/dwarf_hair.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:256:1056]
-
-[TILE_PAGE:DWARF_HAIR_CURLY]
-	[FILE:images/dwarf_hair_curly.png]
-	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:256:608]
+	[PAGE_DIM_PIXELS:192:608]
 
 [TILE_PAGE:DWARF_CLOTHING]
-	[FILE:images/dwarf_clothes.png]
+	[FILE:images/dwarf/dwarf_wearables.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:576:736]
+	[PAGE_DIM_PIXELS:128:864]
 
 [TILE_PAGE:DWARF_ARMOR]
-	[FILE:images/dwarf_armor.png]
+	[FILE:images/dwarf/dwarf_armor.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:416:800]
 
 [TILE_PAGE:DWARF_WIELDABLES]
-	[FILE:images/dwarf_wieldables.png]
+	[FILE:images/dwarf/dwarf_wieldables.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:960:864]
+	[PAGE_DIM_PIXELS:192:864]
 
 [TILE_PAGE:HUMAN_BODY]
 	[FILE:images/human_body.png]
@@ -416,3 +411,8 @@ tile_page_creatures
 	[FILE:images/nex_horns.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:192:224]
+
+[TILE_PAGE:CREATURE_ABILITY_LIST_ICONS]
+	[FILE:images/creature_ability_list_icons.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:72]

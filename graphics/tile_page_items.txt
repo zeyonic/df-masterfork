@@ -176,3 +176,8 @@ tile_page_items
 	[FILE:images/instruments.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM:5:2]
+
+[TILE_PAGE:ITEM_SLAB]
+	[FILE:images/item_slab.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:2:23]

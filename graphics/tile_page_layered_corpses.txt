@@ -3,12 +3,12 @@ tile_page_layered_corpses
 [OBJECT:TILE_PAGE]
 
 [TILE_PAGE:DWARF_BODY_CORPSE]
-	[FILE:images/dwarf_body_corpse.png]
+	[FILE:images/dwarf/dwarf_body_corpse.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:96:288]
 
 [TILE_PAGE:DWARF_HAIR_CORPSE]
-	[FILE:images/dwarf_hair_corpse.png]
+	[FILE:images/dwarf/dwarf_hair_corpse.png]
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:192:864]
 
