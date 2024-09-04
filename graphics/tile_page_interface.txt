@@ -1,0 +1,283 @@
+tile_page_interface
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:INTERFACE_BITS_SHARED]
+	[FILE:images/interface_bits_shared.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:128:372]
+
+[TILE_PAGE:ANNOUNCEMENT_ALERTS]
+	[FILE:images/announcement_alerts.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:1184]
+
+[TILE_PAGE:UNIT_STATUS]
+	[FILE:images/unit_status.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:1312]
+
+[TILE_PAGE:BUILDING_ICONS]
+	[FILE:images/building_icons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:512]
+
+[TILE_PAGE:INTERFACE_BITS]
+	[FILE:images/interface_bits.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:512:732]
+
+[TILE_PAGE:INTERFACE_BITS_2]
+	[FILE:images/interface_bits_2.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:48:36]
+
+[TILE_PAGE:INTERFACE_BITS_UNIT_SELECTOR]
+	[FILE:images/interface_bits_unit_selector.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:64:72]
+
+[TILE_PAGE:INTERFACE_BITS_ZONES]
+	[FILE:images/interface_bits_zones.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:252]
+
+[TILE_PAGE:INTERFACE_BITS_STOCKPILES]
+	[FILE:images/interface_bits_stockpiles.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:320:180]
+
+[TILE_PAGE:INTERFACE_BITS_STOCKPILES]
+	[FILE:images/interface_bits_stockpiles.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:320:144]
+
+[TILE_PAGE:INTERFACE_BITS_BUILDING_SHEET]
+	[FILE:images/interface_bits_building_sheet.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:32:36]
+
+[TILE_PAGE:INTERFACE_BITS_UNIT_SHEET]
+	[FILE:images/interface_bits_unit_sheet.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:128:36]
+
+[TILE_PAGE:INTERFACE_BITS_WORK_ORDERS]
+	[FILE:images/interface_bits_work_orders.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:224:144]
+
+[TILE_PAGE:INTERFACE_BITS_NOBLES]
+	[FILE:images/interface_bits_nobles.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:352:144]
+
+[TILE_PAGE:INTERFACE_BITS_LABOR]
+	[FILE:images/interface_bits_labor.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:416:144]
+
+[TILE_PAGE:INTERFACE_BITS_LOCATIONS]
+	[FILE:images/interface_bits_locations.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:288:108]
+
+[TILE_PAGE:INTERFACE_BITS_BURROWS]
+	[FILE:images/interface_bits_burrows.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:36]
+
+[TILE_PAGE:INTERFACE_BITS_HAULING]
+	[FILE:images/interface_bits_hauling.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:144]
+
+[TILE_PAGE:INTERFACE_BITS_SQUADS]
+	[FILE:images/interface_bits_squads.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:352:180]
+
+[TILE_PAGE:ICONS_UNIT_SELECTOR]
+	[FILE:images/icons_unit_selector.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:160:32]
+
+[TILE_PAGE:MOON_WEATHER]
+	[FILE:images/moon_weather.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:320:32]
+
+[TILE_PAGE:CURSORS]
+	[FILE:images/cursors.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:192:768]
+
+[TILE_PAGE:ACTIVITY_ZONES]
+	[FILE:images/activity_zones.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:224:512]
+
+[TILE_PAGE:STOCKPILE_ICONS]
+	[FILE:images/stockpile_icons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:640]
+
+[TILE_PAGE:STOCKPILE_ICONS_SIGNLESS]
+	[FILE:images/stockpile_icons_signless.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:640]
+
+[TILE_PAGE:INTERFACE_BITS_BUILDING_SELECTION]
+	[FILE:images/interface_bits_building_selection.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:56:72]
+
+[TILE_PAGE:INTERFACE_BITS_BUILDING_PLACEMENT]
+	[FILE:images/interface_bits_building_placement.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:224:324]
+
+[TILE_PAGE:DEFAULTS]
+	[FILE:images/defaults.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:2:2]
+
+[TILE_PAGE:DESIGNATIONS]
+	[FILE:images/designations.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:544]
+
+[TILE_PAGE:DESIGNATION_PRIORITY]
+	[FILE:images/designation_priority.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:224]
+
+[TILE_PAGE:DESIGNATION_ITEM]
+	[FILE:images/designation_item.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:192]
+
+[TILE_PAGE:CUSTOM_SYMBOLS]
+	[FILE:images/custom_symbols.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:384:64]
+
+[TILE_PAGE:INTERFACE_BITS_EMBARK]
+	[FILE:images/interface_bits_embark.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:64:72]
+
+[TILE_PAGE:CALENDAR]
+	[FILE:images/calendar.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:120:36]
+
+[TILE_PAGE:INTERFACE_BITS_LEGENDS]
+	[FILE:images/interface_bits_legends.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:64:24]
+
+[TILE_PAGE:INTERFACE_BITS_RECENTER]
+	[FILE:images/interface_bits_recenter.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:128:36]
+
+[TILE_PAGE:INTERFACE_BITS_HELP]
+	[FILE:images/interface_bits_help.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:112:72]
+
+[TILE_PAGE:RAMP_ARROWS]
+	[FILE:images/ramp_arrows.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:32]
+
+[TILE_PAGE:INTERFACE_BITS_DISPLAY_TOGGLES]
+	[FILE:images/interface_bits_display_toggles.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM:8:4]
+
+[TILE_PAGE:MINING_INDICATORS]
+	[FILE:images/mining_indicators.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:64:32]
+
+[TILE_PAGE:GENERATED_LIST_ICONS]
+	[FILE:images/generated_list_icons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:160]
+
+[TILE_PAGE:INTERFACE_BITS_ARENA]
+	[FILE:images/interface_bits_arena.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:128:144]
+
+[TILE_PAGE:INTERFACE_BITS_ANNOUNCEMENTS]
+	[FILE:images/interface_bits_announcements.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:128:36]
+
+[TILE_PAGE:INTERFACE_BITS_ADVENTURE]
+	[FILE:images/interface_bits_adventure.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:416:132]
+
+[TILE_PAGE:INTERFACE_BITS_ADVENTURE_INVENTORY]
+	[FILE:images/interface_bits_adventure_inventory.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:192:108]
+
+[TILE_PAGE:COMBAT_ICONS]
+	[FILE:images/combat_icons.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:288]
+
+[TILE_PAGE:INTERFACE_BITS_ADVENTURE_COMBAT_PREFS]
+	[FILE:images/interface_bits_adventure_combat_prefs.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:288:72]
+
+[TILE_PAGE:COMBAT_ANIMATIONS_SWISH]
+	[FILE:images/combat_animations_swish.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:1024]
+
+[TILE_PAGE:COMBAT_ANIMATIONS_SPARKS]
+	[FILE:images/combat_animations_sparks.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:128:1024]
+
+[TILE_PAGE:MOVE_INDICATORS]
+	[FILE:images/move_indicators.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:4:24]
+
+[TILE_PAGE:INTERFACE_BITS_ADVENTURE_CHARGEN]
+	[FILE:images/interface_bits_adventure_chargen.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:96:36]
+
+[TILE_PAGE:INTERFACE_BITS_ADVENTURE_TRAVEL]
+	[FILE:images/interface_bits_adventure_travel.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:440:36]
+
+[TILE_PAGE:SIDE_INDICATOR]
+	[FILE:images/side_indicator.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:160]
+
+[TILE_PAGE:ABILITY_LIST_ICONS]
+	[FILE:images/ability_list_icons.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:256:288]
+
+[TILE_PAGE:SKILL_PROGRESS_BAR]
+	[FILE:images/skill_progress_bar.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:72:12]
+
+[TILE_PAGE:INTERFACE_BITS_ADVENTURE_LOG]
+	[FILE:images/interface_bits_adventure_log.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM:12:3]
