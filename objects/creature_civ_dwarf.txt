@@ -2,6 +2,7 @@ creature_mfork_civ_dwarf
 
 [OBJECT:CREATURE]
 [CREATURE:DWARF]
+[TRANSLATION:DWARF]
 	[DESCRIPTION:A short, sturdy creature fond of drink and industry.]
 	[NAME:dwarf:dwarves:dwarven]
 	[CASTE_NAME:dwarf:dwarves:dwarven]

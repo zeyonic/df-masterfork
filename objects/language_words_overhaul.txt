@@ -13014,7 +13014,7 @@ Introduces additional forms, especially if they're fitting adjectives.
 [WORD:CONTINENT]
 	[NOUN:continent:continents]
 		[THE_NOUN_SING]
-		[OF_NOUN_SING]
+		OF_NOUN_SING -
 		THE_NOUN_PLUR -
 		[OF_NOUN_PLUR]
 	[ADJ:continental] +
@@ -13375,7 +13375,7 @@ Introduces additional forms, especially if they're fitting adjectives.
 	[NOUN:fern:ferns]
 		[FRONT_COMPOUND_NOUN_SING]
 		[REAR_COMPOUND_NOUN_SING]
-		[THE_NOUN_SING]
+		THE_NOUN_SING -
 		[REAR_COMPOUND_NOUN_PLUR]
 		[THE_NOUN_PLUR]
 		[OF_NOUN_PLUR]
@@ -13384,7 +13384,7 @@ Introduces additional forms, especially if they're fitting adjectives.
 	[NOUN:ferry:ferries]
 		[FRONT_COMPOUND_NOUN_SING]
 		[REAR_COMPOUND_NOUN_SING]
-		[THE_NOUN_SING]
+		THE_NOUN_SING -
 		[REAR_COMPOUND_NOUN_PLUR]
 		[THE_NOUN_PLUR]
 		OF_NOUN_PLUR -
@@ -21015,13 +21015,3 @@ Introduces additional forms, especially if they're fitting adjectives.
 		[THE_NOUN_SING]
 		[OF_NOUN_SING] +
 		OF_NOUN_PLUR -
-
-[WORD:MITHRIL]
-	[NOUN:mithril]
-		[REAR_COMPOUND_NOUN_SING]
-		[THE_COMPOUND_NOUN_SING]
-		[OF_NOUN_SING]
-	[ADJ:mithril]
-		[ADJ_DIST:1]
-		[REAR_COMPOUND_ADJ]
-		[THE_COMPOUND_ADJ]
